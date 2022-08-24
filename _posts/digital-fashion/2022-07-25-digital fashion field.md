@@ -1,5 +1,5 @@
 ---
-layout: digital-fashion-project
+layout: project
 permalink: /:title/
 category: digital-fashion
 

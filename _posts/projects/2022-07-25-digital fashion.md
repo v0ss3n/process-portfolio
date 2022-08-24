@@ -1,7 +1,7 @@
 ---
-layout: dig-overview
+layout: overview
 permalink: /:title/
-category: projects
+category: ["digital-fashion-overview", "overview"]
 
 meta:
   keywords: "3D printing, Wearables"

@@ -12,9 +12,8 @@
 	<main class="content">
 		<section class="project">
 			<div class="container">
-				<article>
 					<h1>
-						{% if page.category contains "collaborations" %}
+                        {% if page.category contains "collaborations" %}
 						<a href="{{ "/projects" | prepend: site.baseurl }}" title="{{ page.project.title }}" rel="nofollow">{{ page.project.title }}</a>
 						{% endif %}
 						{% if page.category contains "documentation" %}
@@ -34,18 +33,6 @@
 					<div class="project-meta">
 						<p>{{ page.project.tech }}</p>
 					</div>
-				</article>
-
-				<aside>
-					<ul>
-						{% for image in page.images %}
-						<li>
-							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
-						</li>
-						{% endfor %}
-					</ul>
-				</aside>
-
 			</div>
 		</section>
         <section class="project-navigation">

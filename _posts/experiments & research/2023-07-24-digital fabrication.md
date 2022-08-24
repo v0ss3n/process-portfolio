@@ -1,5 +1,5 @@
 ---
-layout: research-project2
+layout: project
 permalink: /:title/
 category: research
 

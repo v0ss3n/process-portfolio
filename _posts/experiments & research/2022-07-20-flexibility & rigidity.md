@@ -1,5 +1,5 @@
 ---
-layout: research-project
+layout: project
 permalink: /:title/
 category: research
 
@@ -7,7 +7,7 @@ meta:
   keywords: "3D printing, Wearables"
 
 project:
-  title: "3D printing Flexibility & Rigidity"
+  title: "3D Printing Flexibility & Rigidity"
   logo: "/assets/images/projects/3d-printing/blackflex.gif"
 
 images:

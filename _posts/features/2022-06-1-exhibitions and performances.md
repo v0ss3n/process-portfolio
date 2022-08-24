@@ -1,5 +1,5 @@
 ---
-layout: shoots
+layout: project-no-images
 permalink: /:title/
 category: features
 

@@ -1,7 +1,7 @@
 ---
-layout: research-overview
+layout: overview
 permalink: /:title/
-category: projects
+category:  ["research-overview", "overview"]
 
 meta:
   keywords: "3D printing, Wearables, Experiments"

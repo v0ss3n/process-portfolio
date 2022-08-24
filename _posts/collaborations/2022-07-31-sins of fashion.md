@@ -1,5 +1,5 @@
 ---
-layout: collaborations-project
+layout: project
 permalink: /:title/
 category: collaborations
 

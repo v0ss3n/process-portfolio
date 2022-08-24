@@ -1,5 +1,5 @@
 ---
-layout: collaborations-project
+layout: project-no-images
 permalink: /:title/
 category: collaborations
 
