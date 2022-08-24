@@ -1,0 +1,32 @@
+I"*<body class="shoots">
+
+<aside>
+<div class="row-2">
+      <p><img src="/assets/images/projects/workshops/knittingtechnology1.jpg" alt="" />
+<img src="/assets/images/projects/workshops/knittingtechnology2.jpg" alt="" /></p>
+    </div>
+<div class="row-2">
+      <p><img src="/assets/images/projects/workshops/knittingtechnology3.jpg" alt="" />
+<img src="/assets/images/projects/workshops/knittingtechnology4.jpg" alt="" /></p>
+    </div>
+</aside>
+
+<div class="article">
+    <ul>
+      <li><a href="https://oddstream.nl/workshop-knitting-technology/">Knitting Technology workshop</a>
+Hosted by Oddstream at the Lindenberg Cultuurhuis in Nijmegen, with a lecture by Veerle Spronck</li>
+    </ul>
+  </div>
+
+<aside>
+<div class="row-2--video">
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/581503216?h=21a5f7856f" width="400" height="400" frameborder="0" allowfullscreen=""></iframe>
+</div>
+</aside>
+
+<div class="article">
+    <p><a href="https://vimeo.com/581503216/21a5f7856f">Presentation on e-textiles</a> during Tactology lab 1</p>
+  </div>
+
+</body>
+:ET

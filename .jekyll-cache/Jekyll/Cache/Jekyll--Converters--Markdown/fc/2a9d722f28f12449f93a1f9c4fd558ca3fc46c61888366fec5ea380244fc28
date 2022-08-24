@@ -1,0 +1,84 @@
+I"�<h1 id="roland-gx-24-mods-and-windows-didnt-work-yet-to-be-continued">Roland GX-24, mods and Windows (didn’t work yet, to be continued)</h1>
+
+<h2 id="mods">mods</h2>
+<p>Clone <a href="https://gitlab.fabcloud.org/pub/project/mods">this</a> repository following the steps mentioned in the documentation:
+Step 1: Clone the mods repository: git clone https://gitlab.fabcloud.org/pub/project/mods.git</p>
+
+<p><img src="/images/fablab/modela/roland-mods.jpg" alt="roland" /></p>
+
+<p>Step 2: Run the installation script bash install-mods inside the mods folder</p>
+
+<p><img src="/images/fablab/modela/roland-mods2.jpg" alt="roland" /></p>
+
+<p>I started in Powershell but then read that that’s not recommended (it also didn’t work) so I switched to git bash, that also didn’t work, so I continued to follow the instructions and first tried to install Windows WSL (windows subsystem for linux) with:</p>
+
+<p><code class="language-plaintext highlighter-rouge">wsl --install</code></p>
+
+<p><img src="/images/fablab/modela/roland-mods3.jpg" alt="roland" /></p>
+
+<p>However I already had it installed (since I used WSL for working with the Slic3r non-planar slicing option); but I got the following error: Windows Subsystem for Linux has no installed distributions.</p>
+
+<p><img src="/images/fablab/modela/roland-mods4.jpg" alt="roland" /></p>
+
+<p>https://aka.ms/wslstore this link didn’t work for me either so I followed solution 3 from this tutorial:
+<a href="https://appuals.com/how-to-fix-windows-subsystem-for-linux-has-no-installed-distributions-error/">https://appuals.com/how-to-fix-windows-subsystem-for-linux-has-no-installed-distributions-error/</a>
+Download Ubuntu here:
+<a href="https://www.microsoft.com/en-nz/p/ubuntu/9nblggh4msv6?rtc=1#activetab=pivot:overviewtab">https://www.microsoft.com/en-nz/p/ubuntu/9nblggh4msv6?rtc=1#activetab=pivot:overviewtab</a></p>
+
+<ul>
+  <li>Don’t forget to check for updates if you get any errors (sudo apt upgrade).</li>
+  <li>Don’t run the installation script as root (sudo).</li>
+</ul>
+
+<p><img src="/images/fablab/modela/roland-mods5.jpg" alt="roland" />
+<img src="/images/fablab/modela/roland-mods6.jpg" alt="roland" /></p>
+
+<p>Then afterwards you should be able to start mods with bash mods from the mods folder, but when I opened localhost:1234 and the other servers in Chrome, they all said Upgrade required. So I went back to the wiki to try manual installation (<a href="https://gitlab.fabcloud.org/pub/project/mods/-/wikis/Setup/Manual-mods-Setup-(Linux,-Windows-WSL,-macOS)">https://gitlab.fabcloud.org/pub/project/mods/-/wikis/Setup/Manual-mods-Setup-(Linux,-Windows-WSL,-macOS)</a>).</p>
+
+<p><img src="/images/fablab/modela/roland-mods7.jpg" alt="roland" />
+<img src="/images/fablab/modela/roland-mods8.jpg" alt="roland" /></p>
+
+<h2 id="roland-cutstudio-plugin">Roland CutStudio plugin</h2>
+<p>There’s lots of negative reviews about this one but I wanted to try it out, but of course you need a license to CutStudio (free with the machine, you can only get this on a cd-rom if you believe the internet). Haven’t been able to find one on a non-sketchy website.</p>
+
+<h2 id="cutting-master-3--4">Cutting Master 3 &amp; 4</h2>
+<p>Programs are made for Graphtec plotters; hoped I would be able to connect the Roland as well but the programs didn’t recognize the Roland.</p>
+
+<p><img src="/images/fablab/modela/roland1.jpg" alt="roland" /></p>
+
+<h2 id="intermediate-conclusion">Intermediate conclusion</h2>
+<p>So: nothing still worked and I needed the vinyl cutter so I decided to accept my defeat (for now) and place the vinyl cutter computer back. Here mods (boot computer in Ubuntu) and Illustrator CS5 (boot computer in Windows 7) both work.</p>
+
+<h2 id="mods-on-ubuntu">mods on Ubuntu</h2>
+<p>Mods are separate modules used to control the machines. Together these modules form a program. In this case we are using the modules for the Vinyl Cutter: the Roland 24.</p>
+
+<p>Relevant blocks:</p>
+<ul>
+  <li>Read SVG (load the vector file that you want to cut) or read PNG (load black and white PNG in high resolution; jagged lines if dpi is too low)</li>
+  <li>Roland GX/GS-24 Relative (you can do a cut test, set image origin, set force and speed)</li>
+  <li>WebSocket device (connection)</li>
+</ul>
+
+<p>Speed should be about 2 cm/s</p>
+
+<h2 id="vinyl-cutting-on-windows-7">Vinyl cutting on Windows 7</h2>
+<p>Send file to plotter with File &gt; Print (ctrl+p)</p>
+
+<p>Notes:</p>
+<ul>
+  <li>Vector stroke thickness should be set to something like 0,01pt, otherwise they will be interpreted as double lines</li>
+  <li>Motor error: vinyl roll is probably stuck somewhere</li>
+  <li>Set origin on machine before starting</li>
+  <li>If shapes aren’t being cut (for some reason all L’s weren’t being cut when I used fill instead of stroke)</li>
+  <li>If you have a large file try to split it to avoid wasting material when stuff inevitably goes wrong</li>
+</ul>
+
+<h2 id="to-do">TO DO</h2>
+<ul>
+  <li>find port in printer properties and try one more time with Cutting Master 3/4</li>
+  <li>try using print from illustrator</li>
+</ul>
+
+<h2 id="references">References</h2>
+<p><a href="https://gitlab.fabcloud.org/pub/project/mods/-/wikis/Machines/GX-24">https://gitlab.fabcloud.org/pub/project/mods/-/wikis/Machines/GX-24</a></p>
+:ET

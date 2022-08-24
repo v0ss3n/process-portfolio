@@ -1,0 +1,51 @@
+I"�<h1 id="fabacademy-how-to-make-almost-anything">Fabacademy: how to make (almost) anything</h1>
+<p><a href="https://fabacademy.org/2020/schedule.html">Schedule</a></p>
+
+<p><img src="/images/fablab/fabcharter.png" alt="" /></p>
+
+<h2 id="principles-and-practices">Principles and practices</h2>
+<p><a href="http://ng.cba.mit.edu/show/slide/17.12.revolutions.html?1&amp;17.12.revolutions.html&amp;19.07.MooreAltairLass.html&amp;13.08.PopSci.html&amp;17.07.whirlmill.html&amp;16.12.Analyzer.html&amp;17.08.ShannonVonNeumann.html&amp;16.03.amino.html&amp;19.08.papers.html&amp;19.05.alums.html&amp;19.05.tools.html&amp;12.06.HTMAA.html&amp;17.12.TX-0.html&amp;17.12.PDP.html&amp;12.01.no_reason.html&amp;12.07.ten.html&amp;17.03.1e3.0.html&amp;17.03.1e3.1.html&amp;16.08.fablabs.html&amp;18.01.fablab.html&amp;13.11.projects.html&amp;18.04.labmap.html&amp;14.03.Blair.html&amp;13.04.CITC.html&amp;11.06.Haystack.html&amp;17.12.Bhutan.html&amp;17.04.floating.html&amp;19.01.PW.html&amp;13.10.NI.html&amp;15.01.Israel.html&amp;10.08.innovate.html&amp;19.08.Academany.html&amp;18.01.projects.html&amp;15.04.fabeconomy.html&amp;16.08.HTGAA.html&amp;18.01.textile.html&amp;12.01.distance_distributed.html&amp;09.05.Seymour_turtle.html&amp;14.05.FAB10.html&amp;14.07.pledge.html&amp;18.08.FabCity.html&amp;17.11.Poblenou.html&amp;14.06.mobile-WH.html&amp;14.06.NFLN.html&amp;15.08.FAB11.html&amp;16.07.FAB12.html&amp;17.04.FAB13.html&amp;18.03.FAB14.html&amp;19.03.FAB15.html&amp;20.01.FAB16.html&amp;19.05.FFACIOn.html&amp;17.03.1e3.2.html&amp;17.06.MTM.html&amp;19.05.machines.html&amp;17.06.modular.html&amp;17.03.Jens.html&amp;19.07.squidworks.html&amp;20.01.Apple.html&amp;19.05.M3Ds.html&amp;20.01.KSUM.html&amp;17.03.1e3.3.html&amp;17.12.inventory.html&amp;17.06.assemble.html&amp;15.04.digcompn.html&amp;19.10.BillE.html&amp;19.10.wing.html&amp;17.03.1e3.4.html&amp;16.12.speed.html&amp;19.05.AAproject.html&amp;19.08.printmin.html&amp;16.04.assemstructn.html&amp;16.12.elfn.html&amp;19.07.assembler.html&amp;19.05.robots.html&amp;17.08.2DOFdesign.html&amp;18.04.JVNTuring.html&amp;19.02.Breakthrough.html&amp;19.05.evolve.html&amp;19.04.minds.2.html&amp;16.04.Mars.html&amp;17.03.1e3.4.html&amp;17.11.DR.html&amp;blank.html">Slides</a></p>
+
+<div class="row-2">
+  <p><img src="/images/fablab/fabacademy2.jpg" alt="" />
+<img src="/images/fablab/fabacademy1.jpg" alt="" /></p>
+</div>
+
+<p>Notes:</p>
+<ul>
+  <li>Center for bits and atoms: crossing the border of the digital and the physical</li>
+  <li>Digital fabrication =&gt; personal fabrication</li>
+  <li>Local nodes in international network</li>
+  <li>Building a collaborative network, learning from each other</li>
+  <li>Fab city &gt; consumers becoming creators (<a href="https://fab.city/">https://fab.city/</a>, Barcelona is pioneering)</li>
+  <li>Companies growing out of fablabs like <a href="http://cba.mit.edu/docs/papers/17.03.peek.pdf">http://cba.mit.edu/docs/papers/17.03.peek.pdf</a> (but you still buy the machine instead of make it)</li>
+  <li>Modular hardware &gt; learning how to make machines</li>
+  <li>Biology/living materials/genes and computing, communication, fabrication and computation, an algorithm that contains you &gt; self reproducing systems, computation for it’s own reproduction (Von Neumann, Turing)</li>
+  <li>If anyone can make anything (empowering so many), it creates this whole new notion of an economy/company/etc, what are the implications? (book <a href="https://b-ok.cc/book/3511725/2f529b">Designing Reality</a> by Neil Gershenfeld)</li>
+</ul>
+
+<p>Machines that make machines that make machines:</p>
+
+<p><img src="/images/fablab/fabacademy3.png" alt="" /></p>
+
+<h2 id="what-youll-learn-each-week">What you’ll learn each week:</h2>
+<ul>
+  <li>What it is and when to use it</li>
+  <li>The basics (how to use it)</li>
+  <li>Where to learn more
+<!-- [Moore's law](https://en.wikipedia.org/wiki/Moore%27s_law)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Moore%27s_Law_Transistor_Count_1971-2018.png/1280px-Moore%27s_Law_Transistor_Count_1971-2018.png) --></li>
+</ul>
+
+<h2 id="project-management">Project management</h2>
+<ul>
+  <li>Git version control system: remote and local versions (open source; Github is the platform for the cloud, gitlab (<a href="https://gitlab.fabcloud.org/">https://gitlab.fabcloud.org/</a>) instance is used for fabacademy)</li>
+  <li>Building a personal site</li>
+  <li>Lowest level: synchronization</li>
+  <li>Rsync</li>
+  <li>Web development (local web server or local files) for documentation (<a href="https://developer.mozilla.org/en-US/docs/Learn">https://developer.mozilla.org/en-US/docs/Learn</a>)</li>
+  <li></li>
+</ul>
+
+<p><a href="http://academy.cba.mit.edu/classes/project_management/index.html">http://academy.cba.mit.edu/classes/project_management/index.html</a></p>
+:ET

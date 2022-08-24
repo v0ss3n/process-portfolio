@@ -1,0 +1,31 @@
+I"	<h1 id="printing-with-ninjaflex-on-a-creality-ender-3">Printing with NinjaFlex on a Creality Ender 3</h1>
+<p><a href="https://ninjatek.com/ninjaflex/">NinjaFlex</a> is an incredibly flexible TPU filament. My Ender doesn’t have a filament extruder upgrade (or any upgrade for that matter), it uses a Bowden extruder in which flexible filaments tend to get stuck in no time. To overcome this issue without having to upgrade my printer (yet), I tensioned my filament by making a horizontal ‘bridge’ between a cupboard and my printer so the filament would be tensioned and fed to the extruder without too much trouble.</p>
+
+<p>The first few attempts to get the print started ended up like the picture below. I fixed it by lowering the speed and properly aligning the print bed.</p>
+
+<p><img src="/images/fablab/IMG_5171.JPEG" alt="ninjaflex" /></p>
+
+<p>My intermediate end result below:</p>
+
+<div class="row-2">
+  <p><img src="/images/fablab/glove_flexible.gif" alt="ninjaflex" />
+<img src="/images/fablab/IMG_5173.JPEG" alt="ninjaflex" /></p>
+</div>
+
+<p>As you can tell at some point my walls were too high and too thin, so more and more filament was being extruded in the air. I tried to fix it with no succes.</p>
+
+<video width="500" height="282" controls="">
+  <source src="/images/fablab/IMG_0382.mp4" type="video/mp4" />
+</video>
+
+<div class="row-2">
+  <p><img src="/images/fablab/IMG_5168.JPEG" alt="ninjaflex" />
+<img src="/images/fablab/IMG_5169.JPEG" alt="ninjaflex" /></p>
+</div>
+
+<p>Sources:</p>
+<ul>
+  <li><a href="https://ninjatek.com/printing-guidelines/">https://ninjatek.com/printing-guidelines/</a></li>
+  <li><a href="https://all3dp.com/2/ender-3-how-to-3d-print-with-flexible-filament-tpu/">https://all3dp.com/2/ender-3-how-to-3d-print-with-flexible-filament-tpu/</a></li>
+</ul>
+:ET

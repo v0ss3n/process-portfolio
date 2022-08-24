@@ -1,0 +1,193 @@
+I"S(<h1 id="fabacademy-fusion360">Fabacademy: Fusion360</h1>
+<ul>
+  <li>Parametric: there is a workflow and timeline, the software updates in relation to one feature that you update so you can go ‘back in time’</li>
+  <li>Cloud based: you can share folders with teams, exporting is not via computer but via cloud</li>
+</ul>
+
+<h2 id="screen">Screen</h2>
+<ul>
+  <li>Orbiting with cube in top right corner (if you don’t have a mouse)</li>
+  <li>Timeline at the bottom</li>
+  <li>Browser: organization of all of the objects you create &gt; keep the folders collapsed so you can keep track of what you are creating</li>
+  <li>Data panel: all of your projects (in there: data with all versions), libraries and samples</li>
+  <li>Create a folder per project for better overview, when collaborating you can invite people to the project in the People tab</li>
+</ul>
+
+<h2 id="basic-steps">Basic steps</h2>
+<ol>
+  <li>Create sketch</li>
+  <li>Press R: create two-point rectangle (two opposite points); Esc when you’re done with rectangles</li>
+  <li>Finish sketch</li>
+  <li>Press E: extrude, select sketches and specify height you want, the output (new body in this case) and press ok</li>
+  <li>Press F: fillet, select edges and specify radius etc. and press ok</li>
+  <li>Right click feature in the ‘past’ and click edit feature; see how it affects the ‘future’. Notice how with every change a feature is added to the timeline; use the line on the right to go back in time</li>
+  <li>Save (ctrl + s): every time you save your project you can add a version description. After saving the name is updated to the next version (v1&gt;v2&gt;etc). You can go back to every saved version in the data panel.</li>
+</ol>
+
+<p><img src="/images/fablab/fusion.jpg" alt="" /></p>
+
+<h2 id="constraints">Constraints</h2>
+<p>Features we apply to our entities</p>
+<ul>
+  <li>Horizontal/vertical: selected line becomes horizontal or vertical to the grid (depending on angle)</li>
+  <li>Coincident: click two endpoints to connect them</li>
+  <li>Parallel: click two lines to make them parallel to each other (first one is used as the reference)</li>
+  <li>Midpoint: click a point, then click the line you want to use the midpoint of and the sketch object will move there</li>
+  <li>Equal: click a shape/line and then a second to make the second equal to the first</li>
+  <li>Deleting a constraint: click it and press delete</li>
+  <li>Check them all out in the dropdown menu (they make sense)</li>
+  <li>Press X: create construction lines</li>
+</ul>
+
+<p>Instead of just drawing the line/shape you can also click and then enter values in the prompts (mm/deg/etc); press tab to go to the next value. This will fix the values. Fusion likes to create relations/constraints between shapes. If not wanted you can just delete them but they are very convenient.</p>
+
+<h2 id="examples">Examples</h2>
+<p>When creating a for example a center rectangle you can see that the constraints are different (left to right: center rect, 2 point rect and 3 point rect)</p>
+
+<p><img src="/images/fablab/rect.png" alt="" /></p>
+
+<p>Center point arc is an arc based on a circle circumference (left), 3 point arc is created by first selecting start and end point and then a third point the arc goes through (right) and tangent arc (center) is a “halo that touches a circular halo” (just look at the image below).</p>
+
+<p><img src="/images/fablab/arc.png" alt="" /></p>
+
+<p>A fit point spline is a bezier curve (think of Illustrator), press escape to finish; then you can change the shape with the handles (left). Use control point spline to create a spline with construction lines.</p>
+
+<p><img src="/images/fablab/spline.png" alt="" /></p>
+
+<p>Mirror speaks for itself:</p>
+
+<p><img src="/images/fablab/mirror.png" alt="" /></p>
+
+<p>Circular pattern (use the blue slider to create more or less copies or enter a number): select the object(s) (or features etc.) and centerpoint to repeat the object around.</p>
+
+<p><img src="/images/fablab/circpattern.png" alt="" /></p>
+
+<p>Rectangular pattern (is pretty intuitive):</p>
+
+<p><img src="/images/fablab/rectpattern.png" alt="" /></p>
+
+<p>Polygons:</p>
+
+<p><img src="/images/fablab/polygon.png" alt="" /></p>
+
+<h2 id="workflow">Workflow</h2>
+<ul>
+  <li>Look at basic shapes/geometries as a starting point (circles, rectangles)</li>
+  <li>Not what but when is the most important question to ask yourself, the order of what you do has a very big influence on your workflow</li>
+  <li>What you do in a sketch is not part of your timeline</li>
+  <li>If something is not working as expected check if there are any unintentional constraints</li>
+</ul>
+
+<h2 id="solid">Solid</h2>
+<p>Example of impact of design decisions: if you want to extend the curve of an offset (shortcut for offset is O, found in the modify menu, left image below) the relation will be lost because the curves are no longer the same size (but you can move them around freely); sometimes you need that to get to your design but the parametricity will be lost. If you want to keep the parametricity you have to create a new line/shape/whatever, see the image below. Fusion helps you a great deal by suggesting constraints (like the parallel constraint below) but you can also add them manually in the menu.</p>
+
+<div class="row-2">
+  <p><img src="/images/fablab/modify.png" alt="" />
+<img src="/images/fablab/offset.png" alt="" /></p>
+</div>
+
+<p>Shortcut for dimensions is D, very important for dimensions of and between sketch objects. On the image on the left the dimensions are set, the line from the center to the circumference is split using break and then a line is drawn from the corner right to the midpoint of the smaller line, which is then mirrored and repeated using a circular pattern. The finished sketch on the right.</p>
+
+<div class="row-2">
+  <p><img src="/images/fablab/tool.png" alt="" />
+<img src="/images/fablab/tool2.png" alt="" /></p>
+</div>
+
+<p>When the sketch is finished, the menu shows different tools suited for 3D modeling (solid objects instead of sketch objects).</p>
+
+<p>Plane: what you can create a sketch on (XY, XZ, YZ), can also be faces of what you already made &gt; planar face
+Profile: selected geometric entity
+Surface: a geometric entity, a body without the 3rd dimension: it can be drawn in 3 dimensions but it has no thickness so it is 2D.</p>
+
+<p>Important shortcuts</p>
+<ul>
+  <li>S: pop-up searchbar for design shortcuts</li>
+  <li>Ctrl + 4/5/6/7/8/9 for different visual styles</li>
+  <li>D: dimensions (sketch)</li>
+  <li>E: extrude, operations:
+    <blockquote>
+      <p>join
+cut
+intersect
+new body
+new component</p>
+    </blockquote>
+  </li>
+  <li>Chamfer: bevel, like a fillet but without the curve</li>
+  <li>Boundary fill: takes workplanes, surfaces and and solids as inputs. It intersects these shapes and finds all the closed volumes or “cells.” You can choose which cells you want and what type of operation you want them to perform.</li>
+</ul>
+
+<p><img src="/images/fablab/boundaryfill.png" alt="" /></p>
+
+<p>A 3d manipulation of a 2d sketch:
+<img src="/images/fablab/sketchobject.png" alt="" /></p>
+
+<h2 id="wrench">Wrench</h2>
+<p><img src="/images/fablab/wrench1.png" alt="" /></p>
+
+<h2 id="vase">Vase</h2>
+<p><img src="/images/fablab/vasefusion.jpg" alt="" /></p>
+
+<p>Loft: a way of connecting surfaces, making a shape of sketches. Start with a sketch, then make offset planes (construct menu) and make sketches on those planes. Then select loft from the create menu and click on the surfacesx.</p>
+
+<p><img src="/images/fablab/loft.jpg" alt="" /></p>
+
+<p>Sweep: make sure the path and profile intersect. The body is a projection of the sketch.</p>
+
+<p><img src="/images/fablab/sweep.jpg" alt="" /></p>
+
+<!-- Project: like a shadow, find out how and what it's for -->
+
+<h2 id="surface">Surface</h2>
+<p>Different tab, different menu; now we’re working with hollow objects. Patch and stitch are very important for closing objects and making them solid.</p>
+
+<p><img src="/images/fablab/surfaces.jpg" alt="" /></p>
+
+<p>Extrude for surfaces is different than extrude for solids! Once you thicken a surface, it becomes a solid body. You can see this change in the browser. If you then want to add fillets, you have to go back to the solid menu.</p>
+
+<p><img src="/images/fablab/surfaces2.jpg" alt="" /></p>
+
+<h2 id="form">Form</h2>
+<ul>
+  <li>Alt + 1/2/3 to change views</li>
+  <li>Really work step by step to keep control &gt; i.e. insert edge, then edit form and repeat. This can be found under modify. Start with as few lines as possible and add as you need them.</li>
+</ul>
+
+<p><img src="/images/fablab/form.jpg" alt="" /></p>
+
+<h2 id="render">Render</h2>
+<p>Beautiful realistic render:</p>
+
+<p><img src="/images/fablab/pot.png" alt="" /></p>
+
+<p>Adding an image (or logo) with decal:</p>
+
+<p><img src="/images/fablab/decal.png" alt="" /></p>
+
+<h2 id="mechanics">Mechanics</h2>
+<p>For this you need to transform your bodies into components (do this in the browser). Ground your base component (right click component and then ground, this will add a little pin to the component).</p>
+
+<p>Assemble: as-built joint. Select the two components and the type of motion. In the folder joints you can set the limits. 
+Contact all: so they can’t move through each other
+Motion link: when one component moves, another moves as well</p>
+
+<p><img src="/images/fablab/mechanics.jpg" alt="" /></p>
+
+<h2 id="animation">Animation</h2>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/n_WwW9yquFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h2 id="drawing">Drawing</h2>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kb39wIIMH2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h2 id="other-notes">Other notes</h2>
+<p>You should try other programs too depending on your goals, like:</p>
+<ul>
+  <li>AutoCad: perfect for architecture, buildings</li>
+  <li>Rhino: works on surfaces (not bodies, so not great for 3d printing) (“house made of cards”)</li>
+  <li>FreeCad: linux, open source</li>
+  <li>Solidworks</li>
+  <li>CAD/CAM: Computer Aided Design/Manufacturing</li>
+</ul>
+:ET

@@ -1,0 +1,239 @@
+I"[><h1 id="milling-pcbs-with-the-roland-modela">Milling PCBs with the Roland Modela</h1>
+<p>Linked to the <a href="https://vimeo.com/513517157">Fabacademy electronics production lecture</a>.</p>
+
+<h2 id="serial-communication">Serial communication</h2>
+<p>To communicate with the program you’ve made you need the ftdi (Future Technology Devices International Limited, you can buy a usb cable with one integrated and it’s like 20 euros) it’s serial communicating over usb with the board. it uses 2 (of 6) pins for the communication (1 sending, 1 receiving)</p>
+<ul>
+  <li>rx: receive</li>
+  <li>tx: transmit</li>
+  <li>UPDI: rx and tx on one pin (ftdi with a bridge, advantage is one less pin)</li>
+</ul>
+
+<h3 id="brands-of-microprocessors">Brands of microprocessors</h3>
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/ATtiny_microcontroller_comparison_chart">ATtiny/tinyAVR</a> (8 bit)</li>
+  <li><a href="https://www.microchip.com/en-us/products/microcontrollers-and-microprocessors/32-bit-mcus/sam-32-bit-mcus/sam-d">SAMD</a> (newer, cool features, up to 32 bit processing, you program them with the J tech, not with a updi)</li>
+  <li>ATmega/megaAVR (more pins, more memory, more possibilities)</li>
+</ul>
+
+<h3 id="programming-interfaces">Programming interfaces</h3>
+<p>UPDI (Unified Program and Debug Interface, programming and debugging, newer and more options), ISP (in-system programming, no debugging, for older chips) and JTAG (Joint Test Action Group; debugging interface) are all protocols for programming a micro controller, determined by the chip you’re using.</p>
+
+<p><img src="/images/fablab/pcbs.jpg" alt="" /></p>
+
+<p>The boards in the picture above can be found <a href="http://academy.cba.mit.edu/classes/embedded_programming/index.html#programmers">here</a>.</p>
+
+<p>Below the boards for the UPDI and the FTDI connector + UPDI.</p>
+<div class="row-3">
+  <p><img src="http://academy.cba.mit.edu/classes/embedded_programming/FTDI/USB-FT230XS-UPDI.png" alt="UPDI" />
+<img src="http://academy.cba.mit.edu/classes/embedded_programming/FTDI/USB-FT230XS-serial.png" alt="FTDI connector" />
+<img src="http://academy.cba.mit.edu/classes/embedded_programming/UPDI/hello.serial-UPDI.png" alt="UPDI 2 PIN" /></p>
+</div>
+
+<p>The <a href="http://fab.cba.mit.edu/classes/863.16/doc/projects/ftsmin/index.html">ISP</a> is the ‘Brian board’.</p>
+
+<p><img src="http://fab.cba.mit.edu/classes/863.16/doc/projects/ftsmin/pcb.png" alt="ISP" /></p>
+
+<p>JTAG boards:</p>
+<div class="row-2">
+  <p><img src="http://academy.cba.mit.edu/classes/embedded_programming/SWD/hello.CMSIS-DAP.10.D11C.png" alt="JTAG" />
+<img src="http://academy.cba.mit.edu/classes/embedded_programming/SWD/hello.CMSIS-DAP.4.D11C.png" alt="JTAG" /></p>
+</div>
+
+<ul>
+  <li>usb &gt; ftdi (not for programming a micro controller but for interfacing) &gt; serial</li>
+  <li>assignment is to make a PCB: learning how to produce electronics by milling boards and soldering components (going to start with a UPDI now)</li>
+</ul>
+
+<p>You gotta program them to use them to program others!!!! Otherwise it’s ‘dead material’, it needs instructions. So this is why we’re starting with a programmer PCB. You can’t program with the ftdi but you can use a ftdi cable (later).</p>
+
+<h2 id="roland-modela">Roland Modela</h2>
+<ul>
+  <li>.006mm precision (in theory)</li>
+  <li>Milling bit depending on what you use (.4mm for traces, .8mm to cut it out)</li>
+  <li>Used the machine to make a perfectly leveled bed (milling a perfectly flat bed, a pocket) out of acrylic melted to the acrylic machine bed</li>
+  <li>Copper plate is the sacrificial layer; has to be replaced from time to time</li>
+  <li>The copper plate (fr1) has pressed paper in between</li>
+  <li>We don’t mill fr4 (with glass in between) because it ruins your machine (dulls the bit very quickly) and it’s dangerous to have glass dust (to breathe it in or get it in your eyes)</li>
+  <li>Stick the board to the bed with double sided tape (clean surfaces first with sticker remover); completely fill it up but don’t let them overlap! otherwise it’s not level</li>
+  <li>Press the board tightly and perfectly flat with some clean fabric on the bottom and the acrylic on the top</li>
+  <li>Tighten it snugly, not aggressively</li>
+  <li>Don’t screw the mill in too tightly or you have to replace that screw a lot sooner</li>
+  <li>If you move the origin, you also have to redo the Z axis alignment. This has to do with the imperfections of the board; it does remember where the 0 point was but just to have it as precise as possible you have to redo it</li>
+  <li>After starting mods, go to the program (Milling with the MDX), close WebSocket pyserial, close the pyserial port, then close socket and port for the WebSocket serial, then open socket and open port there. Try moving to the origin to check if there’s a connection.</li>
+</ul>
+
+<ol>
+  <li>Turn it on &gt; machine automatically goes to machine home, it’s in view mode (can turn that off with the view mode button)</li>
+  <li>
+    <p>Now replace the milling bit if it’s not the correct one. You can’t release it and let it fall out because it will break; put one finger against the milling bit and take it out in a controlled way</p>
+
+    <div class="row-2">
+      <p><img src="/images/fablab/modela/IMG_5863.JPEG" alt="process of pcb milling and soldering with the Roland Modela" />
+ <img src="/images/fablab/modela/IMG_5864.JPEG" alt="process of pcb milling and soldering with the Roland Modela" /></p>
+    </div>
+  </li>
+  <li>The .4mm milling bit we are using is a two flute. Put them in the correct place in the box!</li>
+  <li>Put the milling bit up all the way in</li>
+  <li>
+    <p>Start mods (type mods in the terminal) to fire up a serial server connected to the Modela. Select MDX Mill &gt; PCB</p>
+
+    <p><img src="/images/fablab/modela/IMG_5865.JPEG" alt="process of pcb milling and soldering with the Roland Modela" /></p>
+  </li>
+  <li>Close the pyserial socket (right), open the other serial.js websocket (left)</li>
+  <li>Go all the way down with the machine (the buttons on the machine, not in mods) and then a little bit higher (can only do this when the milling bit is all the way up). The bit is floating above the material. Now we can lower the bit with support of two fingers to touch the material (the actual material, not the sacrificial layer); wiggle it in case there’s dust so it’s perfectly lying on the material) and then secure it. Always write down the origin! Or take a picture of it. The machine is now ready. Set the origin in mods, so keep changing the values for x and y there until you are where you want to start; don’t use manual move for this.
+    <div class="row-3">
+      <p><img src="/images/fablab/modela/IMG_5876.JPEG" alt="process of pcb milling and soldering with the Roland Modela" />
+ <img src="/images/fablab/modela/IMG_5877.JPEG" alt="process of pcb milling and soldering with the Roland Modela" />
+ <img src="/images/fablab/modela/IMG_5872.JPEG" alt="process of pcb milling and soldering with the Roland Modela" /></p>
+    </div>
+  </li>
+  <li>
+    <p>Now you start with the traces in mods (PNG or SVG); one image at the time. White is the area you want to keep. Don’t forget to put DPI as 1000. Put PCB defaults in mm. Cut depth and max depth is 0.003 INCH (numbers from experience); this will cut through the top copper layer. UPDATE 15/02/22: NOW IT’S O.OO2 INCH FOR CUT DEPTH AND MAX DEPTH AND THE SPEED IS 4MM/S FOR A 1 FLUTE 0.4MM MILL.</p>
+
+    <div class="row-2">
+      <p><img src="/images/fablab/modela/IMG_5866.JPEG" alt="process of pcb milling and soldering with the Roland Modela" />
+ <img src="/images/fablab/modela/IMG_5870.JPEG" alt="process of pcb milling and soldering with the Roland Modela" /></p>
+    </div>
+  </li>
+  <li>
+    <p>Offset number is the (maximum) amount of traces from the lines you want to keep. 4 is nice, easier to solder etc. 0 takes off everything except for the lines.</p>
+  </li>
+  <li>Offset stepover is half of the tool diameter so you are sure it takes off everything.</li>
+  <li>Forget about climb and conventional milling for now. It has to be climb.</li>
+  <li>Path merge is 1 (diameter of the tool). Path order forward/reverse. Just use forward. If your traces are too close it sort of overlaps itself.</li>
+  <li>CALCULATE</li>
+  <li>Cut speed 1mm/s for this milling bit (UPDATE: now 4mm/s)</li>
+  <li>Web socket &gt; send file and it will start milling straight away
+    <div class="row-2">
+      <p><img src="/images/fablab/modela/IMG_5871.JPEG" alt="process of pcb milling and soldering with the Roland Modela" />
+<img src="/images/fablab/modela/IMG_5878.JPEG" alt="process of pcb milling and soldering with the Roland Modela" /></p>
+    </div>
+  </li>
+  <li>
+    <p>Vacuum the dust</p>
+
+    <div class="row-2">
+      <p><img src="/images/fablab/modela/IMG_5883.JPEG" alt="process of pcb milling and soldering with the Roland Modela" />
+<img src="/images/fablab/modela/IMG_5884.JPEG" alt="process of pcb milling and soldering with the Roland Modela" /></p>
+    </div>
+  </li>
+  <li>Now for the cutout you need your other file and the .8mm milling bit and repeat the steps above; speed can be 4mm/s; cut depth is 1,55; .6mm per layer cut depth.
+    <div class="row-3">
+      <p><img src="/images/fablab/modela/IMG_5885.JPEG" alt="process of pcb milling and soldering with the Roland Modela" />
+<img src="/images/fablab/modela/IMG_5886.JPEG" alt="process of pcb milling and soldering with the Roland Modela" />
+<img src="/images/fablab/modela/IMG_5887.JPEG" alt="process of pcb milling and soldering with the Roland Modela" /></p>
+    </div>
+
+    <div class="row-3">
+      <p><img src="/images/fablab/modela/IMG_5888.JPEG" alt="process of pcb milling and soldering with the Roland Modela" />
+<img src="/images/fablab/modela/IMG_5892.JPEG" alt="process of pcb milling and soldering with the Roland Modela" />
+<img src="/images/fablab/modela/IMG_5889.JPEG" alt="process of pcb milling and soldering with the Roland Modela" /></p>
+    </div>
+  </li>
+  <li>Take the PCB out with with the screwdriver.</li>
+  <li>
+    <p>When the lines are rough you can sand them with regular paper</p>
+
+    <div class="row-3">
+      <p><img src="/images/fablab/modela/IMG_5894.JPEG" alt="process of pcb milling and soldering with the Roland Modela" />
+<img src="/images/fablab/modela/IMG_5895.JPEG" alt="process of pcb milling and soldering with the Roland Modela" />
+<img src="/images/fablab/modela/IMG_5896.JPEG" alt="process of pcb milling and soldering with the Roland Modela" /></p>
+    </div>
+  </li>
+  <li>
+    <p>If you didn’t clear out the entire board, make sure to clear out the USB traces (I used a knife for this).</p>
+
+    <div class="row-2">
+      <p><img src="/images/fablab/modela/IMG_5898.JPEG" alt="process of pcb milling and soldering with the Roland Modela" />
+<img src="/images/fablab/modela/IMG_5899.JPEG" alt="process of pcb milling and soldering with the Roland Modela" /></p>
+    </div>
+  </li>
+</ol>
+
+<p>To stop the machine (not just pause it), you have to press the UP and DOWN for 10 seconds. The flashing lights indicate the memory is being erased. When it’s done, the lights stop blinking.</p>
+
+<h2 id="soldering">Soldering</h2>
+<ul>
+  <li>Clean the board with soap to get the grease out, wash it with water and dry it with a paper towel.</li>
+  <li>The Weller Soldering station is 110V, starts at about 300 euros, about 40 euros per tip</li>
+  <li>You can also get USB-C soldering irons and they’re really powerful (TS-80, about 60-80 euros, heats up very quickly, tips cost about 10 euros)</li>
+  <li>! Take one component at a time ! And put the boxes back immediately. Get the tweezers (electronics only, so the tips are not bent) and take them out carefully.</li>
+  <li>Work from small parts to big parts and from the center to the outside, and don’t forget to consider the polarity of the parts!</li>
+  <li>We still have the old solder with lead so it’s easier to solder (but worse for the environment than lead free solder)</li>
+  <li>Surface mount: component is lying flat on the surface</li>
+  <li>Soldering really small components using a USB microscope camera (basically a webcam) to see in great detail how the connections are (also great for debugging your soldering skills)</li>
+  <li>If you have a component with very small legs that are close together, you can use a technique where you first add a lot of solder on top of the legs, then remove the excess of solder with a vacuum pump.</li>
+</ul>
+
+<h2 id="steps">Steps:</h2>
+<ol>
+  <li>Put solder on the tip of the soldering iron so it’s shiny and smooth (clean first with the metal sponge)</li>
+  <li>Put tip against the component and the trace to heat them up</li>
+  <li>Add a little bit of solder and wait till it flows, then add a little bit more solder and let that flow too</li>
+  <li>Remove the tip and you should have a smooth and shiny connection</li>
+  <li>Clean the tip with the metal sponge again</li>
+</ol>
+
+<p>It can also be helpful to add a bit of solder to the trace, then add the component, then bring back the soldering iron tip and add more solder.</p>
+
+<p>When you remove the soldering iron too soon (or if you keep trying and fiddling), you get a cold solder joint and that won’t work well:</p>
+
+<blockquote>
+  <p>“A cold solder joint occurs when the solder does not melt completely. A result of insufficient heat, cold joints are often characterized by being rigid, rough, and uneven in appearance. This solder mistake creates an unreliable joint that is highly susceptible to cracking and failure.”</p>
+</blockquote>
+
+<h2 id="documentation-of-the-making-of-my-own-pcb-programmer">Documentation of the making of my own PCB programmer</h2>
+<h3 id="updi">UPDI</h3>
+<ol>
+  <li>
+    <p>Soldering the chip (FT230XS microcontroller): since I messed it up Henk fixed it for me.</p>
+
+    <div class="row-2">
+      <p><img src="/images/fablab/modela/IMG_5902.JPEG" alt="henk removing solder" />
+ <img src="/images/fablab/modela/IMG_5904.JPEG" alt="process of pcb milling and soldering with the Roland Modela" /></p>
+    </div>
+  </li>
+  <li>
+    <p>Soldering the resistors:</p>
+
+    <div class="row-2">
+      <p><img src="/images/fablab/modela/IMG_5932.JPEG" alt="process of pcb milling and soldering with the Roland Modela" />
+ <img src="/images/fablab/modela/IMG_5931.JPEG" alt="process of pcb milling and soldering with the Roland Modela" /></p>
+    </div>
+  </li>
+  <li>
+    <p>The capacitors (the capacitors we use are unpolarized so orientation doesn’t matter):</p>
+
+    <div class="row-2">
+      <p><img src="/images/fablab/modela/IMG_5933.JPEG" alt="process of pcb milling and soldering with the Roland Modela" />
+ <img src="/images/fablab/modela/IMG_5934.JPEG" alt="process of pcb milling and soldering with the Roland Modela" /></p>
+    </div>
+
+    <div class="row-3">
+      <p><img src="/images/fablab/modela/IMG_5936.JPEG" alt="process of pcb milling and soldering with the Roland Modela" />
+ <img src="/images/fablab/modela/IMG_5935.JPEG" alt="process of pcb milling and soldering with the Roland Modela" />
+ <img src="/images/fablab/modela/IMG_5937.JPEG" alt="process of pcb milling and soldering with the Roland Modela" /></p>
+
+    </div>
+  </li>
+  <li>
+    <p>The J2 UPDI (Conn SMT 2WAY in the lab):</p>
+
+    <div class="row-2">
+      <p><img src="/images/fablab/modela/IMG_5939.JPEG" alt="process of pcb milling and soldering with the Roland Modela" />
+ <img src="/images/fablab/modela/IMG_5938.JPEG" alt="process of pcb milling and soldering with the Roland Modela" /></p>
+    </div>
+  </li>
+</ol>
+
+<p>Final UPDI:</p>
+
+<p><img src="/images/fablab/modela/IMG_5941.JPEG" alt="process of pcb milling and soldering with the Roland Modela" /></p>
+
+<!-- ### JTAG
+The board I milled was the CMSIS-DAP.10.D11C:
+![jtag](http://academy.cba.mit.edu/classes/embedded_programming/SWD/hello.CMSIS-DAP.10.D11C.png)
+ -->
+
+:ET

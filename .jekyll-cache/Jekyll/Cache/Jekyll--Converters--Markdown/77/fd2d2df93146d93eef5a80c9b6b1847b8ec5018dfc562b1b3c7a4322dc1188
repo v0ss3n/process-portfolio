@@ -1,0 +1,30 @@
+I"<h1 id="hilo-spinning-wheel">HILO spinning wheel</h1>
+
+<p>Polyjet prints: the driving wheel and trailing wheel are printed with two filaments in one print, but since we couldn’t do that I printed the wheels separately and assembled them after which worked just as well.</p>
+
+<p>Settings hard wheels:</p>
+<ul>
+  <li>Printed on Prusa MK3S</li>
+  <li>PLA</li>
+  <li>Infill 40%</li>
+  <li>Layer height 0.3mm (draft setting)</li>
+</ul>
+
+<p>Settings soft wheels:</p>
+<ul>
+  <li>Printed on UM2+</li>
+  <li>Filaflex (see settings below)</li>
+  <li>Infill 100%</li>
+  <li>Layer height 0.3mm</li>
+  <li>No retraction</li>
+</ul>
+
+<p>I didn’t add glue in between the parts, they just fit nicely and feel secure as they are; if needed glue can be added between the parts.</p>
+
+<p><img src="/images/fabricademy/hilo/tpe_material_settings.jpg" alt="hilo tpe settings" /></p>
+
+<ul>
+  <li><a href="https://gitlab.opensourceecology.de/verein/projekte/cab/hilo-spinning-machine/-/blob/master/5_Hardware/1_Instructions_HILO3.0/6_Group%20Final%20Assembly/6_Group%20Final%20Assembly.pdf">https://gitlab.opensourceecology.de/verein/projekte/cab/hilo-spinning-machine/-/blob/master/5_Hardware/1_Instructions_HILO3.0/6_Group%20Final%20Assembly/6_Group%20Final%20Assembly.pdf</a></li>
+  <li></li>
+</ul>
+:ET

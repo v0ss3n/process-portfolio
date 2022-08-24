@@ -1,0 +1,1215 @@
+@import url("https://fonts.googleapis.com/css?family=Chakra+Petch");
+body {
+  hyphens: auto;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.fullwidth {
+  width: 100%;
+  height: auto;
+}
+
+section h2 {
+  font-size: 15vw;
+  margin: 10% 1%;
+}
+
+h5 a {
+  text-decoration: none;
+  border-bottom: 2px solid;
+}
+h5 a:hover, h5 a:focus {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='black' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: 0.3em;
+}
+
+header h2 {
+  color: black;
+  font-family: "Stalinist One", cursive;
+}
+header h2 a {
+  font-size: 24px;
+  text-decoration: none;
+}
+header h2 a:hover, header h2 a:focus {
+  text-shadow: 2px 2px;
+}
+
+h5 {
+  font-size: 32px;
+  font-family: "f25_bank_printerregular";
+}
+
+.subtitle {
+  font-family: "f25_bank_printerregular";
+  font-size: 60px;
+  margin: 0;
+  text-align: right;
+}
+
+.left-align {
+  text-align: left;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.lookwrapper {
+  overflow: scroll;
+}
+.lookwrapper img {
+  max-width: 100%;
+}
+.lookwrapper .slick-slider {
+  margin-top: 60px;
+}
+.lookwrapper .slick-prev, .lookwrapper .slick-next {
+  left: 90%;
+  transform: translate(-50%, 0) rotate(90deg);
+}
+.lookwrapper .slick-prev::before, .lookwrapper .slick-next::before {
+  color: #7c0101;
+}
+.lookwrapper .slick-next {
+  top: unset;
+  bottom: 32px;
+}
+.lookwrapper .slick-prev {
+  top: 32px;
+}
+
+.portfolio section {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.portfolio section .background-img {
+  max-width: 100%;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.page1 h3 {
+  font-size: 6vw;
+  text-align: center;
+}
+
+.portfolio .page3 {
+  width: 100%;
+  margin: 0 0 -10% 0;
+}
+.portfolio .page3 img {
+  max-width: 100%;
+}
+.portfolio .page3 .teapot {
+  animation: want-some-tea 3s ease-in-out 1s infinite alternate;
+}
+
+.video-grid {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  width: 100vw;
+  justify-content: space-evenly;
+  margin: 20% 0;
+}
+.video-grid video {
+  width: 30%;
+}
+
+.page1,
+.page2,
+.type,
+.page5 .scene,
+.color,
+.sketch-bar,
+.moulage3 .scene {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  width: 100vw;
+}
+.page1 > div,
+.page2 > div,
+.type > div,
+.page5 .scene > div,
+.color > div,
+.sketch-bar > div,
+.moulage3 .scene > div {
+  box-sizing: border-box;
+  width: 100%;
+  flex: none;
+}
+.page1 .scene,
+.page1 .sketch-bar-links,
+.page2 .scene,
+.page2 .sketch-bar-links,
+.type .scene,
+.type .sketch-bar-links,
+.page5 .scene .scene,
+.page5 .scene .sketch-bar-links,
+.color .scene,
+.color .sketch-bar-links,
+.sketch-bar .scene,
+.sketch-bar .sketch-bar-links,
+.moulage3 .scene .scene,
+.moulage3 .scene .sketch-bar-links {
+  margin-left: -100%;
+}
+.page1 img,
+.page2 img,
+.type img,
+.page5 .scene img,
+.color img,
+.sketch-bar img,
+.moulage3 .scene img {
+  width: 100%;
+}
+
+.moulage3 .scene {
+  width: 70%;
+  margin: 4% auto;
+}
+
+.page2 img {
+  margin-bottom: -16px;
+}
+
+.page3 {
+  background: #b6a8b4;
+  background: linear-gradient(0deg, #000000 0%, #C6BCD7 50%, #f2f0f4 100%);
+}
+
+.page4 {
+  background-image: url("../img/portfolio/tinguely1.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  filter: invert(1);
+}
+.page4 video {
+  width: 48%;
+  padding: 25% 0;
+  margin: 0 auto;
+  filter: invert(1);
+}
+
+a .click-here {
+  display: inline-block;
+  color: #b4d6d4;
+  hyphens: none;
+}
+
+.arrow-img {
+  display: inline-block;
+  width: 8%;
+}
+
+.arrow-img__right {
+  transform: rotate(164deg) scale(1, -1);
+}
+
+.arrow-img__left {
+  transform: rotate(189deg) scale(-1, -1);
+}
+
+#second-scene {
+  top: 10vw;
+  z-index: -1;
+}
+
+.polonaise {
+  margin-top: -22%;
+  margin-bottom: -6%;
+}
+
+.inspiration {
+  position: absolute;
+  margin-bottom: -8%;
+}
+
+.chaosmachine.marquee h4 {
+  animation-duration: 12s;
+}
+.chaosmachine.marquee a {
+  font-size: inherit;
+}
+
+.marquee {
+  width: 100vw;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.marquee > * {
+  display: inline-block;
+  width: 100%;
+  padding-left: 100%;
+}
+
+.marquee > img {
+  animation: marquee 15s linear infinite;
+}
+
+.marquee > h4 {
+  animation: marquee 10s linear infinite;
+}
+
+.marquee > .left {
+  animation: marquee 8s linear infinite;
+}
+
+.marquee > .right {
+  animation: marquee 8s linear infinite;
+  animation-direction: reverse;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+@keyframes want-some-tea {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
+}
+.type {
+  color: white;
+}
+.type img {
+  width: 100vw;
+}
+.type .subtitle {
+  position: absolute;
+  right: 20px;
+}
+
+.type__girl {
+  background-image: url("../img/portfolio/type.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.type__girl img {
+  visibility: hidden;
+  width: 100vw;
+}
+
+.type__girl:hover,
+.type__girl:active {
+  background-image: url("../img/portfolio/type--hover.png");
+}
+
+img.cloud {
+  opacity: 0.55;
+}
+
+.sketches {
+  margin-top: -17%;
+  width: 105vw;
+  margin-left: -5vw;
+  overflow: hidden;
+}
+.sketches img {
+  width: 110%;
+  position: relative;
+}
+
+.sketch-bar {
+  width: 100vw;
+  height: 26vw;
+}
+.sketch-bar img {
+  width: 100%;
+  height: auto;
+}
+.sketch-bar .sketch-bar-links:hover::after {
+  content: "click to jump to look";
+  font-family: "Chakra Petch", sans-serif;
+  position: absolute;
+  right: 0;
+}
+.sketch-bar .sketch-bar-links {
+  display: flex;
+  flex-flow: row nowrap;
+  height: inherit;
+  padding: 0 4%;
+  z-index: 2;
+  box-shadow: 4px 14px 14px black;
+}
+.sketch-bar .sketch-bar-links div {
+  width: 9%;
+  height: inherit;
+}
+.sketch-bar .sketch-bar-links div:hover {
+  border-bottom: 4px solid black;
+  box-sizing: border-box;
+}
+.sketch-bar .sketch-bar-links div a {
+  display: block;
+  height: inherit;
+}
+
+.look__page {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10%;
+  width: 100vw;
+  position: relative;
+}
+.look__page .look-button {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  font-family: "Stalinist One", cursive;
+  background: white;
+  box-shadow: 0px 15px 20px #1b1b1b;
+  font-size: 18px;
+  z-index: 2;
+}
+.look__page .look-button:hover {
+  background-color: #450606;
+  box-shadow: 0px 15px 20px #45130f;
+  color: #fff;
+  cursor: pointer;
+}
+.look__page .look-button--even {
+  right: 3%;
+  left: initial;
+}
+.look__page .look__process {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  width: 100vw;
+}
+.look__page .look__process img {
+  width: 100%;
+}
+
+#look__page1 {
+  background-image: url("../img/portfolio/backgrounds/bg1.jpg");
+}
+
+#look__page2 {
+  background-image: url("../img/portfolio/backgrounds/bg2.jpg");
+}
+
+#look__page3 {
+  background-image: url("../img/portfolio/backgrounds/bg3.jpg");
+}
+
+#look__page4 {
+  background-image: url("../img/portfolio/backgrounds/bg4.jpg");
+}
+
+#look__page5 {
+  background-image: url("../img/portfolio/backgrounds/bg5.jpg");
+}
+
+#look__page6 {
+  background-image: url("../img/portfolio/backgrounds/bg6.jpg");
+}
+
+#look__page7 {
+  background-image: url("../img/portfolio/backgrounds/bg7.jpg");
+}
+
+#look__page8 {
+  background-image: url("../img/portfolio/backgrounds/bg8.jpg");
+}
+
+#look__page9 {
+  background-image: url("../img/portfolio/backgrounds/bg9.jpg");
+}
+
+.look__background {
+  opacity: 0.7;
+  z-index: -1;
+  filter: blur(1px) grayscale(0.5);
+}
+
+.look__page:hover .look__background,
+.look__page:focus .look__background {
+  animation: blur 5s;
+}
+
+.look__wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  height: 100%;
+}
+.look__wrapper img {
+  width: 100%;
+}
+.look__wrapper .slick-prev::before, .look__wrapper .slick-next::before {
+  color: #7c0101;
+}
+.look__wrapper .look__illustration {
+  width: 50%;
+}
+.look__wrapper .look__illustration .floor {
+  margin-top: -39%;
+}
+.look__wrapper .look__illustration .design {
+  animation: bounce 1s infinite;
+  max-width: 520px;
+}
+.look__wrapper .look__specs {
+  width: 36%;
+  max-width: 400px;
+  padding: 0 3%;
+  margin: 0 -5%;
+  background: #f5feff;
+  box-shadow: 0 0 15px 15px #f5feff;
+}
+
+.even {
+  flex-direction: row-reverse;
+}
+.even .look-button {
+  right: 2%;
+}
+
+.look__text {
+  width: 100%;
+  display: flex;
+}
+.look__text div {
+  width: 50%;
+}
+.look__text p {
+  font-family: "Stalinist One", cursive;
+  color: black;
+  font-style: italic;
+  text-align: right;
+  width: 36%;
+  max-width: 400px;
+  background: #f2f0f4;
+  padding: 2% 3%;
+  text-decoration: underline;
+  margin: -7% -5%;
+}
+
+.even + .look__text {
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+}
+.even + .look__text p {
+  text-align: left;
+}
+
+.parallax__img {
+  background-image: url("../img/portfolio/automation.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.prints {
+  position: relative;
+}
+.prints h5 {
+  display: none;
+}
+.prints .cube-bg {
+  height: inherit;
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+}
+.prints .image-grid {
+  background: none;
+  height: 1000px;
+  align-content: center;
+  max-width: 100vw;
+  position: relative;
+}
+.prints .image-grid img {
+  align-self: center;
+}
+.prints .cube-hover {
+  z-index: 1;
+}
+.prints .cube-bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.prints .cube-hover:hover,
+.prints .cube-hover:focus {
+  cursor: pointer;
+}
+.prints .cube-hover1:hover + .cube-bg,
+.prints .cube-hover1:focus + .cube-bg {
+  background-image: url("../img/portfolio/backgrounds/cube1-bg.jpg");
+}
+.prints .cube-hover2:hover + .cube-bg,
+.prints .cube-hover2:focus + .cube-bg {
+  background-image: url("../img/portfolio/backgrounds/cube2-bg.jpg");
+}
+.prints .cube-hover3:hover + .cube-bg,
+.prints .cube-hover3:focus + .cube-bg {
+  background-image: url("../img/portfolio/backgrounds/cube3-bg.jpg");
+}
+.prints .cube-hover4:hover + .cube-bg,
+.prints .cube-hover4:focus + .cube-bg {
+  background-image: url("../img/portfolio/backgrounds/cube4-bg.jpg");
+}
+.prints .cube-hover5:hover + .cube-bg,
+.prints .cube-hover5:focus + .cube-bg {
+  background-image: url("../img/portfolio/backgrounds/cube5-bg.jpg");
+}
+.prints .cube-hover6:hover + .cube-bg,
+.prints .cube-hover6:focus + .cube-bg {
+  background-image: url("../img/portfolio/backgrounds/cube6-bg.jpg");
+}
+.prints .cube-hover7:hover + .cube-bg,
+.prints .cube-hover7:focus + .cube-bg {
+  background-image: url("../img/portfolio/backgrounds/cube7-bg.jpg");
+}
+.prints .cube-hover8:hover + .cube-bg,
+.prints .cube-hover8:focus + .cube-bg {
+  background-image: url("../img/portfolio/backgrounds/cube8-bg.jpg");
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+.portfolio .toile-de-luxe {
+  background: white;
+  padding: 10% 0 15%;
+}
+
+.color {
+  align-items: center;
+  position: relative;
+  background: url("../img/portfolio/color-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.color-background {
+  opacity: 0.5;
+}
+
+.color-title {
+  font-family: "f25_bank_printerregular";
+  position: absolute;
+  text-align: center;
+  font-size: 23vw;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  animation: flicker 2s infinite;
+}
+
+.color-wrapper img {
+  width: 10%;
+  animation: bounce 1s infinite;
+}
+.color-wrapper .color--hover {
+  display: none;
+}
+.color-wrapper .color--hover p {
+  font-family: "Chakra Petch", sans-serif;
+  color: white;
+  font-size: 32px;
+  background: black;
+}
+.color-wrapper img:hover,
+.color-wrapper img:focus {
+  animation: expand 4s;
+}
+.color-wrapper img:hover + .color--hover,
+.color-wrapper img:focus + .color--hover {
+  display: block;
+  position: absolute;
+  right: 10%;
+  z-index: 2;
+}
+
+.portfolio .moulages {
+  width: 100vw;
+  padding-bottom: 10%;
+  background: url("../img/portfolio/backgrounds/striped-bg.png");
+  background-position: center;
+  background-repeat: repeat;
+}
+.portfolio .moulages .moulage-carousel1,
+.portfolio .moulages .moulage-carousel2,
+.portfolio .moulages .moulage-carousel3,
+.portfolio .moulages .moulage-carousel4 {
+  position: relative;
+}
+.portfolio .moulages .moulage-carousel1 .slick-arrow,
+.portfolio .moulages .moulage-carousel2 .slick-arrow,
+.portfolio .moulages .moulage-carousel3 .slick-arrow,
+.portfolio .moulages .moulage-carousel4 .slick-arrow {
+  visibility: hidden;
+}
+.portfolio .moulages .moulage-carousel1:hover,
+.portfolio .moulages .moulage-carousel1:focus,
+.portfolio .moulages .moulage-carousel2:hover,
+.portfolio .moulages .moulage-carousel2:focus,
+.portfolio .moulages .moulage-carousel3:hover,
+.portfolio .moulages .moulage-carousel3:focus {
+  filter: none;
+}
+.portfolio .moulages .moulage-carousel1 {
+  width: 40%;
+  max-width: 460px;
+  margin: 4%;
+  right: -48%;
+}
+.portfolio .moulages .moulage-carousel2 {
+  width: 45%;
+  max-width: 520px;
+  margin: 4%;
+  margin-top: -20%;
+}
+.portfolio .moulages .moulage-carousel3 {
+  width: 44%;
+  max-width: 500px;
+  margin: 4%;
+  right: -52%;
+  margin-top: -30%;
+}
+.portfolio .moulages .moulage-carousel4 {
+  width: 39%;
+  max-width: 480px;
+  margin: 4%;
+  margin-top: -16%;
+}
+
+section.moulages2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background: black;
+  box-shadow: 13px -2px 20px 20px black;
+  padding: 10% 0;
+}
+section.moulages2 video {
+  width: 25%;
+  padding: 5%;
+}
+section.moulages2 video:first-of-type, section.moulages2 video:nth-of-type(4) {
+  width: 60%;
+}
+
+.portfolio .moulages3 {
+  margin-top: -12%;
+  filter: saturate(0.9) drop-shadow(2px 4px 6px grey);
+}
+
+.lamps {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  z-index: -1;
+  background: linear-gradient(0, transparent, black);
+}
+.lamps div {
+  width: 24%;
+  margin: 0 4%;
+}
+.lamps div img {
+  width: 100%;
+}
+.lamps div:first-of-type {
+  transform: scaleX(-1);
+  width: 20%;
+}
+
+.glitch {
+  position: relative;
+}
+.glitch:before, .glitch:after {
+  display: block;
+  content: attr(data-glitch);
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+}
+.glitch:after {
+  color: lime;
+  z-index: -2;
+}
+.glitch:before {
+  color: blue;
+  z-index: -1;
+}
+.glitch:before {
+  animation: glitch 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+}
+.glitch:after {
+  animation: glitch 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+}
+
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-5px, 5px);
+  }
+  40% {
+    transform: translate(-5px, -5px);
+  }
+  60% {
+    transform: translate(5px, 5px);
+  }
+  80% {
+    transform: translate(5px, -5px);
+  }
+  to {
+    transform: translate(0);
+  }
+}
+.prev-next-page {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.arrow {
+  width: 24%;
+  margin: 2%;
+}
+
+.arrow-prev {
+  transform: scaleX(-1);
+}
+
+.moulage-overview {
+  margin: -8% 7% -2% 0;
+}
+.moulage-overview img {
+  width: 90%;
+  height: auto;
+}
+
+.moulage-grid {
+  max-width: 95vw;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  filter: grayscale(1);
+  transform: skew(-7deg, -7deg);
+}
+.moulage-grid img {
+  display: flex;
+  align-self: flex-start;
+  width: 19%;
+  padding: 1%;
+  margin: 2%;
+  background: white;
+}
+.moulage-grid img:hover, .moulage-grid img:focus {
+  transform: scale(1.25);
+  box-shadow: 5px 10px 10px darkgrey;
+}
+
+#moulage-grid-container2 {
+  margin: -12%;
+}
+
+.moulage-group-container {
+  position: relative;
+}
+.moulage-group-container .moulage-hover-img {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.moulage-group-container .moulage-hover {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40%;
+  height: 50%;
+  cursor: pointer;
+}
+.moulage-group-container .moulage-hover:hover .moulage-hover-img, .moulage-group-container .moulage-hover:focus .moulage-hover-img {
+  display: block;
+}
+
+.portfolio-page2 section h2,
+.portfolio-page2 section h3 {
+  font-family: "Stalinist One", cursive;
+}
+.portfolio-page2 section h3 {
+  font-size: 10vw;
+}
+.portfolio-page2 .datamosh .image-grid {
+  max-width: 100vw;
+}
+.portfolio-page2 .datamosh .image-grid img {
+  width: 20%;
+}
+
+.color .tap {
+  position: absolute;
+  width: 20vw;
+  top: 18%;
+  right: -7%;
+  filter: drop-shadow(8px 6px 10px black);
+}
+.color .tap img {
+  width: 100%;
+  transform: rotate(150deg);
+  height: auto;
+}
+
+.prints-text {
+  position: absolute;
+  width: 100vw;
+  top: -24%;
+}
+.prints-text img {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-page3 .title-designs {
+  background: url("../img/portfolio/backgrounds/designs-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 19% 0;
+  filter: invert(1) grayscale(1);
+}
+.portfolio-page3 section h2 {
+  font-size: 10vw;
+  color: white;
+  font-family: "Stalinist One", cursive;
+  text-shadow: 13px 9px 19px #090909;
+}
+
+.portfolio-page4 header a {
+  color: white;
+}
+.portfolio-page4 .show-pictures-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.portfolio-page4 .show-pictures-wrapper div {
+  width: 30%;
+  padding: 2%;
+}
+.portfolio-page4 .try-again {
+  margin: 5% 0;
+}
+.portfolio-page4 .try-again a {
+  font-size: 24px;
+}
+.portfolio-page4 .try-again a:hover,
+.portfolio-page4 .try-again a:focus {
+  color: black;
+}
+
+.show-looks {
+  width: 100vw;
+}
+.show-looks .subtitle {
+  margin: 0 2%;
+}
+.show-looks .show-look img {
+  width: 100%;
+}
+
+.phone-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.phone {
+  width: 40vw;
+  position: relative;
+}
+.phone .phone-base img {
+  width: 100%;
+}
+.phone .phone-button,
+.phone .phone-button0 {
+  position: absolute;
+  padding: 1.8vw;
+  z-index: 20;
+}
+.phone .phone-button:hover, .phone .phone-button:focus,
+.phone .phone-button0:hover,
+.phone .phone-button0:focus {
+  cursor: pointer;
+}
+.phone #phone-button1 {
+  top: 12vw;
+  left: 20.5vw;
+}
+.phone #phone-button2 {
+  top: 12vw;
+  left: 24vw;
+}
+.phone #phone-button3 {
+  top: 11vw;
+  left: 27vw;
+}
+.phone #phone-button4 {
+  top: 15.5vw;
+  left: 21.5vw;
+}
+.phone #phone-button5 {
+  top: 15vw;
+  left: 25.5vw;
+}
+.phone #phone-button6 {
+  top: 14.5vw;
+  left: 29vw;
+}
+.phone #phone-button7 {
+  top: 19vw;
+  left: 23vw;
+}
+.phone #phone-button8 {
+  top: 18.5vw;
+  left: 26.5vw;
+}
+.phone #phone-button9 {
+  top: 18vw;
+  left: 30vw;
+}
+.phone #phone-button10 {
+  top: 22vw;
+  left: 25vw;
+}
+.phone #phone-button11 {
+  top: 22vw;
+  left: 28vw;
+}
+.phone #phone-button12 {
+  top: 21.5vw;
+  left: 31.5vw;
+}
+.phone #phone-button13 {
+  top: 25vw;
+  left: 26vw;
+  padding-right: 8vw;
+}
+
+@keyframes flicker {
+  0% {
+    transform: opacity(0.3);
+  }
+  20% {
+    transform: opacity(0.7);
+  }
+  60% {
+    transform: opacity(1);
+  }
+  100% {
+    transform: opacity(0.5);
+  }
+}
+@keyframes blur {
+  0% {
+    filter: blur(1px) grayscale(0.5);
+  }
+  100% {
+    filter: blur(30px) grayscale(1);
+  }
+}
+@keyframes unblur {
+  0% {
+    filter: blur(30px);
+  }
+  100% {
+    filter: blur(0);
+  }
+}
+@keyframes blur-flicker {
+  0% {
+    filter: blur(1px);
+  }
+  40% {
+    filter: blur(1px);
+  }
+  50% {
+    filter: blur(2px);
+  }
+  55% {
+    filter: blur(1px);
+  }
+  70% {
+    filter: blur(1px);
+  }
+  75% {
+    filter: blur(2px);
+  }
+  85% {
+    filter: blur(1px);
+  }
+}
+@keyframes expand {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(12) rotate(180deg);
+  }
+}
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 32px;
+  }
+
+  section h2 {
+    font-size: 15vw;
+  }
+
+  .portfolio-page3 section h2 {
+    font-size: 10vw;
+  }
+
+  h4.subtitle {
+    font-size: 30px;
+  }
+
+  .look__wrapper {
+    flex-flow: column nowrap;
+  }
+  .look__wrapper .look__specs,
+.look__wrapper .look__illustration {
+    width: 70%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .page4 {
+    background-attachment: initial;
+  }
+
+  .color {
+    height: 90vh;
+  }
+  .color .color-background {
+    height: 100%;
+  }
+  .color .color-wrapper img {
+    width: 26%;
+    margin: 3%;
+  }
+
+  .look__text {
+    width: 100%;
+  }
+  .look__text div {
+    display: none;
+  }
+  .look__text p {
+    width: 100%;
+    margin: 6% 0 4%;
+  }
+
+  .even {
+    flex-flow: column nowrap;
+  }
+
+  .prints h5 {
+    display: block;
+  }
+  .prints .image-grid {
+    min-height: 100vh;
+  }
+  .prints .image-grid img {
+    width: 50%;
+  }
+  .prints .image-grid .prints-text {
+    display: block;
+    position: initial;
+    top: 0;
+  }
+  .prints .image-grid .prints-text img {
+    width: 100%;
+  }
+
+  .moulage3 .scene {
+    width: 90%;
+    margin: 3% auto;
+  }
+
+  .phone {
+    transform: scale(2.5);
+  }
+
+  section.phone-wrapper {
+    margin: 32% 0 0;
+  }
+  section.phone-wrapper h5 {
+    margin: 30% 2% 0;
+  }
+
+  section.moulages2 video {
+    width: 40%;
+    padding: 5%;
+  }
+}
+@media screen and (max-width: 321px) {
+  h2,
+.page1 h3 {
+    font-size: 24px;
+  }
+
+  section h2 {
+    font-size: 15vw;
+  }
+
+  .portfolio-page3 section h2 {
+    font-size: 10vw;
+  }
+}
+
+/*# sourceMappingURL=portfolio-new.css.map */

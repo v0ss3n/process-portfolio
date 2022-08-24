@@ -1,0 +1,33 @@
+I"k<h1 id="soldering-el-wire">Soldering EL Wire</h1>
+<p>The EL wire on one of the garments from my graduation collection stopped working, so I wanted to fix this. Previously every time a wire stopped working it stopped working halfway through the wire (the phosphor coating on one of the wires probably wore down in those places because of too much bending) and in those cases I had to replace the whole wire since otherwise the fix would be very visible. This time however the wire did not work at all so it had to be a short circuit or a disconnected wire at the beginning of the wire, where it was connected to the battery pack. I am following <a href="https://www.instructables.com/id/How-to-Solder-EL-Electroluminescent-Wire/">this tutorial</a>.</p>
+
+<h2 id="step-1-disconnecting-wire-from-battery-pack">Step 1: disconnecting wire from battery pack</h2>
+<p>Since my EL wire was still connected to the batteries I first had to disconnect them. This was done by removing the heat-shrink tube and a bit of pulling. I noticed one of the wire was disconnected entirely so I suspect that was my issue.
+<img src="/images/misc/elwire1.JPG" alt="" /></p>
+
+<h2 id="step-2-stripping-the-wires">Step 2: stripping the wires</h2>
+<p>There are two angel wires inside the PVC sleeves. To expose you have to carefully strip the sleeve: first the outer colored one, then the thinner, clear one. Make sure to pick the correct wire cutter so you don’t cut through the angel wires; it took me four tries before I managed to expose both without damaging the phosphor coating on the thicker wire. 
+<img src="/images/misc/elwire2.JPG" alt="" />
+<img src="/images/misc/elwire3.JPG" alt="" /></p>
+
+<h2 id="step-3-testing-wire">Step 3: testing wire</h2>
+<p>Before you start soldering, first test whether your wire actually works when properly connected to a battery pack. Use a plier for this (and don’t shock yourself like I did). The wire lit up so I could continue.</p>
+
+<h2 id="step-4-adding-heat-shrink-tube">Step 4: adding heat-shrink tube</h2>
+<p>Add the heat-shrink tube so the wires cannot touch each other when soldered.
+<img src="/images/misc/elwire5.JPG" alt="" /></p>
+
+<h2 id="step-5-attaching-the-battery-pack">Step 5: attaching the battery pack</h2>
+<p>Connect the wires by soldering them. It doesn’t matter which wires you connect as long as they do not touch each other. 
+<img src="/images/misc/elwire6.JPG" alt="" />
+Shrink the heat-shrink tube.
+<img src="/images/misc/elwire7.JPG" alt="" />
+<img src="/images/misc/elwire8.JPG" alt="" /></p>
+
+<h2 id="step-5-testing-again">Step 5: testing again</h2>
+<p>So this is where I am stuck now as after soldering the wire suddenly did not work anymore and I have no clue why. TO BE CONTINUED</p>
+
+<ul>
+  <li><a href="https://www.instructables.com/id/How-to-Solder-EL-Electroluminescent-Wire/">https://www.instructables.com/id/How-to-Solder-EL-Electroluminescent-Wire/</a></li>
+</ul>
+:ET

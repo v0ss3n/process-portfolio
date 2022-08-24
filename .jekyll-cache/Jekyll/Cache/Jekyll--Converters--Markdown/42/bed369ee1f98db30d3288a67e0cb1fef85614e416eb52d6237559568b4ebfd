@@ -1,0 +1,23 @@
+I"p<h1 id="open-source-software-overview">Open source software overview</h1>
+<p>A list of open source software that I like to use.</p>
+
+<h2 id="writing">Writing</h2>
+<ul>
+  <li><a href="https://code.visualstudio.com/">Visual Studio Code</a>: open source code editor</li>
+  <li><a href="https://hundredrabbits.itch.io/left">Left</a>: simple plaintext editor</li>
+  <li><a href="https://www.openoffice.org/">OpenOffice</a>: Apache OpenOffice replacing Microsoft Office</li>
+</ul>
+
+<h2 id="web-development">Web Development</h2>
+<ul>
+  <li>
+    <p><a href="https://jekyllrb.com/">Jekyll</a>: in combination with markdown, this website is generated with Jekyll</p>
+  </li>
+  <li>
+    <p><a href="https://www.zint.org.uk/">Zint Barcode Studio</a>: to create QR codes and other codes</p>
+  </li>
+  <li>
+    <p><a href="https://www.festi.info/boxes.py/">Box generators</a></p>
+  </li>
+</ul>
+:ET

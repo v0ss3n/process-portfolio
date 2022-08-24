@@ -1,0 +1,28 @@
+I"_<h1 id="lasercut-lace">Lasercut lace</h1>
+<p>I am hiding visually encrypted images in double layered lace. For more information on the process, go to <a href="\textilelab\2019\11\01\3d-printing-experiments-on-fabric-(visual-cryptography).html">this page</a>).</p>
+
+<h2 id="process">Process</h2>
+<ul>
+  <li>Use the python script (described on the page linked to above) on the image you want
+    <blockquote>
+      <p>Make sure the output images can be scaled up enough so you can add a grid on top</p>
+    </blockquote>
+  </li>
+  <li>Draw a rectangular grid on top of the two output images in Illustrator (click and hold the Line Segment tool and select the Rectangular Grid tool)
+    <blockquote>
+      <p>The amount of lines needed is the start size of the output images (amount of pixels horizontally and vertically) minus 1</p>
+    </blockquote>
+  </li>
+  <li>Export as PDF to get a clear export (all other options become blurry)</li>
+  <li>Make a bitmap of the PDF in Photoshop (threshold 50%)</li>
+  <li>Set the lasercutter to engrave but make sure that the laser actually cuts through the material by decreasing the speed and/or increasing the power</li>
+</ul>
+
+<p><img src="/images/textilelab/vsc.gif" alt="" /></p>
+
+<div class="row-2">
+  <p><img src="/images/textilelab/vsc-textile5.jpg" alt="" />
+<img src="/images/textilelab/vsc-textile6.jpg" alt="" /></p>
+</div>
+
+:ET

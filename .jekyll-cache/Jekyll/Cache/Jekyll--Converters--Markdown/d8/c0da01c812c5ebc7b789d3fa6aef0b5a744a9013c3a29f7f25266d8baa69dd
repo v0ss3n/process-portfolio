@@ -1,0 +1,71 @@
+I"<h1 id="bioplastic-gemstones">Bioplastic gemstones</h1>
+
+<h2 id="gelatine-bioplastics-with-3d-prints">Gelatine bioplastics with 3d prints</h2>
+<p>This project is about looking for alternatives to gemstones. The industries surrounding ‘healing stones’ is full of shady business.</p>
+
+<blockquote>
+  <p>“However, even beyond their promises of “good vibes” straight from Mother Nature, these gemstones could be having a negative effect on the environment and local communities. As reported by The Guardian, many “healing crystals” – whether it’s opals or quartz, tourmaline or amethyst – originate from a murky supply chain that starts in conflict-struck countries with lax labor laws and environmental regulations. The industry is largely unregulated in impoverished areas, riddled with violent military groups, and bolstered up by underpaid miners working in dangerous conditions.” <a href="https://www.iflscience.com/environment/healing-crystals-bring-bad-vibes-for-the-environment-and-local-communities-/">source</a></p>
+</blockquote>
+
+<blockquote>
+  <p>“But while it’s claimed crystals help people harness the energy of the earth, the more they are mined, the more that earth is suffering. Here is the dirty truth of crystals, and it’s not simply that their efficacy as healing objects is unproven. It’s that, as Emily Atkin at The New Republic reported last year, their origins are murky, and their environmental impact worrying. Much like diamonds, crystal mining is an industry buried in conflict. There are issues around sustainability: crystals are a non-renewable resource. There are issues around labour: most jobs are low paid, unsafe, and sometimes performed by underage workers. And there is an issue around accountability: the industry is unregulated, allowing exploitation to go unchecked.” <a href="https://www.theguardian.com/global/2019/jun/16/are-crystals-the-new-blood-diamonds-the-truth-about-muky-business-of-healing-stones">source</a></p>
+</blockquote>
+
+<p>I wanted to add 3d printed objects to bioplastic to create amber-like bioplastic gemstones: instead of a million year old insect, you can add a 3d printed figure (or insect), creating a 100% biodegradable (when using PLA to print) gemstone with little environmental impact.</p>
+
+<p>The recipes I used are the <a href="/wetlab/2019/12/03/gelatine-bioplastics-experiments.html">gelatine</a> and <a href="/wetlab/2019/12/04/agar-bioplastics-experiments.html">agar</a> bioplastic and biosilicone recipes I used before but with different natural dyes (campeche for the pink ones and seaweed powder for the green ones). I used aluminium foil to mimic the texture of raw minerals but I plan to make molds of existing stones.</p>
+
+<h2 id="notes">Notes</h2>
+<ul>
+  <li>If you want to use aluminium foil as a mold, you have to peel it off when the bioplastic is still flexible and moist, otherwise it will stick to the foil (being extremely careful). I want to try using silicone spray to see if it’s easier to peel it off when the plastic has dried because it’s just not possible.</li>
+  <li>Be quick with adding the 3d printed objects. When making stones you can wait for a bit so that the object doesn’t sink to the bottom immediately but this is mostly guesswork.</li>
+</ul>
+
+<h3 id="3d-prints-in-bioplastics">3d prints in bioplastics</h3>
+<p><img src="/images/wetlab/bioplastic-3dprint.jpg" alt="bioplastic and 3d print process" /></p>
+
+<p>I also did some tests with 3d prints in a petridish with biosilicone and bioresin as seen in the process images above. When fully dried they look like this (note how the shape has changed because of the water evaporation):</p>
+
+<div class="row-3">
+  <p><img src="/images/wetlab/bioplastic-3dprint-1.jpg" alt="" />
+<img src="/images/wetlab/bioplastic-3dprint-2.jpg" alt="" />
+<img src="/images/wetlab/bioplastic-3dprint-3.jpg" alt="" /></p>
+</div>
+
+<p>It’s pretty much impossible to get rid of the aluminium foil once the bioplastic is completely dry. I tried peeling it off here but at some point I gave up because as soon as I had a piece of foil it tore off.</p>
+
+<div class="row-2">
+  <p><img src="/images/wetlab/bioplastic-3dprint-4.jpg" alt="" />
+<img src="/images/wetlab/bioplastic-3dprint-5.jpg" alt="" /></p>
+</div>
+
+<h3 id="creating-gemstones">Creating gemstones</h3>
+<p>Drying the gemstones. These were mostly peeled off parts from the aluminium foil that broke, but creating nice natural gemstone shapes. The ones in the top left corner are agar bioplastic with seaweed powder for the color.</p>
+
+<p><img src="/images/wetlab/bioplastic-gemstones.jpg" alt="bioplastic and 3d print process" /></p>
+
+<p>Below the dried results (the images on the left are agar bioplastic, the others are gelatine based):</p>
+
+<div class="row-3">
+  <p><img src="/images/wetlab/agar-gem2.jpg" alt="" />
+<img src="/images/wetlab/bioplastic-gemstones-2.jpg" alt="bioplastic gemstones" />
+<img src="/images/wetlab/bioplastic-gemstones-3.jpg" alt="bioplastic gemstones" /></p>
+</div>
+<div class="row-4">
+  <p><img src="/images/wetlab/agar-gem.jpg" alt="" />
+<img src="/images/wetlab/bioplastic-3dprint-6.jpg" alt="" />
+<img src="/images/wetlab/bioplastic-3dprint-8.jpg" alt="" />
+<img src="/images/wetlab/bioplastic-3dprint-7.jpg" alt="" /></p>
+</div>
+
+<p>Fully dried gemstone collection:</p>
+
+<p><img src="/images/wetlab/bioplastic-gemstones-1.jpg" alt="bioplastic gemstones" /></p>
+
+<h2 id="sources">Sources</h2>
+<ul>
+  <li><a href="https://www.theguardian.com/global/2019/jun/16/are-crystals-the-new-blood-diamonds-the-truth-about-muky-business-of-healing-stones">https://www.theguardian.com/global/2019/jun/16/are-crystals-the-new-blood-diamonds-the-truth-about-muky-business-of-healing-stones</a></li>
+  <li><a href="https://www.iflscience.com/environment/healing-crystals-bring-bad-vibes-for-the-environment-and-local-communities-/">https://www.iflscience.com/environment/healing-crystals-bring-bad-vibes-for-the-environment-and-local-communities-/</a></li>
+  <li><a href="https://globalnews.ca/news/4571806/burmese-ruby-genocide-gem-myanmar/">https://globalnews.ca/news/4571806/burmese-ruby-genocide-gem-myanmar/</a></li>
+</ul>
+:ET

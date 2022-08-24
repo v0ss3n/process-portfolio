@@ -1,0 +1,79 @@
+I"<h1 id="working-with-an-elegoo-resin-printer">Working with an Elegoo resin printer</h1>
+<p>We have the <a href="https://www.elegoo.com/products/elegoo-mars-3-lcd-3d-printer">Elegoo Mars 3 Ultra 4K mono LCD printer</a> and the <a href="https://www.elegoo.com/products/washing-and-curing-station-v2-0">Elegoo Mercury Plus 2 in 1 washing and curing station 2.0</a>. It has a 6.6-inch ultra-4K high-resolution monochrome LCD, an upgraded COB UV light source structure, and a new release film 2.0 for printing. For slicing we use <a href="https://www.chitubox.com/en/download/chitubox-free">Chitubox Free</a>.</p>
+
+<p>How to set up the machine:</p>
+
+<ol>
+  <li>
+    <p>Leveling the build plate: unscrew the two bolts holding the build platform. Turn on the machine and use two sheets of paper (2 pages from the information booklet) to level the bed (<a href="https://www.elegoo.com/blogs/3d-printer-user-guide/elegoo-mars-pro-level-the-build-plate">source</a>). Press “Tool” &gt; “Manual” &gt; “Home” and wait for the Z axis to go down and stop. Adjust Z axis if there is too much or too little resistance. When tightening the bolts, make sure to first tighten the front bolt and then the right side bolt. You don’t have to do this every time, once it’s set it should be fine for a while. After leveling is complete, set the current Z axis as the first layer for printing.</p>
+
+    <div class="row-2">
+      <p><img src="/images/fablab/resin_printing/IMG_3021.JPEG" alt="" />
+ <img src="/images/fablab/resin_printing/IMG_3022.JPEG" alt="" /></p>
+    </div>
+    <div class="row-3">
+      <p><img src="/images/fablab/resin_printing/IMG_3024.JPEG" alt="" />
+ <img src="/images/fablab/resin_printing/IMG_3025.JPEG" alt="" />
+ <img src="/images/fablab/resin_printing/IMG_3027.JPEG" alt="" /></p>
+    </div>
+  </li>
+  <li>Put on gloves and a mask!</li>
+  <li>Pour resin in the tray:
+ <img src="/images/fablab/resin_printing/resin_pouring.gif" alt="" />
+    <div class="row-2">
+      <p><img src="/images/fablab/resin_printing/IMG_3029.JPEG" alt="" />
+ <img src="/images/fablab/resin_printing/IMG_3030.JPEG" alt="" /></p>
+    </div>
+  </li>
+  <li>Insert USB with your sliced model, press print then the play button:
+    <div class="row-3">
+      <p><img src="/images/fablab/resin_printing/IMG_3032.JPEG" alt="" />
+ <img src="/images/fablab/resin_printing/IMG_3033.JPEG" alt="" />
+ <img src="/images/fablab/resin_printing/IMG_3034.JPEG" alt="" /></p>
+    </div>
+  </li>
+  <li>Place the mini air purifiers (we have <a href="https://www.amazon.com/ELEGOO-Purifier-Activated-Universal-Printer%EF%BC%88Pack/dp/B086277CNQ">these</a>) on both sides next to the Z axis; don’t forget to turn them on. Then put the lid on the machine.
+    <div class="row-2">
+      <p><img src="/images/fablab/resin_printing/IMG_3036.JPEG" alt="" />
+ <img src="/images/fablab/resin_printing/IMG_3037.JPEG" alt="" /></p>
+    </div>
+    <video width="480" height="300" controls="">
+ <source src="/images/fablab/resin_printing/setting_up_machine.MP4" type="video/mp4" />
+ </video>
+  </li>
+  <li>For the first couple of layers you can’t see anything since the print is still submerged in the resin. You can see on the screen what layer is being printed. If you want to check on your model you can pause the print, which will lift the build plate so you can see what’s been printed so far.</li>
+  <li>Once the print is done, you can take off the entire build plate including your print and submerge it in alcohol isopropyl in a container for the Mercury Plus. This is to wash everything; the tutorial I’m following says to take off the model before doing this to wash it separately, but submerging everything is the way Henk showed me. With bigger models it’s probably best to take the model off first. Place the entire container on the plate of the Mercury, set mode to water rotation (the icon with the two rotating droplets) and set the time to 5 minutes.
+    <div class="row-2">
+      <p><img src="/images/fablab/resin_printing/IMG_3041.JPEG" alt="" />
+ <img src="/images/fablab/resin_printing/IMG_3042.JPEG" alt="" /></p>
+    </div>
+    <div class="row-3">
+      <p><img src="/images/fablab/resin_printing/reveal1.gif" alt="" />
+ <img src="/images/fablab/resin_printing/IMG_3047.JPEG" alt="" />
+ <img src="/images/fablab/resin_printing/IMG_3048.JPEG" alt="" /></p>
+    </div>
+
+    <p>Removing the print:</p>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/j0kLRpEyT7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  </li>
+  <li>After the model has dried it’s time to cure the model. For this we also use the Mercury. Set mode to UV (light symbol) and time to 5 minutes.
+ <img src="/images/fablab/resin_printing/IMG_3093.JPEG" alt="" /></li>
+  <li>Pour leftover resin back into the bottle. For pouring the resin you have to use a filter. It’s probably going to get messy so put some paper on your working area.
+    <video width="480" height="300" controls="">
+ <source src="/images/fablab/resin_printing/filtering leftover resin.MP4" type="video/mp4" />
+ </video>
+  </li>
+  <li>Clean the tray with alcohol (wipes work pretty well). You can also cure the material and then peel it off but this is not really recommended I think.
+    <div class="row-3">
+      <p><img src="/images/fablab/resin_printing/IMG_3099.JPEG" alt="" />
+<img src="/images/fablab/resin_printing/IMG_3101.JPEG" alt="" />
+<img src="/images/fablab/resin_printing/IMG_3102.JPEG" alt="" /></p>
+    </div>
+  </li>
+</ol>
+
+<h2 id="sources">Sources</h2>
+<ul>
+  <li><a href="https://www.myminifactory.com/blog/beginners-guide-to-3d-printing-featuring-the-elegoo-mars-pro">https://www.myminifactory.com/blog/beginners-guide-to-3d-printing-featuring-the-elegoo-mars-pro</a></li>
+</ul>
+:ET

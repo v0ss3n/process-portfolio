@@ -1,0 +1,142 @@
+I"�<h1 id="blender-notes">Blender notes</h1>
+<ul>
+  <li>Middle mouse button: orbit</li>
+  <li>Shift + middle mouse button: pan</li>
+  <li>Scroll: zoom</li>
+  <li>4 windows visible in standard view</li>
+  <li>Use numbers (i.e. 01) in the file name while saving and Blender will recognize that with the plus and minus button after that</li>
+  <li>Emulate numpad to control view with the numbers on a laptop without a numpad</li>
+</ul>
+
+<p><img src="/images/misc/blender/1.jpg" alt="" /></p>
+
+<ul>
+  <li>G: grab</li>
+  <li>R: rotate</li>
+  <li>S: scale</li>
+  <li>Blender knows where your mouse is (in what window; so make sure you’re in the right window)</li>
+  <li>Tab to switch between object and edit mode</li>
+  <li>H to hide (first select), alt + H to show again</li>
+  <li>F3 to search commands; for instance if you mess up the mesh select all vertices &amp; look for ‘merge by distance’</li>
+  <li>When starting with a plane and adding vertices, when you select 3 or more vertices and press f you turn it into a face</li>
+  <li>O: proportional editing, select what you want and click O &amp; you get a circle of influence (change with scroll wheel)</li>
+</ul>
+
+<h2 id="modeling-a-cow-workshop">Modeling a cow workshop</h2>
+<ul>
+  <li>Start with the image of the front, drag and drop on the correct view, so first press 1 to enter</li>
+</ul>
+
+<p><img src="/images/misc/blender/2.jpg" alt="" /></p>
+
+<ul>
+  <li>Same for right side image (3 for right side)</li>
+</ul>
+
+<p><img src="/images/misc/blender/3.jpg" alt="" /></p>
+
+<ul>
+  <li>Begin with rough shapes, then subdivide surfaces and add more and more details. We start with a cube for the body.</li>
+</ul>
+
+<p><img src="/images/misc/blender/4.jpg" alt="" /></p>
+
+<ul>
+  <li>Press Z then select the view you want</li>
+</ul>
+
+<p><img src="/images/misc/blender/5.jpg" alt="" /></p>
+
+<ul>
+  <li>Edit mode, press 3 then ctrl+r and hover over the edges of the body cube and divide the body in 3 parts. Then same for the front.</li>
+</ul>
+
+<div class="row-2">
+  <p><img src="/images/misc/blender/6.jpg" alt="" />
+<img src="/images/misc/blender/7.jpg" alt="" /></p>
+</div>
+
+<p>Select modes: vertex, edge, face.</p>
+<div class="row-3">
+  <p><img src="/images/misc/blender/8.jpg" alt="" /></p>
+</div>
+
+<p>Select four faces and then press E (extrude) to extrude the legs; continue with head.</p>
+
+<p><img src="/images/misc/blender/9.jpg" alt="" /></p>
+
+<p>Then go to object mode, hide the images and add the modifier ‘Subdivision Surface’.</p>
+
+<p><img src="/images/misc/blender/10.jpg" alt="" /></p>
+
+<p>This is with 3 levels of subdivision:</p>
+
+<p><img src="/images/misc/blender/10.jpg" alt="" /></p>
+
+<p>Then right click and shade smooth:</p>
+
+<p><img src="/images/misc/blender/11.jpg" alt="" /></p>
+
+<p>Now, we’re gonna go back to edit mode and add more realism to the shape.</p>
+
+<p><img src="/images/misc/blender/12.jpg" alt="" /></p>
+
+<p>Alt + click on an edge for loop select. Then G &gt; Z (to only move up and down) and move your mouse to move the looped edge (edge loops are very important! Especially in the face, google that). To put the edges on the same height: edit mode, 3, b (box select), select vertices (vertex mode), G &gt; Z &gt; 0 &gt; enter. This is a scale in the Z direction of zero.</p>
+
+<p><img src="/images/misc/blender/13.jpg" alt="" /></p>
+
+<p>Box select + G + middle mouse button: snaps to direction you drag it in. Make the face wider with G &gt; X.</p>
+
+<p><img src="/images/misc/blender/14.jpg" alt="" /></p>
+
+<p>Ctrl + R and double click: right in the middle. So with these tools you can already get pretty close to the actual shape of the cow.
+Now, we’re gonna delete half of the cow for symmetrical editing. Then we’re adding a mirror modifier.</p>
+
+<p><img src="/images/misc/blender/15.jpg" alt="" />
+<img src="/images/misc/blender/16.jpg" alt="" /></p>
+
+<p>K: knife, click where you wanna cut, hit enter when you’re done.</p>
+
+<div class="row-2">
+  <p><img src="/images/misc/blender/17.jpg" alt="" /></p>
+</div>
+
+<p>Other select options:
+C + scroll: make selection brush smaller/larger
+Ctrl + right click and drag for lasso</p>
+
+<p>Orbit options:
+Select vertex, hit the numpad . (I don’t have a numpad so I changed my shortcut to select vertex &gt; ;) to zoom to selected frame.</p>
+
+<p>Extrude/rotate/scale exact amount: E/R/S &gt; type number</p>
+
+<p>Remove unwanted faces:</p>
+
+<div class="row-2">
+  <p><img src="/images/misc/blender/19.jpg" alt="" />
+<img src="/images/misc/blender/20.jpg" alt="" /></p>
+</div>
+
+<p>Multiresolution: great for sculpting
+<img src="/images/misc/blender/18.jpg" alt="" /></p>
+
+<p>Sculpt: click and drag, remove: ctrl + click and drag. Smooth brush is a great one.</p>
+
+<h2 id="extruding-svgs">Extruding SVGs</h2>
+<ol>
+  <li>Import SVG</li>
+  <li>Select all &gt; CTRL + J (join) so separate curve objects become one</li>
+  <li>Scale if necessary</li>
+  <li>Convert to mesh</li>
+  <li>Go to edit mode (tab) &gt; modifiers and select solidify, then apply</li>
+  <li>Then add remesh modifier, I used the following settings:</li>
+</ol>
+
+<p><img src="/images/misc/blender/blender_remesh.jpg" alt="" /></p>
+
+<h2 id="links">Links</h2>
+<ul>
+  <li><a href="http://feadi.de/">http://feadi.de/</a>: Blender tutorial section</li>
+  <li><a href="https://www.youtube.com/watch?v=7ZDwMzjVBi0">https://www.youtube.com/watch?v=7ZDwMzjVBi0</a></li>
+</ul>
+:ET

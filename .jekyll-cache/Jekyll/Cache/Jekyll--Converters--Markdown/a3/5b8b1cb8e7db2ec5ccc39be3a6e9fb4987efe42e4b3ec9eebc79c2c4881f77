@@ -1,0 +1,159 @@
+I"J#<h1 id="electronics-design-notes">Electronics design notes</h1>
+<p>Assignment: design a board, make it and test it, programming it in 2 weeks (add button, LED, add a few components).
+You can use existing code to test the communication. To go straight to the KiCad documentation, click <a href="/fablab/fabacademy/2021/03/06/designing-pcbs-with-kicad.html">here</a>.</p>
+
+<h2 id="crash-course-into-components">Crash course into components</h2>
+<p>Wire</p>
+<ul>
+  <li>Ribbon cable: when you need a multi conductor cable and connectors that clip onto it; and we use it as hook-up wire (peel it off)</li>
+  <li>Awg (american wire gauge) wire current tables for information on your wires (diameter, resistance, current etc)</li>
+  <li>You need a wire that is thick enough for the current you’re carrying, otherwise it will overheat</li>
+  <li>Wire with solid core (low frequency) and wire with strands (high frequency)</li>
+</ul>
+
+<p>Button</p>
+<ul>
+  <li>Push button: when not pressed it’s open, it closes the circuit when pushed (2 legs on opposing sides)</li>
+  <li>Slide switch: stays where you leave it (open or closed), center conductor and 3 side conductors (used for on/off buttons often)</li>
+  <li>Resistor: specified by a resistance value (I = V / R). There is a current flowing through the resistor &gt; there’s voltage drop across the resistor, and the change in voltage equals current * value of the resistor (they have max. power that they can take before overheating, and tolerance for errors). We use resistors to control current (current limiting) most commonly, or for timing</li>
+</ul>
+
+<p>Capacitor</p>
+<ul>
+  <li>Capacitance (C = Q / V, V). There is charge on it; it stores charge, there is an electric field in it. The rate of change of the charge equals the current (Current is proportional to the rate of change of voltage for a capacitor). Vdot proportional to I</li>
+  <li>If the voltage is constant/steady, nothing goes through, but if the voltage changes quickly, something comes through &gt; AC goes through, DC is blocked</li>
+  <li>Farad is the unit, max. voltage is important to note</li>
+  <li>There is polarized (bit more complex, stores energy and can be used as an energy source to quickly charge for example a toy) and unpolarized capacitors (unpolarized are the ones we use)</li>
+  <li>A capacitor ‘cleans up’ noise in the voltage between power and ground</li>
+  <li>A bigger capacitor near your component stores a little bit of energy (acts as a battery) when you switch it on</li>
+</ul>
+
+<p>Crystals and resonators</p>
+<ul>
+  <li>A capacitor with a material on the inside, with voltage on it it flexes, like pushing a swing (oscillating)</li>
+  <li>Can be used to tell time</li>
+  <li>Unit is frequency</li>
+  <li>Internal clocks in processors are now good enough to use for most purposes, only need to use them if timing is very precise</li>
+  <li>Resonators are cheaper</li>
+</ul>
+
+<p>Inductors</p>
+<ul>
+  <li>V = L * Idot</li>
+  <li>DC goes through, AC is blocked</li>
+  <li>Blocks high frequency noise</li>
+  <li>Inductors and capacitors can oscillate together, for filters or interfacing radios</li>
+  <li>Less used compared to other components</li>
+</ul>
+
+<p>Diode</p>
+<ul>
+  <li>2 sides, anode and cathode, a &gt; c</li>
+  <li>Can use it to block a signal (or stop you from frying your board if you connect it the wrong way I think)</li>
+  <li>Diode drop &gt; prevents current from going backward</li>
+  <li>In the forward direction: past the diode drop it’s essentially a perfect conductor</li>
+  <li>The dent/dot/etc is always the cathode side</li>
+  <li>You can use a Zener diode to clamp a voltage (when you don’t want it to go above a certain voltage)</li>
+  <li>LED is a diode (always check the spec sheets for brightness, color, max voltage etc, you need a resistor for this weeks assignment, typically 1kOhm otherwise you could literally blow up the LED)</li>
+</ul>
+
+<p>Mosfet (transistor)</p>
+<ul>
+  <li>Gate, drain and source</li>
+  <li>Parameters we care about: max. current it can handle, rbs (resistance between drain and source, you can look at the graphs for this)</li>
+  <li>You can loosely think of this as a switch (it’s actually continuous), as you vary the gate voltage, the gate is controlling the value of the resistance between source and drain; generally all the way on or off and then turns on and off quickly (with intermediate values you dissipate power &gt; HEAT)</li>
+</ul>
+
+<p>Power supply</p>
+<ul>
+  <li>Batteries or</li>
+  <li>You need regulators to work with the processors (to go from X Volt to for example 5 Volt). You need a difference to regulate! Otherwise the regulator doesn’t have anything to regulate. You always need the output one</li>
+</ul>
+
+<p>Op-amp</p>
+<ul>
+  <li>Output is (input * output) * huge multiplier (a million or something), to amplify a signal</li>
+  <li>Spectacular specs</li>
+  <li>Neil loves them</li>
+  <li>Microcontrollers we use have them built right into them so we usually don’t need a separate one</li>
+  <li>You could use them to interface to a microphone, or if you need very sensitive filters (you could also make software filters if it’s not that sensitive)</li>
+</ul>
+
+<p>Microcontroller</p>
+<ul>
+  <li>Basically a small computer</li>
+  <li>Example of integrated circuits (all the components are hidden inside)</li>
+  <li>Designed to perform a predefined task (you give input, the controller gives an output) that you program it to do. It has no working memory so you can’t store anything on it, and there’s no operating system on it.</li>
+  <li>You need to understand the datasheets!!! Read them, there’s so much going on in a 1 dollar piece, it’s amazing</li>
+</ul>
+
+<h2 id="designing-circuits">Designing circuits</h2>
+<ul>
+  <li>Kirchoff’s law: all your voltage going in has to go out (total is 0 unless you’re charging something)</li>
+  <li>Power = I^2 * R = I * V</li>
+</ul>
+
+<div class="row-2">
+  <p><img src="/images/fablab/kicad/power.jpg" alt="process of pcb designing with kicad" />
+<img src="/images/fablab/kicad/resistors.jpg" alt="process of pcb designing with kicad" /></p>
+</div>
+
+<ul>
+  <li>Wherever possible we want voltage drop to be low and resistance to be low (less heat)</li>
+  <li>EDA: electronic design automation</li>
+  <li>Designing PCB’s needs to be hierarchical and parametric (because of trace size, package size etc)</li>
+  <li>Footprints: the bits where you connect the components; they come from part libraries</li>
+  <li>Processor: dot goes on the little longer footprint to help with the orientation</li>
+  <li>Routing the traces (autotraces don’t always work for small circuits)</li>
+  <li>Simulate before you make it</li>
+  <li>Your design has to respect your machine’s design rules</li>
+  <li>You can also draw one by hand (nice to try out, not recommended)</li>
+  <li>Rat’s nest: not routed yet</li>
+</ul>
+
+<h2 id="pcb-design-tools">PCB Design Tools</h2>
+<ul>
+  <li>Fritzing, TinkerCad, Virtual Breadboard: nice for learning but we’re not going to use them</li>
+  <li>LibreCad, EasyEDA: options, open source</li>
+  <li>Eagle: also good option, great integration with Fusion360, however it’s not free and open source, but it’s integrated in Fusion360 license</li>
+  <li>KiCad (free, open source and cross platform): we are using this one</li>
+  <li>OrCad, Cadence (1 million dollars to set up the installation), Synopsis: higher end PCB design</li>
+  <li>Magic is an open source tool also with integrated circuits</li>
+</ul>
+
+<h2 id="kicad">Kicad</h2>
+<ul>
+  <li>Very powerful</li>
+  <li>A bunch of separate programs so that makes it harder to go back and change something</li>
+</ul>
+
+<ol>
+  <li>Wire up the resistor to the processor</li>
+  <li>Open the tool and tell the value of the resistor and which package for the processor we use</li>
+  <li>Produce net list: who is connected to whom</li>
+  <li>Open PCB tool, bring in net list</li>
+  <li>Start routing (takes quite some time): connect the components (push routing: helps with routing)</li>
+  <li>Edge cut: defining the boudary of the board (there’s a 3d viewer in KiCad)</li>
+  <li>Export layers (multiple formats available): we export images for mods (SVG, white is high and dark is low, so we have to invert the svg)</li>
+  <li>Mill it</li>
+</ol>
+
+<h2 id="libraries">Libraries</h2>
+<ul>
+  <li>Logical representation of components in libraries</li>
+  <li>Vendors want you to use their parts so they work on great library sources</li>
+  <li>Chris’s library for KiCad is current and great</li>
+</ul>
+
+<h2 id="simulators">Simulators</h2>
+<ul>
+  <li>There’s very expensive high end simulators for very expensive chips</li>
+  <li>
+    <p>Fahstad.com in browser simulation is really cool</p>
+  </li>
+  <li>Verilog: hardware description languages, expressing algoritmic relationships (not recommended for beginners)</li>
+  <li>PCB.py: functional representation</li>
+</ul>
+
+<p>Digital oscilloscope: logic analyzer, great tool for debugging, 300 dollar, looking at signals</p>
+:ET

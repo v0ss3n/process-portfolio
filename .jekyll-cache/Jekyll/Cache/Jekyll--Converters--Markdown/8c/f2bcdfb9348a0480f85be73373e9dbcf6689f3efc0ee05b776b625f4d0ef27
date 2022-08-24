@@ -1,0 +1,21 @@
+I"c<h1 id="preform-notes">Preform notes</h1>
+
+<h2 id="stereolithography-sla-vs-fused-deposit-modeling-fdm-printing">Stereolithography (SLA) vs Fused Deposit Modeling (FDM) printing</h2>
+<ul>
+  <li>Preform is the software for Formlab SLA printers</li>
+  <li>Design process is different from designing for FDM printing</li>
+  <li>Takes way longer than FDM but resolution is much better; there won’t be much time difference for 1 vs 5 objects</li>
+  <li>Software has a memory of where you’ve printed on the bed and changes the location each time as bed adhesion decreases</li>
+  <li>Resin costs a lot, the tray costs a lot so it’s not a great idea to place this printer in an open makerspace</li>
+  <li>Can take STL as input (obviously)</li>
+  <li>You can’t really change much in the software except for moving/rotating/support etc.</li>
+  <li>Magic wand: for the best tilting angle &amp; support</li>
+  <li>You don’t want any parallel surfaces</li>
+  <li>Support is cones that get smaller at the top, huge amount of material for bed adhesion and support, but don’t try to save material and decrease the support because in the end you can throw out the whole print</li>
+</ul>
+
+<h2 id="links">Links</h2>
+<ul>
+  <li><a href="https://formlabs.com/blog/fdm-vs-sla-compare-types-of-3d-printers/">https://formlabs.com/blog/fdm-vs-sla-compare-types-of-3d-printers/</a></li>
+</ul>
+:ET

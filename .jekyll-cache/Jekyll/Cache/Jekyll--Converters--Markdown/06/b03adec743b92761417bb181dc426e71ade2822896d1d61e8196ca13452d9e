@@ -1,0 +1,28 @@
+I"�	<h1 id="modeling-a-box-fusion360">Modeling a box (Fusion360)</h1>
+<p>Since my 3D printing samples on fabric were laying around everywhere, I wanted to make a box with a lid for them. This box was designed keeping the restrictions of a CNC milling machine in mind.</p>
+
+<p><img src="/images/fablab/cnc/plans.jpg" alt="Process of a box" /></p>
+
+<h2 id="process">Process</h2>
+<p>I first started to design the box in Illustrator, but I quickly realized that this required a lot of imagining what the box would look like. I switched to Fusion360 so I could actually see in 3D what I was doing. Since I didn’t have a lot of experience with Fusion360 and didn’t know where to start, I followed <a href="https://www.youtube.com/watch?v=5JZKSDSyP6g">this tutorial</a> (this is part one of four). You can skip the third and fourth video if you don’t need any rendering and just need to the plans for the CNC machine.</p>
+
+<p>To make a CAM layout I tired using the align tool recommended in <a href="https://www.youtube.com/watch?v=ZYj37I88-4g">this tutorial</a>. However, exporting the file as a dxf gave me a lot of issues so after that I projected all parts onto separate sketches.</p>
+
+<p>Tips:</p>
+<ul>
+  <li>Create variables from the beginning. I did not do that but halway through modeling I started to regret that. Then you can let the software calculate all of your distances instead of having to do it yourself.</li>
+  <li>Think about the paths you have to mill, VCarve Pro does not allow you to select separate paths so your vectors will have to be the path you want. I had to add extra outline paths because the paths I created in Fusion would have otherwise cut off my notches.</li>
+</ul>
+
+<p>Below my process of modeling the box.</p>
+
+<p><img src="/images/fablab/cnc/cncbox1.jpg" alt="Process of using Fusion360 to create a model of a box" /></p>
+
+<h2 id="tutorial-links">Tutorial links</h2>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=5JZKSDSyP6g">Part 1</a>: Modeling the box, bottom, and lid. Covers rabbets, grooves and miters.</li>
+  <li><a href="https://www.youtube.com/watch?v=Y9uqHgfwfIU">Part 2</a>: Adding splines to reinforce the miters, modeling the thumb grip, and making the lid open and close using joints in Fusion.</li>
+  <li><a href="https://youtu.be/2_egn8hmkss">Part 3</a> : Applying wood materials, selecting the best grain, and photorealistic rendering.</li>
+  <li><a href="https://youtu.be/NXVaGgvGfvM">Part 4</a>: Creating printable plans from the model.</li>
+</ul>
+:ET

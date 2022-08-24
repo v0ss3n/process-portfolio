@@ -1,0 +1,39 @@
+I"~<h1 id="creative-gcode-printing">Creative gcode printing</h1>
+
+<p>M82 ; absolute extrusion mode
+G21 ; set units to millimeters
+G90 ; use absolute positioning
+M82 ; absolute extrusion mode
+M104 S220 ; set extruder temp
+M109 S220 ; wait for extruder temp
+G28 W ; home all without mesh bed level
+G80 ; mesh bed leveling
+G1 F2100 E-0.8
+G1 X100.0 Y100.0 Z10.0
+G1 X100.0 Y100.0 Z10.0 E5.0</p>
+
+<h2 id="software">Software</h2>
+<ul>
+  <li>Pronterface (I downloaded it <a href="https://kliment.kapsi.fi/printrun/">here</a> after spending 2 hours trying to figure out why the precompiled version didn’t work and trying to rebuild it )</li>
+  <li>Processing</li>
+</ul>
+
+<p>With Pronterface you can send gcode directly to the printer. I tested this out with the following <a href="https://gist.github.com/celly/c4ea2ebc2957059c138e">code</a> (sending the commands individually to see if it worked).</p>
+
+<figure class="highlight"><pre><code class="language-gcode" data-lang="gcode">G90                         ; Explicitly force absolute positioning in case it was not reset previously.
+G28                         ; Home all axes.
+G29                         ; Auto-level the bed.
+G0 X0 Y0 Z0.15 F9000        ; Move to the front-left part of the bed.
+M109 S{print_temperature}   ; Set and wait for extruder temperature.
+G92 E0                      ; Zero the extruder.
+G1 X40 E25 F500             ; Extrude a fat line of filament to prime and clean the nozzle.
+G92 E0                      ; Zero the extruder.
+G1 E-1 F500                 ; Retract 1 mm.
+G1 X80 F9000                ; Sweep right to cut any strings.
+G1 Z0.3                     ; Raise the tip a little and begin printing.</code></pre></figure>
+
+<h2 id="links">Links</h2>
+<p><a href="https://marlinfw.org/docs/gcode/G000-G001.html">https://marlinfw.org/docs/gcode/G000-G001.html</a>
+<a href="https://fabacademy.org/2021/labs/agrilab/shared_workshop/CreativeGcode3Dprinting/">https://fabacademy.org/2021/labs/agrilab/shared_workshop/CreativeGcode3Dprinting/</a>
+<a href="http://www.codeplastic.com/2017/06/05/g-code-with-processing-part-1/">http://www.codeplastic.com/2017/06/05/g-code-with-processing-part-1/</a></p>
+:ET
