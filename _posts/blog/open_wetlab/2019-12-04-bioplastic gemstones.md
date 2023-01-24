@@ -1,8 +1,8 @@
 ---
 title: "Bioplastics gemstones"
 date: 2019-12-04T11:10:23+02:00
-tags: ["bioplastic", "experiment", "3d printing"]
-categories: ["blog", "wetlab"]
+tags: ["bioplastic", "experiment"]
+categories: ["wetlab"]
 layout: post
 ---
 # Bioplastic gemstones

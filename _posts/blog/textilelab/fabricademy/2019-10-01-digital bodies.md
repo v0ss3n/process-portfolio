@@ -99,6 +99,3 @@ Below are some process pictures as well as the assembled model (assembled follow
 ![model]({{ site.baseurl }}/images/fabricademy/mannequin1.jpg)
 ![model]({{ site.baseurl }}/images/fabricademy/mannequin2.jpg)
 </div>
-
-## Notes
-<a href="{{ site.baseurl }}/files/fabricademy_digital-bodies.txt" download="{{ site.baseurl }}/files/fabricademy_digital-bodies.txt">fabricademy_digital-bodies.txt</a>

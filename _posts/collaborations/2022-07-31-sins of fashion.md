@@ -8,6 +8,7 @@ meta:
 
 project:
   title: "Sins of Fashion"
+  type: "Fashion Film"
   logo: "/assets/images/projects/collaborations/fc21-7-thumb.jpg"
 
 images:

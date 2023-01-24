@@ -119,8 +119,3 @@ In information visualization and graphic design, Truchet tiles are square tiles 
 
 ## Links
 <https://en.wikipedia.org/wiki/Gallery_of_curves>
-
-## Files
-- <a href="{{ site.baseurl }}/files/grasshopperprint.stl" download="{{ site.baseurl }}/files/grasshopperprint.stl">grasshopperprint.stl</a>
-- <a href="{{ site.baseurl }}/files/patternmaking.gh" download="{{ site.baseurl }}/files/patternmaking.gh">patternmaking.gh</a>
-<!-- - <a href="{{ site.baseurl }}/files/truchet.gh" download="{{ site.baseurl }}/files/truchet.gh">truchet.gh</a> -->
