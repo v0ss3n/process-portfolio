@@ -8,7 +8,7 @@ meta:
 
 project:
   title: "3D Printing Overhang Tests"
-  logo: "/assets/images/projects/3D-printing/test3.gif"
+  logo: "/assets/images/projects/3d-printing/test3.gif"
 
 images:
   - image:
