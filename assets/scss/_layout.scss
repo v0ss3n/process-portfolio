@@ -1,6 +1,6 @@
 .container {
 	display: block;
-	max-width: 70em;
+	max-width: 80em;
 	padding: 0 3rem;
 	@include clearfix;
 }
@@ -188,7 +188,7 @@
 					}
 
 					li:hover img {
-						transform: scale(2.5);
+						transform: scale(2);
 						z-index: 1;
 						position: relative;
 					}
@@ -414,6 +414,10 @@ body {
 	// background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F2748823.jpg&f=1&nofb=1");
 	background-repeat: repeat;
 	background-size: 400px;
+}
+
+.about .container {
+	max-width: 70rem;
 }
 
 .blog .container {
