@@ -10,9 +10,10 @@
 <body>
 	{% include header.html %}
 	<main class="content blog">
-        <section class="project">
-            <div class="container">
-                <a href="{{ "/blog" | prepend: site.baseurl }}">Back to overview</a>
+        <section class="project container-blog">
+			{% toc %}
+			<div class="container container-content">
+				<a href="{{ "/blog" | prepend: site.baseurl }}" style="float:right;">Back to overview</a>
 					
 					{{ page.content }}
 

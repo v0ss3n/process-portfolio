@@ -2,6 +2,7 @@
 title: "Bioplastic coatings on fabrics"
 date: 2019-12-03T11:10:23+02:00
 tags: ["bioplastic", "textiles"]
+toc: true
 categories: ["blog", "wetlab", "textilelab"]
 layout: post
 ---

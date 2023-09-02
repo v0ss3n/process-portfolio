@@ -1,5 +1,5 @@
-.highlight { padding: 3rem; }
-.highlight, .highlight code { background-color: #282923; border: 0; border-radius: .3rem; color: #fff; }
+.highlight, .highlight code { background-color: #f2f2f2; border: 0; border-radius: .3rem; color: $color-black; overflow: auto}
+pre.highlight {max-height: 400px;}
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
 .highlight .k { color: #66d9ef } /* Keyword */

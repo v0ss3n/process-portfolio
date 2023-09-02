@@ -2,6 +2,7 @@
 title: "3d printing with filaflex"
 date: 2020-03-10T11:45:23+02:00
 tags: ["3d printing", "ultimaker", "experiment"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---
@@ -60,8 +61,7 @@ Once the retraction was fixed the biggest issue could be that my print is just o
 
 After cutting off the base of the model, the end result is a flexible wearable glove! I kept the strings (for now) as I thought they made the glove look like it came out of the sea.
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bIFBjH7_Uq0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
+</div>
 

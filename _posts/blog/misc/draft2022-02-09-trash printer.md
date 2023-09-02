@@ -2,6 +2,7 @@
 title: "Trash printer"
 date: 2022-02-09T11:10:23+02:00
 tags: ["recycling", "3d printing"]
+toc: true
 categories: ["blog", "fablab", "misc"]
 layout: post
 ---
@@ -36,7 +37,9 @@ Other things I want:
 ## Filament extrusion system
 The following video by Stefen from CNC Kitchen is a great starting point. 
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vqWwUx8l_Io" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 1. To recycle failed prints the parts have to be shredded first. This can be done with a modified paper shredder and/or with an old blender. 
 2. Everything has to be 5mm or less so print a sieve with 5mm wide gaps 

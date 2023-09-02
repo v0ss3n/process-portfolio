@@ -2,6 +2,7 @@
 title: "CNC Milling Machine (2D tutorial)"
 date: 2019-12-13T11:10:23+02:00
 tags: ["cnc", "vcarve pro", "tutorial"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---
@@ -97,8 +98,9 @@ The spindle speed can be adjusted with the buttons on the box below the machine.
 
 Keep your hand on the space bar for the first few minutes of milling to check if everything is going well.
 
-
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uwMBgrMycyE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ![Process of using the shopbot]({{ site.baseurl }}/images/fablab/cnc/cncbox2.jpg)
 

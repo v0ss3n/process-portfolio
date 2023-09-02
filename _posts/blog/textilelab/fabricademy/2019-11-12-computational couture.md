@@ -2,6 +2,7 @@
 title: "Fabricademy: computational couture (grasshopper)"
 date: 2019-11-12T14:53:46+02:00
 tags: ["lecture", "tutorial", "Grasshopper"]
+toc: true
 categories: ["blog", "textilelab", "fabricademy"]
 layout: post
 ---
@@ -21,15 +22,13 @@ If you've never worked with Rhinoceros before (like me) and you dive straight in
 >NURBS modeling is also widely used by professional animators and graphic artists. The advantage of using NURBS over using polygon modelers is that NURBS surfaces have no facets. The models can be rendered at any resolution. A mesh can be created from the model at any resolution.
 
 ## Grasshopper
-First: why use grasshopper? What makes parametric design so useful? The video on the left explains this; the video on the right is a good tutorial to start with.
+First: why use grasshopper? What makes parametric design so useful? The video at the top explains this; the video at the bottom is a good tutorial to start with.
 
-<div class="row-2--video">
-    <div class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/RMF9gSSTOts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <div class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Y66bSN4QFUE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+<div class="videowrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RMF9gSSTOts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="videowrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Y66bSN4QFUE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 Download all of the plugin linked to in the second video (in the description). If you don't see them in the grasshopper tab menu, they probably have to be unblocked; to do this for all files at once in the libraries folder you have to open powershell there and use the command: 
@@ -43,7 +42,9 @@ Download all of the plugin linked to in the second video (in the description). I
 
 Brickbox is used to manage Grasshopper snippets, so you can save combinations of blocks to import later in other files. When saving a snippet make sure to double click 'add new brick', check the checkbox and click done (I first thought it didn't work properly but the size of the dialog window is not right).
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Vgj-j4mZafY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Rightclicking input/output:
 - Reverse: reverses order of points > changes direction. You can also use the Reverse List tool
@@ -63,7 +64,9 @@ Rightclicking input/output:
 ## Parametric patterns
 Using Grasshopper to generate parametric patterns (great for fashion prints and 3d printed fabrics) is magical and the tutorial below is really helpful and beginner friendly.
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8aVYz3hZers" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ![unblock]({{ site.baseurl }}/images/fabricademy/grasshopper/patternmaking.png)
 
@@ -81,7 +84,9 @@ Truchet tiles are great for seemingly organic geometric pattern design.
 
 In information visualization and graphic design, Truchet tiles are square tiles decorated with patterns that are not rotationally symmetric. When placed in a square tiling of the plane, they can form varied patterns, and the orientation of each tile can be used to visualize information associated with the tile's position within the tiling. [via Wikipedia](https://en.wikipedia.org/wiki/Truchet_tiles)
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DIc7a2mectY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Notes
 - Rhino records every command you use in the command history window

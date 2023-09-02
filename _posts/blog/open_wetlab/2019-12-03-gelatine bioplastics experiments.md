@@ -2,6 +2,7 @@
 title: "Gelatine bioplastics experiments"
 date: 2019-12-03T11:10:23+02:00
 tags: ["bioplastic", "experiment"]
+toc: true
 categories: ["blog", "wetlab"]
 layout: post
 ---
@@ -17,7 +18,10 @@ First we ([Sarah](https://www.instagram.com/sarahdoorduin/) and I) tried the bio
 ![bioresin process]({{ site.baseurl }}/images/wetlab/bioresin-process.jpg)
 
 Here we added some blue food coloring to the mixture:
+
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8Xq_zS96FEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Here we mixed the bioresin with seaweed powder (made by Sarah from found seaweed on the beach):
 
@@ -55,7 +59,10 @@ Making bioplastic with seaweed:
 ![bioplastic and seaweed process]({{ site.baseurl }}/images/wetlab/bioplastic-seaweed.jpg)
 
 Bioplastic and seaweed sheet casting:
+
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aeJjNk9FiwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 After 24 hours and fully dried (notice how irregular the material dries):
 

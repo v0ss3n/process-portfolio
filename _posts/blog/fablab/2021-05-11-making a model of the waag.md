@@ -2,6 +2,7 @@
 title: "Making a model of the Waag building"
 date: 2021-05-11T11:10:23+02:00
 tags: ["lasercutting", "3d modeling"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---
@@ -117,11 +118,15 @@ In the steps specified [here](https://www.technogumbo.com/2011/01/How-to-Glue-or
 ![]({{ site.baseurl }}/images/fablab/waag_model/IMG_7029.JPEG)
 </div>
 
-<div markdown="1" class="row-2--video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/M4_rKfhEJYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Bq_cvAIlsqE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="videowrapper"><div markdown="1" class="row-2--video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M4_rKfhEJYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+<div class="videowrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Bq_cvAIlsqE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></div>
+
 
 ## Intermediate results
 The transparent base allows for drawings and notes underneath to be part of the story, visualizing the ideas for the future lab.
@@ -144,7 +149,9 @@ On the ground floor we wanted We tried bending the walls with pre-engraved cuts,
 
 However it was pretty hard to get all the different corners to align perfectly and the bent parts ended up breaking easily (also partially because the cuts were deeper than the cuts for the succesful tryouts). We tried fixing it with acetone but the connections were too fragile.
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rEr_9hNXDic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 I ended up breaking all of the walls that I wanted to bend, so I could try out whether it was possible to glue them together with acetone and a narrow base. This worked out just fine so we went with this option. You can use the LBRN  walls file at the bottom and cut all the way through the acrylic (higher power/lower speed) so you end up with separate walls, place them in the narrow base, tape the whole construction to add some stability and pour acetone between the walls and where the walls and base touch.
 
@@ -190,7 +197,9 @@ This took more than four hours, but it turned out pretty nice. You can see the d
 
 The model on the square: 
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oB2r9c6gtxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
 - Milling the underlayer for the square
@@ -273,7 +282,9 @@ This was supposed to be the final iteration, but we didn't like the blue hue of 
 
 ![]({{ site.baseurl }}/images/fablab/waag_model/IMG_8582.JPEG)
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/y0g3EhM78vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Files
 

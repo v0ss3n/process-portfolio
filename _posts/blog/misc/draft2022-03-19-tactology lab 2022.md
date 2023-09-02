@@ -2,6 +2,7 @@
 title: "Tactology lab 2022"
 date: 2022-03-19T11:31:46+02:00
 tags: ["electronics"]
+toc: true
 categories: ["blog", "other"]
 layout: post
 ---

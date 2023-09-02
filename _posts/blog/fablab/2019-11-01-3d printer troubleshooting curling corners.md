@@ -2,6 +2,7 @@
 title: "3d printer troubleshooting: curling corners"
 date: 2019-11--1T11:10:23+02:00
 tags: ["3d printing", "tevo"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---

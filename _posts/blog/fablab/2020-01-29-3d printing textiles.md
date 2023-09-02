@@ -2,6 +2,7 @@
 title: "3d printing textiles"
 date: 2020-01-29T11:10:23+02:00
 tags: ["3d printing", "prusa", "textiles"]
+toc: true
 categories: ["blog", "fablab", "textilelab"]
 layout: post
 ---

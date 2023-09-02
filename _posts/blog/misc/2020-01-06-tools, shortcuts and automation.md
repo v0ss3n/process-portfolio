@@ -2,6 +2,7 @@
 title: "Tools, shortcuts and automation"
 date: 2020-01-06T11:22:01+02:00
 tags: ["tips"]
+toc: true
 categories: ["blog", "other"]
 layout: post
 ---

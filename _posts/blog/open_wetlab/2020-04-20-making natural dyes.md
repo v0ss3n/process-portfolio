@@ -2,6 +2,7 @@
 title: "Making natural dyes"
 date: 2020-04-20T11:10:23+02:00
 tags: ["dyeing", "tips"]
+toc: true
 categories: ["blog", "wetlab", "textilelab"]
 layout: post
 ---

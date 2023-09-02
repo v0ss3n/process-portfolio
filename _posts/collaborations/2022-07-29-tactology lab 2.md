@@ -67,18 +67,6 @@ images:
     url: "/assets/images/projects/collaborations/IMG_0937.JPG"
     alt: "Tactology Lab 2: Perform"
   - image:
-    url: "/assets/images/projects/collaborations/TL2_dag1_080320022_credits_Momenttom-036_momenttom_20220308_4Y6A0760.jpg"
-    alt: "Tactology Lab 2: Perform"
-  - image:
-    url: "/assets/images/projects/collaborations/TL2_dag1_080320022_credits_Momenttom-059_momenttom_20220308_2V1A3243.jpg"
-    alt: "Tactology Lab 2: Perform"
-  - image:
-    url: "/assets/images/projects/collaborations/TL2_dag1_080320022_credits_Momenttom-068_momenttom_20220308_2V1A3284.jpg"
-    alt: "Tactology Lab 2: Perform"
-  - image:
-    url: "/assets/images/projects/collaborations/TL2_dag1_080320022_credits_Momenttom-087_momenttom_20220308_4Y6A0903.jpg"
-    alt: "Tactology Lab 2: Perform"
-  - image:
     url: "/assets/images/projects/collaborations/TL2_dag2_19032022_credits_FouadHallak-270A2943.JPG"
     alt: "Tactology Lab 2: Perform"
   - image:
@@ -116,13 +104,13 @@ images:
     alt: "Tactology Lab 2: Perform"
 ---
 During this 6 day program, I worked together with Pierre Estourgie & Ineke Vermeulen on an installation and performance called Canvas. The pictures show the process and performance documentation. 
-<br><br>
+
 This work explores the visualisation of water making sound, forming a mysterious drum machine of which none of the performers have full control.
-<br><br>
+
 The center of the work is a steel frame on which an empty cotton canvas is presented. During the performance, the canvas slowly gains color from ink controlled by the performer on the left (Michelle), and dances around because of fans controlled by the performer on the right (Pierre). The performer in the middle (Ineke) moves pots around that react to water to hear the canvas make more sounds. As the performance continues the canvas becomes louder and more chaotic: the canvas becomes saturated with ink and the floor becomes a mess. The center performer tries to clean the floor but it is somewhat futile as puddles start to form.
-<br><br>
+
 It's never fully clear to the audience what is the input for what output. Instead, the viewer remains captivated to see if the ink can go around the corner to reach the canvas. 
-<br><br>
+
 What is left after every performance is a visual representation of the event.
-<br><br>
-This work was performed for the first time at The Grey Space in the Middle in the Hague during [Rewire Festival](https://www.rewirefestival.nl/artist/tactology-lab) in 2022.
+
+This work was performed for the first time at The Grey Space in the Middle in the Hague during [Rewire Festival](https://www.rewirefestival.nl/artist/tactology-lab) in 2022, and again at de Helling in Utrecht during [Barbarella](https://dehelling.nl/agenda/barbarella/) on October 21, 2022.

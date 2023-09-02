@@ -2,6 +2,7 @@
 title: "Fabricademy: soft robotics"
 date: 2019-12-10T22:47:46+02:00
 tags: ["lecture", "inflatables"]
+toc: true
 categories: ["blog", "textilelab", "fabricademy"]
 layout: post
 ---

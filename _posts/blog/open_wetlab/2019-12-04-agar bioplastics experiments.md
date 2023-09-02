@@ -2,6 +2,7 @@
 title: "Agar bioplastics experiments"
 date: 2019-12-04T11:10:23+02:00
 tags: ["bioplastic", "experiment"]
+toc: true
 categories: ["blog", "wetlab"]
 layout: post
 ---
@@ -23,7 +24,9 @@ Recipe:
 ### Process 
 ![agar process]({{ site.baseurl }}/images/wetlab/agar-process.jpg)
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/beiZf8rCAhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ![agar process]({{ site.baseurl }}/images/wetlab/agar-process2.jpg)
 

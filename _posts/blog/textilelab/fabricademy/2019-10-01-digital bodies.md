@@ -2,6 +2,7 @@
 title: "Fabricademy: digital bodies"
 date: 2019-10-01T22:47:46+02:00
 tags: ["lecture", "lasercutting"]
+toc: true
 categories: ["blog", "textilelab", "fabricademy"]
 layout: post
 ---

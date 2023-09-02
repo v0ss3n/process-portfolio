@@ -2,6 +2,7 @@
 title: "Online tools"
 date: 2019-12-16T13:14:01+02:00
 tags: ["tips"]
+toc: true
 categories: ["blog", "other"]
 layout: post
 ---

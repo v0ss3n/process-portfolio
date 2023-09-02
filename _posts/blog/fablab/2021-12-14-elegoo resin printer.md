@@ -2,6 +2,7 @@
 title: "Working with an Elegoo resin printer"
 date: 2021-12-14T10:20:23+02:00
 tags: ["3d printing", "resin printing"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---
@@ -60,7 +61,9 @@ How to set up the machine:
     </div>
 
     Removing the print:
+    <div class="videowrapper">
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/j0kLRpEyT7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
 8. After the model has dried it's time to cure the model. For this we also use the Mercury. Set mode to UV (light symbol) and time to 5 minutes.
     ![]({{ site.baseurl }}/images/fablab/resin_printing/IMG_3093.JPEG)

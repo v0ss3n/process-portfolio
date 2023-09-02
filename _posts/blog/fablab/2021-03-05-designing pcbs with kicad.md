@@ -2,6 +2,7 @@
 title: "Designing PCBs with KiCad"
 date: 2021-03-06T11:22:01+02:00
 tags: ["electronics", "notes"]
+toc: true
 categories: ["blog", "fablab", "fabacademy"]
 layout: post
 ---

@@ -2,6 +2,7 @@
 title: "Fusion360"
 date: 2020-02-06T9:20:23+02:00
 tags: ["fabacademy", "tutorial", "fusion360"]
+toc: true
 categories: ["blog", "fablab", "fabacademy"]
 layout: post
 ---
@@ -130,8 +131,6 @@ Sweep: make sure the path and profile intersect. The body is a projection of the
 
 ![]({{ site.baseurl }}/images/fablab/sweep.jpg)
 
-<!-- Project: like a shadow, find out how and what it's for -->
-
 ## Surface
 Different tab, different menu; now we're working with hollow objects. Patch and stitch are very important for closing objects and making them solid.
 
@@ -167,11 +166,15 @@ Motion link: when one component moves, another moves as well
 
 ## Animation
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/n_WwW9yquFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Drawing
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kb39wIIMH2U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Other notes
 You should try other programs too depending on your goals, like: 

@@ -2,6 +2,7 @@
 title: "Fabricademy: wearables"
 date: 2019-11-26T22:47:46+02:00
 tags: ["lecture", "e-textiles", "electronics"]
+toc: true
 categories: ["blog", "textilelab", "fabricademy"]
 layout: post
 ---

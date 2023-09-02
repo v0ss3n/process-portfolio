@@ -2,6 +2,7 @@
 title: "Modeling a box (Fusion360)"
 date: 2019-11-18T11:10:23+02:00
 tags: ["fusion360", "tutorial"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---

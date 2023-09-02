@@ -2,6 +2,7 @@
 title: "Experimental design tool 1"
 date: 2019-10-14T13:28:15+02:00
 tags: ["research", "sensors", "electronics"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---
@@ -276,7 +277,9 @@ This is the result after a bit of trying out:
 
 After this I worked on modifying the Processing code to make the illustration better. I also used a higher baud rate to receive more data so I would be able to make smoother lines. 
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GIdxBrYx-t8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Add soft sensor
 steps:

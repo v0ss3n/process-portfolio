@@ -2,6 +2,7 @@
 title: "Glove molding experiments"
 date: 2020-02-03T12:47:46+02:00
 tags: ["molding", "textiles"]
+toc: true
 categories: ["blog", "wetlab", "textilelab"]
 layout: post
 ---

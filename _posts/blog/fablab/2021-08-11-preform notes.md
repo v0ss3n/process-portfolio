@@ -2,6 +2,7 @@
 title: "Preform notes"
 date: 2021-08-10T14:58:46+02:00
 tags: ["3d modeling", "3d printing", "Stereolithography"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---

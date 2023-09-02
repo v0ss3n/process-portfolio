@@ -2,6 +2,7 @@
 title: "Roland GX-24, mods and Windows"
 date: 2021-10-05T11:10:23+02:00
 tags: ["vinyl cutting", "mods"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---

@@ -2,6 +2,7 @@
 title: "Alginate bioplastics experiments"
 date: 2019-12-17T11:10:23+02:00
 tags: ["bioplastic", "experiment"]
+toc: true
 categories: ["blog", "wetlab"]
 layout: post
 ---
@@ -108,7 +109,9 @@ After that I heated the mixture in a pot to about 80 degrees Celsius because the
 
 ![]({{ site.baseurl }}/images/wetlab/alginate-process2.jpg)
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xxLu4OHtfaQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Since gelatine is water-soluble and alginate bioplastic is waterproof, I wondered whether adding gelatine had any influence on the waterproof property. I did a test adding some threads to boiling hot water and let it sit for a few hours, but nothing happened other than the plastic becoming a bit more see-through temporarily so my conclusion is that the gelatine doesn't decrease the water resistance.
 

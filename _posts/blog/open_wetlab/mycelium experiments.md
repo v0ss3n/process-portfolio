@@ -2,6 +2,7 @@
 title: "Mycelium experiments"
 date: 2020-04-29T11:10:23+02:00
 tags: ["mycelium", "tips"]
+toc: true
 categories: ["blog", "wetlab"]
 layout: post
 ---

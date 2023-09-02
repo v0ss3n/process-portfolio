@@ -2,6 +2,7 @@
 title: "Milling PCBs with the Roland Modela"
 date: 2021-02-19T10:20:23+02:00
 tags: ["fabacademy", "milling", "PCB"]
+toc: true
 categories: ["blog", "fablab", "fabacademy"]
 layout: post
 ---

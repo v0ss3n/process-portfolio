@@ -2,6 +2,7 @@
 title: "Glove mold making"
 date: 2020-02-11T12:47:46+02:00
 tags: ["lasercutting", "molding", "fusion360", "tutorial", "lasercutting"]
+toc: true
 categories: ["blog", "fablab", "textilelab"]
 layout: post
 ---

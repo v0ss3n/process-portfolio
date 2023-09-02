@@ -2,6 +2,7 @@
 title: "Ultrasonic sensor motion sensing"
 date: 2021-11-23T11:31:46+02:00
 tags: ["electronics"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---

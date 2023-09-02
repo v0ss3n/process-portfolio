@@ -2,6 +2,7 @@
 title: "Lasercutter material library"
 date: 2021-02-12T11:10:23+02:00
 tags: ["lasercutting"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---

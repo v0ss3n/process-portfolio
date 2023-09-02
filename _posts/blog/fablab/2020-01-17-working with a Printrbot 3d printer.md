@@ -2,6 +2,7 @@
 title: "Working with a Printrbot 3d printer"
 date: 2020-01-17T11:10:23+02:00
 tags: ["3d printing", "printrbot"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---

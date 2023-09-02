@@ -2,6 +2,7 @@
 title: "Upgrading a Creality Ender 3"
 date: 2021-03-19T10:20:23+02:00
 tags: ["3d printing"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---

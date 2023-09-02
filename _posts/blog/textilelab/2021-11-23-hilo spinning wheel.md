@@ -2,6 +2,7 @@
 title: "HILO spinning wheel"
 date: 2021-11-23T11:31:46+02:00
 tags: ["electronics", "3d printing", "machine making"]
+toc: true
 categories: ["blog", "textilelab"]
 layout: post
 ---

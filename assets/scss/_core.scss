@@ -11,8 +11,8 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-img {
-	pointer-events: none;
+canvas {
+	display: block;
 }
 
 h1,
@@ -26,29 +26,36 @@ h1 a {
 }
 
 h2,
-.h2 {	
-	color: $color-green;
+.h2 {
+	color: $color-pink;
 	display: block;
 	font-family: $font-headings;
-    font-size: 1rem;
-    letter-spacing: .2rem;
-    line-height: 1;
-    margin: 0 0 1rem;
-    text-transform: uppercase;
+	font-size: 2rem;
+	letter-spacing: 0.4rem;
+	line-height: 1;
+	text-transform: uppercase;
 }
 
 h3,
 .h3 {
 	color: $color-purple;
 	font-family: $font-headings;
-    font-size: 1.8rem;
-    line-height: 1;
-    margin: 0;
+	font-size: 1.6rem;
+	margin: 1.5rem 0 0.7rem;
+}
+
+h4,
+.h4 {
+	margin: 1rem 0 0.5rem;
 }
 
 p {
-	margin: 0;
+	margin: 0 0 1rem 0;
 	text-align: justify;
+}
+
+p:last-of-type {
+	margin-bottom: 0;
 }
 
 p + h2 {
@@ -56,7 +63,7 @@ p + h2 {
 }
 
 a {
-	color: $color-green;
+	color: $color-black;
 	text-decoration: none;
 	font-weight: 600;
 }
@@ -64,21 +71,31 @@ a {
 ul {
 	margin: 0;
 	padding: 0;
-	list-style-type: none;	
+	list-style-type: none;
+}
+
+ul + p {
+	margin: 2rem 0;
+}
+
+ol {
+	margin: 0;
+	padding: 0;
 }
 
 img {
 	display: block;
 	max-width: 100%;
+	margin: 0;
 }
 
-aside img {
+.project aside li,
+.project aside li {
 	margin-bottom: 2rem;
-
 }
 
 hr {
-	background: $color-green;
+	background: $color-pink;
 	border: 0;
 	display: block;
 	height: 1px;
@@ -96,11 +113,11 @@ abbr[title] {
 
 code {
 	background: $color-white;
-	border: 1px solid $color-green;
+	border: 1px solid $color-pink;
 	border-radius: 3px;
 	font-family: $font-default;
-	font-size: 1.5rem;	
-	padding: .1rem .4rem;
+	font-size: 1.2rem;
+	padding: 0.1rem 0.4rem;
 
 	var {
 		font-style: italic;
@@ -112,11 +129,8 @@ dl {
 
 	dt,
 	dd {
-		font-family: $font-default;		
+		font-family: $font-default;
 	}
-
-	dt {
-		}
 
 	dd {
 		font-weight: 300;
@@ -125,9 +139,9 @@ dl {
 
 .responsive-table {
 	margin-bottom: 3rem;
-	
+
 	@media (max-width: $breakpoint-xsmall) {
-		display: block;	
+		display: block;
 		overflow-x: scroll;
 		max-width: $breakpoint-xsmall;
 
@@ -139,16 +153,10 @@ dl {
 }
 
 table {
-	border-collapse: collapse;	
+	border-collapse: collapse;
 	width: 100%;
 
-	thead {
-		td,
-		th {
-				}
-	}
-
-	tbody > tr:nth-child(odd) > td, 
+	tbody > tr:nth-child(odd) > td,
 	tbody > tr:nth-child(odd) > th {
 		background: $color-white-sand;
 	}
@@ -158,12 +166,21 @@ table {
 		font-family: $font-default;
 		font-weight: 300;
 		text-align: left;
-		padding: .5rem 1rem;
+		padding: 0.5rem 1rem;
+	}
+	th {
+		font-weight: 600;
 	}
 }
 
+.table-wrapper {
+	overflow-x: scroll;
+	font-size: 0.8em;
+	line-height: 1;
+}
+
 blockquote {
-	border-left: .6rem solid $color-purple;
+	border-left: 0.6rem solid $color-purple;
 	padding-left: 2rem;
 	margin: 0 0 3rem;
 
@@ -176,8 +193,8 @@ blockquote {
 	}
 }
 
-pre {
-	margin: 0 0 3rem;
+video {
+	margin: 2rem 0;
 }
 
 .videowrapper {
@@ -185,91 +202,90 @@ pre {
 	padding-bottom: 56.25%;
 	padding-top: 25px;
 	height: 0;
-  }
-  
-  .videowrapper iframe,
-  .videowrapper video {
+	margin: 2rem 0;
+}
+
+.videowrapper iframe,
+.videowrapper video {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	border: 0;
-  }
-
+}
 
 .row-2 p,
 .row-2--divs {
-  width: 100%;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 2rem;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 2rem;
 
-  img {
-    width: 49%;
-  }
-}
+	img,
+	div {
+		width: 100%;
+		&:not(:last-of-type) {
+			margin-bottom: 2rem;
+		}
+	}
 
-.row-2--divs div {
-  width: 49%;
+	@media (min-width: $breakpoint-medium) {
+		flex-flow: row nowrap;
+		img,
+		div {
+			width: 49%;
+		}
+	}
 }
 
 .row-2--video {
-  width: 100%;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  margin-bottom: 2rem;
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin-bottom: 2rem;
 
-  .video,
-  iframe {
-    width: 49%;
-  }
+	video,
+	iframe {
+		width: 49% !important;
+	}
 }
 
 video {
 	width: 100% !important;
-height: auto !important;
+	height: auto !important;
 }
 
 .row-3 p {
-  width: 100%;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 2rem;
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 2rem;
 
-  img {
-    width: 32%;
-  }
+	img {
+		width: 32%;
+	}
 }
 
 .row-4 p {
-  width: 100%;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 2rem;
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 2rem;
 
-  img {
-    width: 23.5%;
-  }
-}
-
-.project aside.exhibitions,
-.project article.exhibitions {
-	ul {
-		columns: 1;
-		li:last-of-type {
-			margin-bottom: 1.5em;
-		}
+	img {
+		width: 23.5%;
 	}
 }
 
 aside .videowrapper {
 	margin-bottom: 2rem;
 }
+

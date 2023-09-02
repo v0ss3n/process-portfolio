@@ -2,6 +2,7 @@
 title: "Tools and materials for making natural dyes"
 date: 2020-04-20T10:10:23+02:00
 tags: ["dyeing", "tips"]
+toc: true
 categories: ["blog", "wetlab", "textilelab"]
 layout: post
 ---

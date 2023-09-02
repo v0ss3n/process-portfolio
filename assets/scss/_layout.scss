@@ -1,8 +1,81 @@
+.project {
+	ul {
+		list-style-type: none;
+	}
+
+	a:hover,
+	a:active {
+		text-decoration: underline;
+	}
+}
+
 .container {
 	display: block;
-	max-width: 80em;
+	max-width: 60em;
 	padding: 0 3rem;
 	@include clearfix;
+}
+.project .container-assignment {
+	margin: 0 auto;
+
+	.container-content {
+		max-width: 100%;
+		li {
+			margin-left: 3rem;
+		}
+	}
+
+	max-width: 80em;
+	display: flex;
+	flex-flow: row-reverse nowrap;
+	justify-content: flex-end;
+	.section-nav {
+		display: none;
+		list-style-type: none;
+		flex: none;
+	}
+
+	@media (min-width: $breakpoint-medium) {
+		.section-nav {
+			display: initial;
+			width: 20rem;
+			position: -webkit-sticky;
+			position: sticky;
+			top: 2rem;
+			align-self: flex-start;
+			padding-left: 6rem;
+			margin: 0 0 0 5rem;
+			border-style: dashed solid;
+			padding: 2rem;
+			border-width: 2px;
+			overflow-y: auto;
+			overflow-x: wrap;
+			max-height: 70vh;
+			border-color: $color-pink;
+			ul,
+			li .toc-h3,
+			li .toc-h4,
+			li .toc-h5,
+			li .toc-h6 {
+				list-style-type: none;
+				margin-left: 1rem;
+				a {
+					font-weight: 300;
+				}
+			}
+
+			.toc-h2 a {
+				font-weight: 600;
+			}
+		}
+		.container-content {
+			width: 80rem;
+		}
+	}
+}
+
+.back {
+	float:right;
 }
 
 .header {
@@ -51,9 +124,16 @@
 .intro {
 	@media (min-width: $breakpoint-medium) {
 		p {
-			font-size: 2.7rem;
+			font-size: 2rem;
 			max-width: 66.66666%;
 		}
+	}
+}
+
+.projects-list.overview {
+	.h2 {
+		font-size: 1rem;
+		letter-spacing: 0.2rem;
 	}
 }
 
@@ -63,7 +143,7 @@
 		margin-right: -1.5rem;
 		@include clearfix;
 		display: flex;
-		flex-flow: row wrap;;
+		flex-flow: row wrap;
 
 		li {
 			width: 50%;
@@ -149,12 +229,12 @@
 	}
 
 	article {
-		margin-bottom: 3rem;
+		margin-bottom: 1rem;
 
 		@media (min-width: $breakpoint-medium) {
 			float: right;
 			right: 0;
-			width: 25%;
+			width: 35%;
 			right: 5%;
 		}
 	}
@@ -175,26 +255,24 @@
 
 		@media (min-width: $breakpoint-medium) {
 			float: left;
-			width: 70%;
+			width: 60%;
 
 			@media (min-width: $breakpoint-medium) {
 				ul {
-					columns: 3;
-					-webkit-columns: 3;
-					-moz-columns: 3;
-
-					li img {
-						transition: transform 0.2s ease-out;
-					}
-
-					li:hover img {
-						transform: scale(2);
-						z-index: 1;
-						position: relative;
-					}
+					columns: 2;
+					-webkit-columns: 2;
+					-moz-columns: 2;
 				}
 			}
 		}
+	}
+
+	ul li video {
+		margin: 0;
+	}
+
+	video {
+		display: block;
 	}
 
 	.project-meta {
@@ -240,7 +318,7 @@
 	padding: 10rem 0;
 
 	a {
-		color: $color-green;
+		color: $color-pink;
 		display: inline-block;
 
 		&:hover {
@@ -383,58 +461,65 @@
 
 	@media (min-width: $breakpoint-medium) {
 		ul {
-			columns: 3;
-			-webkit-columns: 3;
-			-moz-columns: 3;
+			columns: 2;
+			-webkit-columns: 2;
+			-moz-columns: 2;
 		}
 	}
 }
 
-// Shoots
+// About
+aside {
+	margin-bottom: 4rem;
+}
 
-.shoots {
-	aside {
-		margin-bottom: 4rem;
-	}
+.article {
+	margin-bottom: 1rem;
 
-	.article {
-		margin-bottom: 3rem;
-
-		@media (min-width: $breakpoint-medium) {
-			float: right;
-			right: 0;
-			width: 25%;
-			right: 5%;
-		}
+	@media (min-width: $breakpoint-medium) {
+		float: right;
+		right: 0;
+		width: 35%;
+		right: 5%;
 	}
 }
 
 body {
 	background-color: white;
-	// background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F2748823.jpg&f=1&nofb=1");
 	background-repeat: repeat;
 	background-size: 400px;
 }
 
-.blog .container {
-	max-width: 800px;
+.project .task-list {
+	list-style-type: none;
+
+	.task-list-item-checkbox {
+		margin-right: 1rem;
+	}
+}
+
+// Blog
+
+.blog .blog-container {
+	display: block;
+	max-width: 40em;
+	padding: 0 3rem;
+	margin: 0 auto;
 }
 
 .blog {
-	ul,
-	ol {
-		margin-block-start: 2em;
-		margin-block-end: 2em;
-	}
-
 	ul {
 		list-style-type: circle;
+	}
+
+	li {
+		margin-left: 3rem;
 	}
 }
 
 .blog-overview {
 	@media (min-width: $breakpoint-large) {
-		.container {
+		.blog-container {
 			max-width: 100%;
 			display: flex;
 			flex-flow: row nowrap;
@@ -444,4 +529,90 @@ body {
 			}
 		}
 	}
+}
+
+.container-blog {
+	margin: 0 auto;
+
+	.container-content {
+		max-width: 100%;
+		li {
+			margin-left: 3rem;
+		}
+	}
+
+	max-width: 80em;
+	display: flex;
+	flex-flow: row-reverse nowrap;
+	justify-content: flex-end;
+	.section-nav {
+		display: none;
+		list-style-type: none;
+		flex: none;
+	}
+
+	@media (min-width: $breakpoint-medium) {
+		.section-nav {
+			display: initial;
+			width: 20rem;
+			position: -webkit-sticky;
+			position: sticky;
+			top: 2rem;
+			align-self: flex-start;
+			padding-left: 6rem;
+			margin: 0 0 0 5rem;
+			border-style: dashed solid;
+			padding: 2rem;
+			border-width: 2px;
+			overflow-y: auto;
+			overflow-x: wrap;
+			max-height: 70vh;
+			border-color: $color-pink;
+			li {
+				margin-left: 0;
+			}
+			ul,
+			li .toc-h3,
+			li .toc-h4,
+			li .toc-h5,
+			li .toc-h6 {
+				list-style-type: none;
+				margin-left: 1rem;
+				a {
+					font-weight: 300;
+				}
+			}
+
+			.toc-h2 a {
+				font-weight: 600;
+			}
+
+
+		}
+		.container-content {
+			width: 80rem;
+		}
+	}
+}
+
+.click-zoom input[type=checkbox] {
+	display: none;
+  }
+  
+  .click-zoom img,
+  .click-zoom video {
+	transition: transform 0.25s ease;
+	cursor: zoom-in;
+  }
+  
+  .click-zoom input[type=checkbox]:checked~img,
+  .click-zoom input[type=checkbox]:checked~video {
+
+	transform: scale(2);
+	cursor: zoom-out;
+	z-index: 1;
+  }
+
+.introduction {
+	margin: 0 0 2rem;
 }

@@ -2,6 +2,7 @@
 title: "Nonplanar Slicing"
 date: 2019-11-13T11:10:23+02:00
 tags: ["3d printing", "tevo"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---
@@ -11,7 +12,9 @@ layout: post
 
 ## About this technique
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/km1lvuva5mI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Additive manufacturing processes are inherently subject to discretization effects. For most technologies, stair-stepping artifacts impair the surface quality of 3D printed objects, especially when the surface slope is close to horizontal.
 
@@ -84,15 +87,21 @@ Preparing the testfile I used Fusion360 and 3D Builder (I also used the Image 2 
 
 I wondered why the planar test I got from thingiverse worked, but everything I tried would not generate nonplanar layers. Then I realized that the top surface of the model is quite flat while all of my tests had much more convex outer shapes. I then played around with the cut tool in Slic3r (keeping the bottom part) and that seemed to do the trick. I hope that in future releases it will be possible to use convex shapes but for now I think it's good to keep this in mind.
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ISVDys1td1U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 This is the nonplanar test from thingiverse:
+
 <video width="480" height="360" controls muted>
   <source src="{{ site.baseurl }}/images\misc\slic3r.mp4" type="video/mp4">
 </video>
 
 ## Result
+
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/23WBmTnTg_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ![]({{ site.baseurl }}/images/misc/nonplanar-slicing-test.jpg)
 

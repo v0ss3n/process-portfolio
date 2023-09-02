@@ -2,6 +2,7 @@
 title: "Chaotic notes on cryptography and cellular automata"
 date: 2019-10-22T10:31:30+02:00
 tags: ["concept", "research", "textiles"]
+toc: true
 categories: ["blog", "textilelab"]
 layout: post
 ---

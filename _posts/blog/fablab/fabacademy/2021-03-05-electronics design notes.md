@@ -2,6 +2,7 @@
 title: "Electronics design notes"
 date: 2021-03-05T10:22:01+02:00
 tags: ["electronics", "notes"]
+toc: true
 categories: ["blog", "fablab", "fabacademy"]
 layout: post
 ---

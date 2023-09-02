@@ -2,6 +2,7 @@
 title: "Open source software overview"
 date: 2020-01-29T13:14:01+02:00
 tags: ["tips"]
+toc: true
 categories: ["blog", "other"]
 layout: post
 ---

@@ -2,6 +2,7 @@
 title: "Lasercutting bioplastic"
 date: 2019-12-12T11:10:23+02:00
 tags: ["bioplastic", "lasercutting"]
+toc: true
 categories: ["blog", "wetlab", "fablab"]
 layout: post
 ---

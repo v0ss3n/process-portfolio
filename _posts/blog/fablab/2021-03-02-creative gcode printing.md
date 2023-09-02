@@ -2,6 +2,7 @@
 title: "Creative gcode printing"
 date: 2021-03-02T10:20:23+02:00
 tags: ["3d printing"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---

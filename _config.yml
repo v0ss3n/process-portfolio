@@ -1,7 +1,7 @@
 # User config
 author: "Michelle Vossen"
 tagline: "Workshops, projects & experimental design research by Michelle Vossen"
-description: "Workshops, projects & experimental design research by Michelle Vossen"
+description: "I am a multi-disciplinary designer with a love for textiles, technology, and craftsmanship. My expertise spans various domains – from freelance digital fashion design to building chaotic machines and exploring the world of e-textiles. This website serves as a comprehensive showcase of all my endeavors. Feel free to explore and get in touch if you're interested in collaborating with me."
 keywords: ["3d printing", "digital fashion", "experiments", "fashion"]
 email: "studio@michellevossen.com"
 linkedin: "https://www.linkedin.com/in/michelle-vossen-616842151/"
@@ -13,3 +13,7 @@ highlighter: rouge
 sass:
   sass_dir: assets/scss
   style: compressed
+
+
+plugins:
+- jekyll-toc

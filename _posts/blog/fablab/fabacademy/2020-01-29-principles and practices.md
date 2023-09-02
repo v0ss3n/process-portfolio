@@ -2,6 +2,7 @@
 title: "Fabacademy: principles and practices"
 date: 2020-01-29T15:20:23+02:00
 tags: ["fabacademy", "lecture"]
+toc: true
 categories: ["blog", "fablab", "fabacademy"]
 layout: post
 ---

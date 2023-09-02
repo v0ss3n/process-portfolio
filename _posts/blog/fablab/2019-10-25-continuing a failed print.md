@@ -2,6 +2,7 @@
 title: "Continuing a failed 3D print on a Tevo Tarantula"
 date: 2019-10-30T11:10:23+02:00
 tags: ["3d printing", "tevo"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---

@@ -2,6 +2,7 @@
 title: "Upgrading a Tevo Tarantula 3d printer"
 date: 2019-10-24T11:10:23+02:00
 tags: ["3d printing", "tevo"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---

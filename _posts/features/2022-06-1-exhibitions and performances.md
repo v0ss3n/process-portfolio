@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: project-no-images
 permalink: /:title/
 category: features
@@ -32,4 +32,4 @@ project:
 
 ## DRESSCODE (2019)
 - [Exhibition at Fashionclash 2019: Class of 2019](https://www.fashionclash.nl/fcf-2019/2019/6/19/fashionclash-festival-2019-participants)
-</article> -->
+</article>

@@ -2,6 +2,7 @@
 title: "Working with NeoPixels"
 date: 2021-05-25T11:10:23+02:00
 tags: ["arduino", "electronics"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---
@@ -281,4 +282,6 @@ Final result:
 ![]({{ site.baseurl }}/images/fablab/neopixel/IMG_9375.JPEG)
 </div>
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JgbFLxxYwU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

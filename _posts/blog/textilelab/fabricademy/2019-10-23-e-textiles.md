@@ -2,6 +2,7 @@
 title: "Fabricademy: e-textiles"
 date: 2019-10-23T14:53:46+02:00
 tags: ["lecture", "e-textiles", "electronics"]
+toc: true
 categories: ["blog", "textilelab", "fabricademy"]
 layout: post
 ---

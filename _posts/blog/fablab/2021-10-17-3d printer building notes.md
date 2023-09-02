@@ -2,6 +2,7 @@
 title: "3d printer building notes"
 date: 2021-10-17T11:10:23+02:00
 tags: ["3d printing", "3d modeling"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---

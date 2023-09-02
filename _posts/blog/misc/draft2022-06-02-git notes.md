@@ -2,6 +2,7 @@
 title: "Git notes"
 date: 2021-08-10T14:58:46+02:00
 tags: ["git"]
+toc: true
 categories: ["blog", "misc", "fablab"]
 layout: post
 ---

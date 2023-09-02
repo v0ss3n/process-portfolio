@@ -2,6 +2,7 @@
 title: "3D printing experiments on fabric (visual cryptography)"
 date: 2019-11-01T10:31:30+02:00
 tags: ["experiment", "prusa", "textiles", "3d printing", "cryptography"]
+toc: true
 categories: ["blog", "textilelab"]
 layout: post
 ---

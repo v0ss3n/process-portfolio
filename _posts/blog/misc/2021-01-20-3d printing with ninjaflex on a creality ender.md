@@ -2,6 +2,7 @@
 title: "3d printing with NinjaFlex on a Creality Ender 3"
 date: 2021-01-20T11:10:23+02:00
 tags: ["glove", "3d printing"]
+toc: true
 categories: ["blog", "fablab", "misc"]
 layout: post
 ---

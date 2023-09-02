@@ -2,6 +2,7 @@
 title: "Cryptography concept"
 date: 2019-11-07T10:31:30+02:00
 tags: ["concept", "textiles", "cryptography"]
+toc: true
 categories: ["blog", "textilelab"]
 layout: post
 ---

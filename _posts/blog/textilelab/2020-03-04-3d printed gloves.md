@@ -2,6 +2,7 @@
 title: "3d printed gloves"
 date: 2020-03-06T10:31:30+02:00
 tags: ["fashion", "lasercutting"]
+toc: true
 categories: ["blog", "textilelab", "fablab"]
 layout: post
 ---

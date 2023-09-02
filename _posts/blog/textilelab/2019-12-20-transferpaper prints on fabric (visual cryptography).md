@@ -2,6 +2,7 @@
 title: "Transferpaper prints on fabric (visual cryptography)"
 date: 2019-12-20T10:31:30+02:00
 tags: ["experiment", "fashion", "textiles", "cryptography"]
+toc: true
 categories: ["blog", "textilelab"]
 layout: post
 ---

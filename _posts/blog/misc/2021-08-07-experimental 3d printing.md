@@ -2,6 +2,7 @@
 title: "Experimental 3d printing"
 date: 2021-08-07T14:58:46+02:00
 tags: ["3d printing", "experimental", "wearables"]
+toc: true
 categories: ["blog", "misc", "fablab"]
 layout: post
 ---
@@ -38,7 +39,9 @@ Now a voxel object should appear in the settings tab, however for all gcode file
 2. Blender
 So with this tutorial I finally figured it out:
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HmZ6TyHESMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 - Remeshing the Fusion generated STL first in a separate program since the saved mesh is pretty shit (very long triangles, terrible for UV mapping). It's also possible in Blender (as explained [here](https://artisticrender.com/remeshing-in-blender/) but my laptop does NOT like that). I'm using Instant Meshes for this.
 - <https://docs.blender.org/manual/en/2.80/modeling/meshes/editing/uv/unwrapping/mapping_types.html>

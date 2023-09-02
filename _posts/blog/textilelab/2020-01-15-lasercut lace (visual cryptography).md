@@ -2,6 +2,7 @@
 title: "Lasercut lace (visual cryptography)"
 date: 2020-01-15T10:31:30+02:00
 tags: ["experiment", "fashion", "textiles", "cryptography"]
+toc: true
 categories: ["blog", "textilelab"]
 layout: post
 ---

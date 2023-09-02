@@ -2,6 +2,7 @@
 title: "Lasercutting notes"
 date: 2019-10-08T12:10:23+02:00
 tags: ["lasercutting", "tips"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---

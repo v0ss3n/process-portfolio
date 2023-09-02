@@ -2,6 +2,7 @@
 title: "CNC Milling Machine (3D tutorial)"
 date: 2019-12-16T11:10:23+02:00
 tags: ["cnc", "fusion360", "vcarve pro", "tutorial"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---
@@ -46,7 +47,9 @@ For the setup of the Shopbot, check out my [documentation on the CNC milling mac
 It took about 4,5 hours to mill. Process of milling:
 ![cnc]({{ site.baseurl }}/images/fabricademy/cnc-process.jpg)
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1z1d-Bzi_hg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Final result:
 ![cnc]({{ site.baseurl }}/images/fabricademy/cnc-final.jpg)

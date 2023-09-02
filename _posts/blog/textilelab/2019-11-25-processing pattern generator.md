@@ -2,6 +2,7 @@
 title: "Processing Pattern Generator"
 date: 2019-11-25T10:31:30+02:00
 tags: ["fashion", "textiles", "pattern", "processing"]
+toc: true
 categories: ["blog", "textilelab"]
 layout: post
 ---

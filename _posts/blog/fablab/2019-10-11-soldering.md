@@ -2,6 +2,7 @@
 title: "Soldering"
 date: 2019-10-11T11:41:15+02:00
 tags: ["research", "soldering", "tips", "electronics"]
+toc: true
 categories: ["blog", "fablab"]
 layout: post
 ---

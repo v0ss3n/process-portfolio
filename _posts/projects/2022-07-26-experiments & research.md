@@ -7,6 +7,6 @@ meta:
   keywords: "3D printing, Wearables, Experiments"
 
 project:
-  title: "Experiments & Research"
+  title: "3D printing"
   logo: "/assets/images/projects/3d-printing/hatpink3.gif"
 ---

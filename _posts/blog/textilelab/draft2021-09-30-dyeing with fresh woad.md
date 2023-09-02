@@ -2,6 +2,7 @@
 title: "Dyeing with fresh isatis tinctoria"
 date: 2021-09-30T11:13:23+02:00
 tags: ["natural dyeing", "indigo"]
+toc: true
 categories: ["blog", "textilelab", "misc"]
 layout: post
 ---

@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: project-no-images
 permalink: /:title/
 category: features
@@ -37,4 +37,4 @@ https://vimeo.com/581516853/72d2aaff18
 
 [Collection in the Arnhem Fashion Design archive](https://arnhemfashiondesign.nl/en/graduation/2019/michelle-vossen){:target="_blank"}
 
-</article> -->
+</article>

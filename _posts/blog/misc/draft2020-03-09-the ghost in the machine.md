@@ -2,6 +2,7 @@
 title: "The ghost in the machine"
 date: 2020-03-09T14:53:23+02:00
 tags: ["research", "exploration"]
+toc: true
 categories: ["blog", "other"]
 layout: post
 ---
