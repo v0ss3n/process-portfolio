@@ -32,4 +32,4 @@ The smaller easle has place for two interchangeable e-textiles sensors. You have
 ## Exhibitions
 
 - Hof der Zotheid festival, June 24 2023
-- Weird sensors and tactile interfaces meet up, June 6 2023
+- Open Ateliers Nieuwmarkt, June 10 & 11 2023
