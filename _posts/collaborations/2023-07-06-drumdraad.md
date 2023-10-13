@@ -51,4 +51,4 @@ I had a lot of e-textiles swatches laying around with no other purpose than to b
 ## Exhibitions
 
 - Hof der Zotheid festival, June 24 2023
-- Weird sensors and tactile interfaces meet up, June 6 2023
+- Weird sensors and tactile interfaces meet up, December 16 2022
