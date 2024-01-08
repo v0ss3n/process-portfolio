@@ -12,11 +12,6 @@
 <body>
 	{% include header.html %}
 	<main class="content">
-		<section class="intro">
-			<div class="container">
-				<p>{{ site.description }}</p>
-			</div>
-		</section>
 		<section class="projects">
 			<div class="container">
 				<ul class="projects-list">
@@ -32,6 +27,11 @@
 						</li>
 					{% endfor %}
 				</ul>
+			</div>
+		</section>
+		<section class="intro">
+			<div class="container">
+				<p>{{ site.description }}</p>
 			</div>
 		</section>
 	</main>
