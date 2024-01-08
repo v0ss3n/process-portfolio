@@ -14,11 +14,26 @@ project:
 <div markdown="1" class="introduction">
 # [Workshops]({{ site.baseurl | append: "/"}})
 
-Discover the captivating world of electronics, soft sensors, and e-textiles! Join my workshops and events to explore the possibilities of e-textiles, incorporating traditional textile crafts like embroidery, weaving, and knitting.
+I'm obsessed with exploring textiles as tactile interfaces and love to share my passion for crafting soft interactions through various events! You can join one of my workshops to explore the possibilities of e-textiles, incorporating traditional textile crafts like embroidery, weaving, and knitting and translating touch to sounds and visuals. If this sparks your interest, don't hesitate to reach out to me at <a title="{{ site.email }}" href="mailto:{{ site.email }}">{{ site.email }}</a>. I'm also happy to design cross-disciplinary workshops so if you have an idea or want me to come up with a fun cross-over, let me know.
 
-Whether it's a festival or a private event, I offer tailor-made workshops to suit your preferences, accommodating participants of all expertise levels. Delve into the art of tactile interfaces, DIY sensors, and flexible circuits, and immerse yourself in the endless potential of e-textiles. If this sparks your interest, don't hesitate to reach out to me at <a title="{{ site.email }}" href="mailto:{{ site.email }}">{{ site.email }}</a> and let's collaborate! I'm also enthusiastic about co-creating cross-over workshops, such as crafting sensors for musical interfaces.
+Take a glimpse at some past workshop impressions below, and stay updated on upcoming workshops and events by following me on <a title="Instagram" href="{{ site.instagram }}" target="_blank">Instagram</a>! There's a lot of fun stuff coming in 2024 :-)
+</div>
 
-Take a glimpse at some past workshop impressions below, and stay updated on upcoming workshops and events by following me on <a title="Instagram" href="{{ site.instagram }}" target="_blank">Instagram</a>!
+<aside>
+<div markdown="1" class="row-3">
+![]({{ site.baseurl }}/assets/images/projects/workshops/IMG_1016.JPG)
+![]({{ site.baseurl }}/assets/images/projects/workshops/IMG_1030.JPG)
+![]({{ site.baseurl }}/assets/images/projects/workshops/IMG_1015.JPG)
+</div>
+<div markdown="1" class="row-2">
+![]({{ site.baseurl }}/assets/images/projects/workshops/IMG_0967.JPG)
+![]({{ site.baseurl }}/assets/images/projects/workshops/IMG_0994.JPG)
+</div>
+</aside>
+
+<div class ="article" markdown="1">
+### [Waag Open: Crafts x Electronics](https://waag.org/nl/event/waag-open-handwerk-x-elektronica-uitverkocht/)
+Workshop at Waag Futurelab in collaboration with Veerle Pennock on October 5, 2023. During this Waag Open edition, we taught the participants various textile techniques to make their own soft sensor. We focused on sound as output: at the end of the evening, we tested the DIY sensors with a modular synthesizer, so we could jam with our soft instruments.
 </div>
 
 <aside>
@@ -35,10 +50,7 @@ Take a glimpse at some past workshop impressions below, and stay updated on upco
 <div class ="article" markdown="1">
 ### [Electronics & Tactility workshop](https://gaudeamus.nl/en/events/terrapolis-xl-day-2/workshop-electronics-tactility-door-michelle-vossen-en-veerle-pennock-acid-solder-club/)
 
-Hosted by Sounds Like Touch at their workshop at the Hof van Cartesius during Gaudeamus festival - Terrapolis XL. A walk-in workshop in collaboration with Veerle Pennock. 
-
-Workshop description: 
-"E-textiles offer the possibility to convert soft touches, pinching movements, or stretchy knitted fabric into data. By using electrically conductive yarns to create electronic circuits and components (by embroidering or knitting, for example), you can control fantastic things such as sound, light, and movement. Designer and maker Michelle Vossen together with soldering and hardware expert Veerle Pennock, also the founder of Acid Solder Club, offer you an accessible introduction to the world of electronics. In this walk-in workshop, they teach you different textile techniques that you can then use independently to make your own soft sensors, resistors, and other components."
+Walk-in workshop in collaboration with Veerle Pennock at the Sounds Like Touch makerspace at the Hof van Cartesius during Gaudeamus festival - Terrapolis XL on September 11, 2022. In the workshop we taught various textile techniques to partipants to make their own DIY soft sensor.
 </div>
 
 <aside>
@@ -47,27 +59,30 @@ Workshop description:
 ![]({{ site.baseurl }}/assets/images/projects/workshops/knittingtechnology2.jpg)
 </div>
 <div markdown="1" class="row-2">
-![]({{ site.baseurl }}/assets/images/projects/workshops/knittingtechnology3.jpg)
 ![]({{ site.baseurl }}/assets/images/projects/workshops/knittingtechnology4.jpg)
+![]({{ site.baseurl }}/assets/images/projects/workshops/knittingtechnology3.jpg)
 </div>
 </aside>
 
 <div class ="article" markdown="1">
 ### [Knitting Technology workshop](https://oddstream.nl/workshop-knitting-technology/) 
-Hosted by Oddstream at the Lindenberg Cultuurhuis in Nijmegen, with a lecture by Veerle Spronck.
-
-Workshop description:
-"Knitting and computing have more in common than you might expect. We’ll research this subject in the workshop Knitting Technology on Thursday April 21st. The workshops starts with a talk about the subject. After that we’ll all go to work with fiber art, nitting machines and knitted electronic circuits."
+Workshop hosted by Oddstream at the Lindenberg Cultuurhuis in Nijmegen, with a lecture by Veerle Spronck, on April 21, 2022. During this event we started out with an opening lecture on the shared history of knitting and technology and how it's intertwined with gendered stereotypes. After that we explored commonalities between fiber arts and computers by coding punch cards, working with knitting machines, and creating our own knitted electronic circuits.
 </div>
 
-<!-- <aside>
-<div class="videowrapper">
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/581503216?h=21a5f7856f" width="400" height="400" frameborder="0" allowfullscreen></iframe>
-</div>
+<aside markdown="1">
+![]({{ site.baseurl }}/assets/images/projects/workshops/IMG_0981.JPG)
 </aside>
 
 <div class ="article" markdown="1">
-[A presentation on e-textiles](https://vimeo.com/581503216/21a5f7856f) and demonstration given during Tactology lab 1.
-</div>
+## Other events
+### 2023
+#### [Deconstruction/Reconstruction](https://iterations.online/#workshops) 
+Workshop at Iterations symposium hosted at Soup (Rotterdam), on December 16, 2023. In this workshop we crafted soft sensors and visualized the interactions in Processing.
 
-</body> -->
+#### [Craft & Electronics: Workshop textile & sound](https://theoverkill.nl/program/craft-electronics/)
+Workshop in collaboration with Veerle Pennock at The Overkill Festival in Enschede, on November 19, 2023. In this workshop in the middle of the festival, we crafted soft sensors and made the output audible using a modular synthesizer setup. 
+
+### 2022
+#### Weird Sensors and Tactile Interfaces Meet-up
+Meet-up for tactile interface community at the Acid Solder Club Workspace on December 16, 2022.
+</div>
