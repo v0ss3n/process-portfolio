@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /:title/
-category: research
+category: collaborations
 
 meta:
   keywords: "3D printing, Wearables"
@@ -9,8 +9,42 @@ meta:
 project:
   title: "3D Printing Experiments"
   logo: "/assets/images/projects/3d-printing/gieter.gif"
+  type: "digital fabrication"
 
 images:
+  - image:
+    url: "/assets/images/projects/3d-printing/3hats.gif"
+    alt: "3d print gif"
+  - image:
+    url: "/assets/images/projects/3d-printing/4hats.gif"
+    alt: "3d print gif"
+  - image:
+    url: "/assets/images/projects/3d-printing/blueblack.gif"
+    alt: "3d print gif"
+  - image:
+    url: "/assets/images/projects/3d-printing/bluepink1.gif"
+    alt: "3d print gif"
+  - image:
+    url: "/assets/images/projects/3d-printing/bluepink2.gif"
+    alt: "3d print gif"
+  - image:
+    url: "/assets/images/projects/3d-printing/cap.gif"
+    alt: "3d print gif"
+  - image:
+    url: "/assets/images/projects/3d-printing/hatpink.gif"
+    alt: "3d print gif"
+  - image:
+    url: "/assets/images/projects/3d-printing/hatpink2.gif"
+    alt: "3d print gif"
+  - image:
+    url: "/assets/images/projects/3d-printing/hatpink3.gif"
+    alt: "3d print gif"
+  - image:
+    url: "/assets/images/projects/3d-printing/hatpink4.gif"
+    alt: "3d print gif"
+  - image:
+    url: "/assets/images/projects/3d-printing/redhat.gif"
+    alt: "3d print gif"
   - image:
     url: "/assets/images/projects/3d-printing/top2.gif"
     alt: "3d print gif"
