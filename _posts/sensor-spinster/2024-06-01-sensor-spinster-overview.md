@@ -2,6 +2,7 @@
 layout: project-no-images
 permalink: /:title/
 category: ['collaborations']
+published: false
 
 meta:
   keywords: "e-textiles"
@@ -64,6 +65,22 @@ This question is divided into the following sub-questions:
 ### 1. Context
 
 #### What defines a contemporary artisan?
+In the dutch context, this is actually a matter of what you make of it, since the term is not protected. If you want to call yourself an artisan, you can; no one can stop you. This is not the definition I would like to go by though.
+
+- Legally, an artisan doesn't mean anything
+
+During this project, I've spoken to many spinners. Most of them are not spinning professionally but as a hobby. I've met them at spinning circles, workshops and markets. Some of the hobbyists are still finding ways to make some extra money through textile crafts, but not necessarily through spinning. 
+
+When does skill and practice turn into practicing a craft? I've spoken with Gregor about his view on this and tried to define the blurry boundaries between the artist, hobbyist, craftsperson and artisan.
+
+
+Most hand spinners I've met are not living off of hand spinning. They either have other methods of earning a living, or are not primary bread winners (so no financial pressure). Other methods of earning a living as a professional hand spinners is through education, so giving spinning workshops or hosting spinning circles. 
+
+There are also spinners that have businesses that relate to wool, and do hand spinning as part of that. 
+
+, in which case hand spinning is an extra income stream 
+
+
 #### Can you approach e-textiles in the same way to become an e-textile artisan?
 </div>
 
@@ -146,6 +163,8 @@ Fase 1 - onderzoek
 Het onderzoek begint met het verzamelen van informatie over de historische en hedendaagse
 van handspinners en artisans, om een antwoord op deelvraag 1 te formuleren.
 
+Historically the Netherlands had some areas 
+
 Daarnaast wordt een eisenlijst voor de sensoren aan de hand van de verzamelde kennis,
 en aan het onderzoeken en verzamelen van materiaal (vezels) om mee te werken
 gedurende dit project. Ook ben ik benieuwd naar de visie van artisans in Nederland op
@@ -160,11 +179,22 @@ Requirement list for the sensors
 From my own frustrations and experience the following...
 
 technical and practical requirements
-- Should be able to handle repeated touch, i.e. handle frictions and stress
+- Should be able to handle repeated touch, i.e. handle frictions and stress. Generally, worsted spun yarns are stronger and can handle more repeated use whereas woolen spun yarns 
 - 
 
-Notes on knitting
-- Fine gauge knitting machine really not suitable for thicker yarns - this is something that I should've thought about beforehand since it's pretty logical. I can make use of someone elses' coarse knitting machine though.
+### Lessons learned
+#### Knitting (3b)
+- Fine gauge knitting machine really not suitable for thicker yarns - this is something that I should've thought about beforehand since it's pretty logical. I only have a fine gauge knitting machine, and although I looked into getting a coarse knitter on Marktplaats, they tend to be way more expensive than fine gauge machines. Luckily I could make use of a coarse knitting machine at my previous workplace (thank you Manon!). 
+- I used mainly stitch size 7-10 on the coarse knitter using all needles. When knitting with handspun yarn, making swatches is essential to figure out the correct stitch size to make the yarn shine. I only made one swatch for each yarn and decided on the stitch size based on my intuition (i.e. my experience with knitting). This worked out okay-ish, but resulted in some swatches being too stiff. When a swatch is too stiff, sometimes the special features of the yarn is completely hidden within the stitches, which is a shame. With more time and more yarn I could have made more tests, but I had neither. 
+
+
+#### Fiber preparation (1b)
+The biggest thing I've learned in this project is that fiber preparation is everything. I've taken it into account already in my project proposal, but I did not really account for it as much as I should have. 
+
+Two mistakes I made in the beginning of my project was to buy unwashed, unpicked and uncarded alpaca wool (1) on Marktplaats (2) sorted in two different qualities (A and B, mostly relating to fiber length) and 3 different colors. Since I had experience with the raw material already I figured it would be a beautiful (to the eye and to the touch), nice to work with and inexpensive starting point, but it ended up costing me way more time than I anticipated in washing (and waiting for it to dry) and carding it by hand. I learned that it's better to spend a bit more money on fibers that have already been washed and carded and are ready for use. 
+
+The second lesson is that when buying raw materials, you need to feel and see them first - this became very obvious when I went to the weversmarkt in Hoorn. Every sheep/alpaca/plant fiber is different and seeing and touching the material is essential before buying. I got the alpaca from Marktplaats shipped to my house, and then I realized both how much I had bought, how short the fibers were, and how many thick hairs (.... haren) there were. You can see this clearly in the yarn I made with the B quality fiber, there are a lot of fibers poking out and it's very prickly.
+
 
 
 Questions to ask spinners
@@ -176,7 +206,7 @@ Questions to ask spinners
 
 ## Materials
 ### Conductive
-I'm looking into two categories - fibers and threads/wires. Although spinning techniques can also be applied to existing yarns, it's my goal to make my own yarns, but I found in my spinning book that if you need a strong material that will not be visible, it may as well be commercial yarn. I think I can also apply this to 100% conductive wires and filaments. It doesn't really add to my research to make all of the fully conductive material myself if they are going to be hidden. I also think there is value in wrapping handspun yarn in thin conductive wires - like my [favorite yarn](https://bart-francis.be/nl/etextile-high-tech-garen-co/etextile-linen-gimp-fantasy-and-practical-aplications-50-gr-100-met/a-5342-128) from bart & francis. So basically core yarn in both directions.
+I'm looking into two categories - fibers and threads/wires. Although spinning techniques can also be applied to existing yarns, it's my goal to make my own yarns. However, I read in my spinning book that if you need a strong material that will not be visible in the final yarn, it may as well be commercial yarn, and I think I can get behind that (and over my purist intentions). I think I can also apply this to 100% conductive wires and filaments. It doesn't really add to my research to make all of the fully conductive material myself if they are going to be hidden. I also think there is value in wrapping handspun yarn in thin conductive wires - like my [favorite yarn](https://bart-francis.be/nl/etextile-high-tech-garen-co/etextile-linen-gimp-fantasy-and-practical-aplications-50-gr-100-met/a-5342-128) from bart & francis. So basically core yarn in both directions.
 
 #### Fibers
 - [Stainless steel fibers](https://imattec.com/en/stainless-steel.php) - variocut (Immatec, mixed directions)
@@ -204,7 +234,7 @@ How to: <https://www.youtube.com/watch?v=MW5En8AjUPY>
   - [Graphite spray](http://www.kontaktchemie.com/KOC/KOCproductdetailV2.csp?product=GRAPHIT%2033)
 - Electroplating
 
-I've looked at these options but since these are more finishes and not necessarily part of spinning, I'm leaving them out of the equation.
+I've looked at these options but since these are more finishes and not necessarily part of spinning, I'm leaving them out of the equation (also since they tend to be pretty expensive and messy).
 
 ### Non-conductive
 From markets, Marktplaats and Bart & Francis.
