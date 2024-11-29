@@ -15,26 +15,37 @@ project:
 ---
 <body class="sensor-spinster">
 <div markdown="1" class="introduction">
-The current field of electronic textiles lacks an artisanal approach to e-textiles in which craft is on an equal footing with design and technology. This project focuses on experimenting with traditional textile techniques: to investigate how these can be used to make artisanal, applied electronic textiles. The focus of the experiment is on spinning conductive and resistive fibers into thread, because the thread is the key to virtually any fabric. The spun threads are then processed into sensors by weaving and knitting them, and used as a tactile interface.
+Sensor Spinster is an experimental research project where I research artisanal approaches to electronics by blending conductive and insulating fibers, spinning yarn and weaving and knitting the conductive yarn into soft sensors made to be touched, stretched, squeezed and stroked. 
 
-Something that I see in both my own e-textile research and within the broader (online) e-textiles community is that a lot of e-textiles research remains with prototypes and educational samples. This does not mean that there are no interesting, applied e-textiles projects and are being made (there are!!!); I am speaking generally and from my own observations which are limited to what I am able to find online and offline (in exhibitions and books). I am very aware that I am not seeing all there is, but I do think that I am seeing at least part of a picture. 
+This project is made possible with the generous support of the Creative Industries Fund NL through the experiment grant scheme.
+
+<div class="row-2--video">
+        <video width="480" height="300" autoplay loop muted>
+  <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/spun-1.mp4" type="video/mp4">
+        </video>
+        <video width="480" height="300" autoplay loop muted>
+  <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/spun-2.mp4" type="video/mp4">
+        </video>
+</div>
+
+</div>
+
+<div markdown="1" class="row-3">
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9381.JPG) 
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9380.JPG) 
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9379.JPG)
+</div>
+
 <!-- 
+Something that I see in both my own e-textile research and within the broader (online) e-textiles community is that a lot of e-textiles research remains with prototypes and educational samples. This does not mean that there are no interesting, applied e-textiles projects and are being made; I am speaking generally and from my own observations which are limited to what I am able to find online and offline (in exhibitions and books). I am very aware that I am not seeing all there is, but I do think that I am seeing at least part of a picture. 
+
 When I went to visit the Textielmuseum library I looked at their e-textiles/fashion tech corner, I found books on e-textiles that can broadly speaking be divided in 3 categories: academic books, DIY project books and books that gather/catalog various different fashion technology projects and artists. Most of the books in the second and third category are at least 10 years old. I'm not sure whether this means that there are no new interesting books or projects, or if this means that the collection hasn't been updated in a long time. The academic books are more recent and seem very interesting - it seems to me that this is where most of the development is going on now (but maybe this is confirmation bias).
 
 It does strike me that many example e-textiles projects are already ten to fifteen years old. In these projects you can see on the one hand an industrial approach, where the textiles are machine-made with very professional and technical (but sometimes a bit dry) results, and on the other hand a more DIY, 'crafty' approach to textiles, where the textile is made by hand, but the end result is not always finished and applied. -->
-</div>
 
-<aside>
 <div markdown="1">
-![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/sensor-spinster-start.jpg)
-</div>
-<div markdown="1" class="row-2">
-</div>
-</aside>
+The current field of electronic textiles lacks an artisanal approach to e-textiles in which craft is on an equal footing with design and technology. This project focuses on experimenting with traditional textile techniques: to investigate how these can be used to make artisanal, applied electronic textiles. The focus of the experiment is on spinning conductive and resistive fibers into thread, because the thread is the key to virtually any fabric. The spun threads are then processed into sensors by weaving and knitting them, and used as tactile interfaces.
 
-<div class ="article" markdown="1">
-
-**Research question**
 On the one hand, electronic textiles sometimes remain crafty in terms of manufacturing, and on the other hand, very technical and academic: there seems to be a missing place in the middle where craft and technology come together. Investigating that place is the core of this experiment. Is there a possibility that technology can be approached and innovated using artisanal methods? And can this be done in a way where the maker is both a designer and a craftsperson - an artisan?
 
 I think approaching electronic textiles from a craft perspective can offer interesting reflection on what it means to be a contemporary artisan in the Netherlands in the field of textile crafts and DIY electronics. The question that arises from this is:
@@ -50,49 +61,37 @@ This question is divided into the following sub-questions:
 3. **Textile design**: What makes a crafted sensor artisanal? What requirements must an artisanal sensor meet to be considered applied textile design?
 4. **Tactility**: What is the added value of hand spun compared to industrially manufactured threads for a rich visual and haptic experience of a tactile sensor?
 
-A lot of my research and conclusions come from conversations with spinners and craftspeople; the resources online basically all copy each other anyway; but the conclusions I draw are my own and it's definitely not a scientific article, more an essay and reflections
+The research, reflections and conclusions come from conversations with spinners and craftspeople, from my own physical experiences and observations while working with the different materials and techniques. I improved my spinning and carding techniques with the help from Gregor Falkenhagen and Bregje Konings in particular, but I also learned a lot from women I met at spinning circles throughout the country. Lastly, while spinning you have a lot of time to think while your body is doing the work (especially a lot of time for thinking about semantics). 
 </div>
 
-<aside>
-<div markdown="1" class="row-2">
-<!-- ![]({{ site.baseurl }}/assets/images/projects/workshops/knittingtechnology1.jpg)
-![]({{ site.baseurl }}/assets/images/projects/workshops/knittingtechnology2.jpg) -->
-</div>
+<div markdown="1">
 
-</aside>
-<div class ="article" markdown="1">
+## 1. Context
+### Background
+Hand spinning yarn has been a necessity to make cloth for thousands of years - first by hand, then with simple tools like (drop) spindles, then with a variety of spinning wheels. All three processes have the constant involvement of the hands in the process. In the Netherlands there was a lot of spinning being done on spinning wheels, mainly for the commercial sector, and this work was done almost exclusively by women. Until about 1800, hand spinning was a vital part of urban linen and cloth (mainly woolen blankets) industry in the Netherlands.[^1]
 
-## 1. Context: What defines a contemporary artisan?
-Hand spinning yarn has been a necessity to make cloth for thousands of years - first by hand, then with simple tools like (drop) spindles, then with a variety of spinning wheels. All three processes have the constant involvement of the hands in the process. Then the industrial revolution came with the invention of spinning machines like the spinning jenny, which signaled the end of hand spinning as a viable profession, also in the Netherlands. This is demonstrated by what J.A.P.G. Boot writes in *Textielhistorische Bijdragen 26* about hand spinning in the eastern Netherlands at the beginning of the 19th century: ‘As more spinning mills came into operation, hand spinning on spinning wheels had to decline, until eventually only very old spinners managed to make a living from it for an extremely meager wage. With them, hand spinning died out.'
+Then the industrial revolution came with the invention of spinning machines like the spinning jenny, which signaled the end of hand spinning as a viable profession, also in the Netherlands. This is demonstrated by what J.A.P.G. Boot writes in *Textielhistorische Bijdragen 26* about hand spinning in the eastern Netherlands at the beginning of the 19th century: ‘As more spinning mills came into operation, hand spinning on spinning wheels had to decline, until eventually only very old spinsters managed to make a living from it for an extremely meager wage. With them, hand spinning died out.' [^2]
 
-**Spinning in the 70s**
-Since then, hand spinning has seen some revivals throughout the years. I've been told by spinners at spinning circles that in the seventies, spinning had a huge revival as a hobby. When I was at the LSD (the Landelijke Spin Dag obviously) in october, I observed that the general audience was almost exclusively women, and that many seem to be over sixty. Some people I met at  spinning groups mentioned that they got introduced to spinning during the seventies revival, and I wondered if the LSD visitors got the spinning fever back then too.
+Interestingly, with the arrival of the spinning machines, spinning metamorphosed from a woman's job done at home (or on a ship, which is where the spinning wheel 'het schippertje' gets it's name from) into a man's job done in a factory hall.[^3] I can't help but think about the first computer programmers who were also women, until men found out that programming was important precision work. I found Jackie M. Blount's perspective on the shift in the public's perception of spinsters interesting:
 
-Another interesting thing I learned is that it was popular to spin 'in the grease', meaning spinning unwashed wool straight from the sheep (possibly this has to do with the hippie/environmentalist mentality but I'm not sure), and this is why this is something a lot spinners still do, but it seems unlikely that this is how people used to spin historically since it's pretty gross.
- 
-Part of this experiment is to investigate whether hand spinning can become relevant again in a design context: hand spinning currently does not play a major role in textile design. It's seen a little in the work of textile artists like Sheila Hicks do incorporate 
+>Jackie M. Blount calls spinsters “gender transgressors,” women who managed to find lives of independence and autonomy in their work as educators. Hired because of their singleness, not despite it, spinsters were at first considered “high-minded, upstanding pillars of the community” and eventually became cultural icons. But when social hygiene and the study of sexuality came into vogue at the turn of the twentieth century, spinsters came under fire. Suspected of lesbianism and accused of suppressing frustrated sexuality, Blount writes, spinsters were increasingly viewed as “standing outside their conventional gender roles as procreating women.” Admiration turned into villainization as women were forced to defend their single status in a workplace that once welcomed them.[^4]
 
-### Artisan: artist, craftsperson, designer, hobbyist, amateur?
-The definition of an artisan is something I've been thinking about a lot over the past months. From a language point of view, it's interesting to note that the word artisan does not have a dutch translation: we have the word 'artisanaal' to describe artisanal products, but other than that it's either translated to 'ambachtsman' or 'kunstenaar'. From a legal point of view, the word artisan doesn't mean anything in the Netherlands, since it's not a protected term. I looked in [this database](https://ec.europa.eu/growth/tools-databases/regprof/professions/bycountry) and there is not one creative/craft occupation that is regulated, protected or requires a diploma of any kind (see also <https://www.nederlandwereldwijd.nl/buitenlands-diploma-in-nederland/beroepserkenning-beschermd-beroep>). So if you want to call yourself a craftsperson or an artisan, you can; no one can legally stop you. I don't think this is a very productive definition of an artisan though, so let's dive a little deeper.
+The negative connotation to the word spinster lingers to this day, as it's still colloquially used to describe an unmarried woman who is too old to marry; a woman who no one wanted (or who herself wanted no one?) so she kept spinning to make a living. 
 
-Craftsperson - someone who skillfully practices a craft 
-Artisan - a craftsperson who uses their medium to create art and design, inspired by the (traditional) craft itself in a contemporary way
-Artist - someone with a drive to convey a message or tell stories with what they make, which determines their actions
-Designer - 
-Hobbyist/amateur
+Since then, hand spinning has seen some revivals throughout the years. I've been told by spinners at spinning circles that in the seventies, spinning had a huge rise in popularity as a hobby. When I was at the LSD (the Landelijke Spin Dag obviously) in october, I observed that the general audience was almost exclusively women, and that many seem to be over sixty. I joined the Landelijke Spingroep to learn how spinning is spread throughout the Netherlands nowadays, so I could visit the LSD and to find spinning circles to join. I visited the spinning circle in Amsterdam and in Oosternijkerk. I met people who were spinning since the seventies and spinners who just started, in a wide range of ages (although generally I was on the younger side).
 
-Am I an artisan? Who decides on that? At least according to someone that I consider an artisan I am: Gregor 
+### What defines a contemporary artisan?
+Part of this experiment is to investigate whether hand spinning can become relevant again in a design context: hand spinning currently does not play a major role in textile design. It's seen a little in the work of textile artists like Sheila Hicks, but I did not encounter designers or artists who have spinning yarn as a major part of their practice. Is it possible to have hand spinning yarn be a part of a contemporary artistic or design practice, executed by a contemporary artisan? Can the crossover between craft and technology add value? From these questions I started exploring the words we use surrounding craft and art, what they mean, how they relate to each other and how they blend into each other.
+
+#### Artisan: artist, craftsperson, designer, hobbyist, amateur?
+The definition of an artisan is something I've been thinking about a lot over the past months. From a language point of view, it's interesting to note that the word artisan does not have a dutch translation: we have the word 'artisanaal' to describe artisanal products, but other than that it's translated to 'ambachtsman' or 'kunstenaar'. From a legal point of view, the word artisan doesn't mean anything in the Netherlands, since it's not a protected term. I looked in [this database](https://ec.europa.eu/growth/tools-databases/regprof/professions/bycountry) and there is not one creative/craft occupation that is regulated, protected or requires a diploma of any kind (see also <https://www.nederlandwereldwijd.nl/buitenlands-diploma-in-nederland/beroepserkenning-beschermd-beroep>). So if you want to call yourself a craftsperson or an artisan, you can; no one can legally stop you. I don't think this is a very productive definition of an artisan though, so let's dive a little deeper.
 
 **Conversations with craftspeople**
 When does skill and practice turn into practicing a craft? I've spoken with Gregor Falkenhagen about his view on this and tried to define the blurry boundaries between the artist, hobbyist, craftsperson and artisan.
 
 During this project, I've spoken to many spinners. Most of them are not spinning professionally but as a hobby. I've met them at spinning circles, workshops and markets. Some of the hobbyists are still finding ways to make some extra money through textile crafts, but not necessarily only through spinning. 
 
-Most hand spinners I've met are not living off of hand spinning. They either have other methods of earning a living, or are not primary bread winners (so no financial pressure). Other methods of earning a living as a professional hand spinners is through education, so giving spinning workshops or hosting spinning circles. 
-
-There are also spinners that have businesses that relate to wool, and do hand spinning as part of that. 
-
-, in which case hand spinning is an extra income stream 
+Most hand spinners I've met are not living off of hand spinning. They either have other methods of earning a living (like a day job or career), or are not primary bread winners (so no financial pressure). Other methods of earning a living as a professional hand spinners is through education, so giving spinning workshops or hosting spinning circles. There are also spinners that have businesses that relate to wool, and do hand spinning as part of that. 
 
 My observations are that many craftspeople in textiles are hybrid, i.e. they do not just practice a craft but also educate, run a business around crafts and facilitate, or do research in academic environments. There is also people that I would call artisans rather than craftspeople 
 
@@ -106,230 +105,54 @@ However, this does not mean that the quality of the craft is any less by default
 
 To me, the love of the craft is very much part of why I try to incorporate it into my artistic practice in the first place. I'm an amateur, a lover!
 
+If you only spin for fun, it's a hobby, not a profession, even if you make some money on the side with it; the necessity needs to be there.
 
+**Artisan versus craftsperson**
+What is then the difference between an artisan and a craftsperson? I would describe it as two people taking themselves seriously in their craft and developing themselves to enhance their craft, but whereas the artisan uses their craft as a creative expression, a craftsperson does not necessarily do so. In my conversation with Gregor, he expressed the difference as craftspeople take traditional knowledge and bring it to life, not so much moving boundaries but making the most beautiful things based on tradition, whereas an artisan creates their own processes (and may take more freedom in the craft), but still base their work on traditional craft knowledge. 
 
-gregor gebruikt zijn ambacht iedere dag
-je moet een drive hebben een boodschap uit te dragen als kunstenaar en dat bepaalt je handelen
-
-de enige manier in de verrotte kleding wereld is om hybride bezig te zijn zoals samen met kunstenaars en als opleider
-als je alleen maar spint voor de lol ben je hobbyist
-
-het gaat ook om inkomen, of in ieder geval je leven mee bestrijdt 
-
-over art yarn professional die welke kwalificatie heb je? waar komt de kennis vandaan? als je niet afhankelijk ervan bent voor inkomen
-
-hobbyist die geld verdient of ambachtspersoon 
-
-gregor is ook een ondernemer, visie doorzettingsvermogen en geduld 
-
-gregor is een soort draad kunstenaar 
-daarmee voelt gregor zich wel comfortabel
-ik heb moeite mezelf kunstenaar noemen
-volgens gregor ben ik zeker dingen aan het scheppen als een kunstenaar 
-
-let erop dat ik mezelf niet te klein maak!! succesful kunstenaarschap is je connecties 
-
-ik ben alles wat ik wil zijn volgens gregor
-
-kun je een ambacht in je eentje leren van video’s en boeken? of is het netwerk van mensen eromheen die jou dingen leren noodzakelijk? 
-
-het probleem met spinnen is misschien dat het een halffabrikaat is, nog meer dan weven bijv want daarvan kan je ook meteen een eindproduct maken vaak; aan de andere kant wordt handgesponnen draad wel degelijk verkocht op bijv de weversmarkt. ik zag ook art batt dat verkocht werd door bregje konings
-
-wat is volgens jou artisanaal? en wat is het verschil met ambachtelijk? is er een verschil? 
-wanneer kan je jezelf een ambachtspersoon noemen? en wanneer een artisan? want in nederland hebben we daar verder geen instantie voor die zoiets voor je kan erkennen
-
-
+**Artist versus artisan**
 This definition on Wikipedia annoys me and I think it's outdated:
-`Artisans practice a craft and may through experience and aptitude reach the expressive levels of an artist.`
+>Artisans practice a craft and may through experience and aptitude reach the expressive levels of an artist.
 
-I prefer to place the artisan and the artist next to each other. An artist does not necessarily have to be able **themselves** to make something skillfully in order to transmit their message: for example, artworks can be executed by craftspeople according to their vision, or the artist makes something themselves with a craft, but not execute it very well technically. To be clear - I don't have a problem with that, but I am trying to make a distinction between artists who take their medium seriously and develop together with the medium (that I would also call artisans), and artists where the medium is secondary to the message.
+I prefer to place the artisan and the artist next to each other as two types of expression: one more in the decorative arts and the other more in fine arts; an applied artist (designer? functional artist?) and a fine artist? An artist does not necessarily have to be able **themselves** to make something skillfully in order to transmit their message: for example, artworks can be executed by craftspeople according to their vision, or the artist makes something themselves with a craft, but not execute it very well technically. To be clear - I don't have a problem with that (only when there is no credit given to the craftspeople who made it), but I am trying to make a distinction between artists who take their medium seriously and develop together with the medium (that I would call both an artist and an artisan), and artists where the medium is secondary to the message.
 
+If an artisan works more within the decorative arts, is a designer then an applied artist? Gregor said that being a designer is a job, which I guess is true; someone who may be technically skilled and tell stories with their work just like an artist or artisan, but with selling products as the final goal. Although I feel like a lot of designers care more about the expressive side of their work than the commercial side of it, so it's a bit more nuanced than that. And at the same time - a craftsperson, artisan or artist, they're professions as well. And who decides in the end who is an artist - are you only an artist if your work is seen by others? Who decided on what is good art? 
 
-en kan ook ambachtsmensen en artisans inzetten en diens eigen naam erop plakken
+I think I'm reaching the point where I'm just going to keep spiraling into semantics, so it's time to summarize some definitions and distinctions:
 
-gregor: zou handwerk gebruiken ipv ambachtspersoon, in duitsland is dat echt een vak leren en doen, met je handen werken puur het leren werken met je handen
-meester en gezel, gezel is voor het afwerken, de meester gaat misschien naar het creatieve
-een artisan is iemand die zich laat inspireren door traditie en het leven
+- Craftsperson - someone who skillfully practices a craft 
+- Artisan - a craftsperson who uses their medium to create art and design, inspired by the (traditional) craft itself in a contemporary way
+- Artist - someone with a drive to convey a message or tell stories with what they make
+- Designer - someone who shapes functional objects o, usually with a commercial intent
+- Hobbyist/amateur - someone who practices a craft for fun at any level of skill 
 
-meer van de aarde geleid, oude tradities en daar weer leven in blaast, niet zozeer die grenzen verplaatst maar meer vanuit de traditie de mooiste dingen maakt, een artisan creeert eigen processen, maar nog wel 
+A contemporary artisan then is someone who is technically skilled at a craft, takes themselves seriously in its practice by trying to improve continuously, and explores the medium creatively. A contemporary artisan uses their craft expressively but also professionally: there needs to be a certain urgency, it's both part of their life and their livelihood. An artisan is in a constant dance with the material, trying to balance what they want and what the material wants; being in control but also understanding constraints.
 
-kunstenaar probeert onzichtbare dingen zichtbaar te maken, iets expressiefs maken letterlijk, iets in mensen naar buiten te brengen
+<!-- When something is artisanally made, it's made mostly manually and by one person -->
 
-een ontwerper is een baan, is een ontwerper een kunstenaar?? mengsel van vakman en kunstenaar, 
-ontwerper benadering vanuit de mode
-
-geen 100% kunstenaar gregor, wel wat in zich maar niet het dominante
-wel een stukje kunstenaar in de stroming die in de wereld is zichtbaar te maken, maar vakman om dat uit te voeren 
-procesopdeling, het eerste stuk van het proces, idee, lifestyle, baanverdeling, de eerste stap
-
-er zijn verschillende soorten kunstenaars en verschillende soorten ontwerpers 
-kunstenaar kunstenaar wil vooral dingen naar buiten brengen
-
-hoort kunnen bij kunst? kunst komt van kunnen - is dat zo?? de visie en de droom is ook nodig
-
-wij bepalen wie een kunstenaar wordt
-de hype, kunstenaars worden eruit gepikt die belangrijk zijn
-
-het taalgebruik is heel erg misbruikt, alles kan ambachtelijk of artisanaal, kunst hoeft niks te kunnen, etc
-gregor vindt het woord artisan ook teveel gebruikt nu
-
-de rol leraar, kennis doorgeven
-de kunstenaar is klaar als het werk klaar is
-het is een andere taak, 
-wettelijk beschermde beroepsgroepen wel fan van, ook van vakopleiding
-wat gregor opvalt als buitenlander is het missen van de inspiratie, een eenstroming land, iedereen stapt op de hype, iedereen een fatbike cowboy boots bakfiets, de diversiteit mist, er is weinig ruimte voor anders doen, het calvinistische doe maar gewoon dan doe je al gek genoeg
-ineens is iedereen viltkunstenaar of tufter 
-als het maar handel opbrengt!! en goed genoeg zesjesvultuur
-mis de passie
-passie voor dingen afwerken als duits ingenieur en modeontwerper, nederlanders vertrouwen op lekke systemen
-het grootmoedige
-onbruikbaar ontwerp 
-gregor is echt een opleider, voorzichtig over het gebruik van het woord artisan
-
-vakgebied spinnen
-technologie technisch leidende draden 
-en het creatieve, wat ik daarmee doe welke expressie
-
-door dat samenspel van drie kan het wel zo genoemd worden
-in nederland betekent het toch niks hahah
-geeft uiteindelijk niet zoveel om de woorden
+### Can you approach e-textiles in the same way to become an e-textile artisan? > Can you approach e-textiles in an artisanal manner?
+With this definition of what it means to be an artisan, I would say yes - you can apply these same parameters to someone who makes electronic textiles. When the electronic textiles are skillfully crafted by someone with technical, expressive and technological skills, I think you can move from a textile artisan to an e-textile artisan.
 
 
-—-
+## Reflection
+Now, I like to call myself a sensor spinster. I don't have the hours yet to call myself a master, but I definitely have the obsession to constantly work on my skills to be both in control and in symbiosis with my materials and my spinning wheel. I am approaching the fiber, yarn and processing from an expressive, technical and technological point of view, aspiring to be an electronic textile artisan.
 
-1. Context: Wat definieert een hedendaagse artisan? Kan je e-textiles op dezelfde ma- nier benaderen om tot een e-textile artisan te komen?
-2. Ambacht: Wat zijn geschikte materialen en spintechnieken om ambachtelijk senso- ren te maken?
-3. Textielontwerp: Wat maakt een ambachtelijk gemaakte sensor artisanaal? Waaraan moet een artisanale sensor voldoen om als toegepast textielontwerp te kunnen worden beschouwd?
-4. Tactiliteit: Wat is de meerwaarde van handgesponnen t.o.v. industrieel vervaardig- de draden voor een rijke visuele en haptische ervaring van een tactiele sensor?
+<!-- to me, beauty is in technical execution -->
+<!-- I think I can call myself a sensor spinster and e-textile artisan now. Not just because legally no one can stop me, but because I think I fit the requirements (that I came up with, but okay). In Sensor Spinster, the craft of spinning, technology and the creative expression come together in yarn made to interact with. -->
 
+<!-- **What am I? and artisan in nl / reflection**
+I have a hard time calling myself an artist since I have a bachelor in design, but I never really worked as a designer, I almost exclusively designed in artistic projects (both collaborative and my own); I've never had to design something with a customer in mind. I'm always making with textiles and/or the body in mind; I'm very material-driven and I would place myself more on the applied arts than on the fine arts side, 
 
+Am I an artisan? Who decides on that? At least according to someone that I consider an artisan I am
 
-
-## Notes on the process
-I.e. what did I learn
-
-### Can you approach e-textiles in the same way to become an e-textile artisan?
-With the definition of what it means to be an artisan, I would say yes - I think I can call myself a sensor spinster and e-textile artisan now. Not just because legally no one can stop me, but because I think I fit the requirements (that I came up with, but okay). In Sensor Spinster, the craft of spinning, technology and the creative expression come together in yarn made to interact with.
-
-</div>
-
-<aside>
-<!-- <div markdown="1" class="row-2">
-![]({{ site.baseurl }}/assets/images/projects/workshops/knittingtechnology1.jpg)
-![]({{ site.baseurl }}/assets/images/projects/workshops/knittingtechnology2.jpg)
-</div> -->
-
-</aside>
-
-<div class ="article" markdown="1">
+I guess I'm a hybrid too, I'm an aspiring artisan - working on developing my craft to use it in creative expressions.  -->
 
 
 
 </div>
 
-<aside markdown="1">
-<!-- ![]({{ site.baseurl }}/assets/images/projects/workshops/IMG_0981.JPG) -->
-</aside>
+<div markdown="1">
 
-<div class ="article" markdown="1">
-
-### 3. Textile design: What makes a crafted sensor artisanal? What requirements must an artisanal sensor meet to be considered applied textile design?
-This question relates to the distinction made earlier between crafted versus artisanal. A crafted sensor becomes artisanal when the sensor is made with intention: the spinner takes control to make the yarn, not the fiber.
-
-over de draden en sensoren die ik heb meegenomen
-ik zie zelf een groot verschil in hoe ik de draden voorbereid, de vezel voorbereiding is echt de sleutel tot een prettig te spinnen draad
-ik heb eigenlijk te lang me bezig gehouden met de alpaca die ik had gekocht te laten werken voor me, de voorgewassen en gekaarde en gekamde wol maakte de het proces zoveel makkelijker en het resultaat mooier
-twist verlies bij het breien
-bij de draden die een specifieke techniek zijn: klopt het? wat moet ik doen om ze te verbeteren?
-bij sommige draden loop ik tegen machine verwerking restricties aan -> een breimachine schuift soms m’n draad heen en weer waardoor de coils bijv gegroepeerd worden
-
-
-wat zijn de problemen die je signaleert? roast my yarn
-
-
- 
-</div>
-
-<aside>
-<div markdown="1" class="row-2">
-![]({{ site.baseurl }}/assets/images/projects/workshops/knittingtechnology1.jpg)
-![]({{ site.baseurl }}/assets/images/projects/workshops/knittingtechnology2.jpg)
-</div>
-
-</aside>
-
-<div class ="article" markdown="1">
-
-### 4. Tactility: What is the added value of handspun compared to industrially manufactured yarn for a rich visual and haptic experience of a tactile sensor?
-Comparing to both industrially processed conductive yarn, and comparing to industrially processed conductive fabric
-
-Before Sensor Spinster, I've knitted and woven plenty of tactile interfaces using the same machines as I am using in this project.
-
-This question is to answer: why bother with all of this? Is it better?
-
-I don't think it's necessarily better, but it's a different approach to technological textiles.
-
-I think you can create beautiful things with industrially manufactured yarn, and the results may be more consistent and reliable than with handspun yarn. Industrially made yarn can be made at a larger scale, faster and cheaper, and can be processed with equally industrial machines. 
-
-The problem that arises when the goal is a rich visual and haptic experience of a textile sensor I see with 
-
-Industrially manufactured conductive yarn is mainly made for this industrial processing, which means it has to be quite thin and consistent in thickness, which are great achievements, but these qualities are not what I am looking for in yarn for more hands-on processing. 
-
- - thin in comparison to the yarn I like to 
-
-When the yarn is this thin and consistent, it tends to blend into the fabric - you don't see the yarn itself so much as more the fabric as a whole. 
-
- too consistent 
-
-Industrially produced yarns are less exciting in themselves so you rely more on their processing, whereas now the thread is sufficient and decisive for the final fabric.
-</div>
-
-<div class ="article" markdown="1">
-
-### Methodology
-
-1. Research
-  1. Investigate historical and contemporary context
-    1. Conversations with craftspeople/artisans
-    2. Visit to Dutch spinning mills
-    3. Defining what an artisanal sensor should include
-  2. Material research
-    4. Researching conductive materials to make your own conductive yarns with conductors such as graphite, silver, aluminium, steel wool, steel fibers
-    5. Investigating non-conductive (insulating) materials for spinning together with the conductive materials such as wool and cotton
-  3. Documentation: summarize conclusion in an article (blog)
-2. Spinning (from fiber to yarn)
-  1. Taking courses at Men At Wool
-  2. Develop your own yarn with conductive and resistive fibers
-    1. Carding
-    2. Twisting
-    3. Plying
-3. Processing (from yarn to fabric)
-  1. Weaving
-  2. Knitting
-4. Contextualization (from fabric to sensor)
-  1. Set up a system in which the experimental sensors are tested
-  2. Two larger works with the best results from the experiments
-</div>
-
-https://www.stitchingworlds.net/experimentation/spinning-electronic-yarns/
-https://www.kobakant.at/DIY/?p=5519
-
-Requirement list for the sensors
-
-Technical and practical requirements
-- Should be able to handle repeated touch, i.e. handle frictions and stress. Generally, worsted spun yarns are stronger and can handle more repeated use whereas woolen spun yarns tend to pill a little after repeated stress. 
-- Conductive fibers/materials should be distributed as evenly as possible throughout the batt
-
-Machine processing constraints - knitting on a domestic knitting machine:
-- If the yarn is to be processed on a domestic knitting machine, it should not be too thick. If it's thicker than about 5mm, it's very hard to knit it even on a coarse knitting machine, especially when it's dense. When using beaded yarn, the beads have to be less than 4mm thick, otherwise they do not fit through the orifice of the knitting machine carriage. I used 5mm thick beads, and they did not fit.
-
-Machine processing constraints - weaving:
-- When weaving with conductive yarns in the weft, you can basically use any thickness. However, if the warp is too dense, you may end up covering up a lot of the yarn, so the warp should leave enough room for the yarn to shine
-
-Variable resistance sensors:
-- Should not be too dense - when the yarn is very dense, it's harder to get a good contrast in conductivity, which makes it less useful for a variable resistance based sensor
-
-Capacitance based sensors:
 
 
 ## 2. Craft: What are suitable materials and spinning techniques to make crafted sensors?
@@ -397,118 +220,330 @@ All of my non-conductive fibers have been sourced from markets (mostly the Wever
 - Flax - I found a bag of flax top in a second hand store in Haarlem 
 - Acrylic - firestar effect fibers and a white/green blend from Bart & Francis 
 
-In my spinning process, I decided to focus on sheep and alpaca wool as the main fibers. This is because they are the most commonly found in the Netherlands, available in a large variety, and are largely from local animals. On top of that, they are also very nice to spin. For the plant-based fibers, different preparation processes are sometimes needed (like heckling for flax), and since my fiber blending research is focused on carding and combing, this would not make sense. Furthermore, finer fibers like cotton need carders with way more teeth per inch (TPI) than I had. I also think it makes sense to limit the amount of non-conductive fiber types since the research is about the combination with conductive materials. I did however use silk, banana and acrylic fibers in small quantities as effect fibers for visual and tactile purposes.
-
 ### Fiber preparation
 The biggest thing I've learned in this project is that fiber preparation is everything. I've taken it into account already in my project proposal, but I did not really account for it as much as I should have. Good fiber selection and good fiber preparation make a yarn pleasant to spin, and even more importantly, distribute the conductive materials evenly along the combed top or carded batt. I'll discuss fiber sourcing, carding and combing here.
 
 **Sourcing fiber**
 Two mistakes I made in the beginning of my project was to buy unwashed, unpicked and uncarded alpaca wool (first mistake) on Marktplaats (second mistake) sorted in two different qualities (A and B, mostly relating to fiber length) and 3 different colors. Since I had experience with the raw material already I figured it would be a beautiful (to the eye and to the touch), nice to work with and inexpensive starting point, but it ended up costing me way more time than I anticipated in washing (and waiting for it to dry) and carding it by hand. I learned that it's better to spend a bit more money on fibers that have already been washed and carded (and dyed) and are ready for use. 
 
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_5374.JPG)
+
 The second lesson is that when buying raw (non-conductive) materials, you need to feel and see them first - this became very obvious when I went to the weversmarkt in Hoorn. Every sheep/alpaca/plant fiber is different and seeing and touching the material is essential before buying. I got the alpaca from Marktplaats shipped to my house, and then I realized both how much I had bought, how short the fibers were, and how many thick prickly hairs (kemp) there were. You can see this clearly in the yarn I made with the B quality fiber, there are a lot of fibers poking out and it's very prickly.
+
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_5476.JPG)
 
 The sourcing process for conductive fiber happened online only, since conductive materials are not very common in markets or shops, apart from copper wire (electronics stores) and steel wool for sanding and cleaning (hardware stores). Steel fibers are mostly found on websites of the companies producing them, and you usually have to e-mail them or fill in a form to get a quote. They are mainly sold to other businesses, and are only available in small sample quantities for high prices or in large quantities. As a small individual textile designer, this is not very convenient, but I still managed to get some different conductive fibers to do my research with from the french company Immatec (through e-mail) and the german company Shieldex (through their sample webshop). 
 
 ### Tools
-I've used a variety of tools for this project: some donated, some bought, some made and some borrowed.
+I've used a variety of tools for this project: some donated, some bought, some made and some borrowed, that I'll introduce below.
 
-- Spinning wheel (a scotch tension Louet donated by Marina van der Velden, the mother of my neighbour to whom I am very, very very grateful :) )
-- Hand carders (one coarse pair that came with the spinning wheel, another 72 TPI pair bought at GF Carders)
-- Blending board (108 TPI)
-- Wool combs (made myself using a 66% scaled down version of [this print](https://www.thingiverse.com/thing:4856336) using 3.1 mm nails since wool combs are ridiculously expensive)
-- Diz (made myself by printing [this file](https://www.thingiverse.com/thing:4858896))
-- Drum carder (I visited the textile workshop where I used to work at Utrecht University of the Arts multiple times to make use of their drum carder)
-- Treadle weaving loom (made use of one at the Weefacademie Sytze Roos)
+- First of all, the star of the project: a spinning wheel (a scotch tension Louet S10 donated by Marina van der Velden, the mother of my neighbour to whom I am very, very very grateful :) ). On top you can mount the skeinwinder to wind freshly spun yarn into skeins.
+
+  ![spinning wheel]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9316.JPG) 
+<!-- ![skeinwinder]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_5508.JPG)  -->
+
+- Hand carders: one coarse pair that came with the spinning wheel, another 72 TPI pair bought at GF Carders and some chopsticks to make rolags. Here are the coarse carders:
+
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_5445.JPG)
+
+Blending board (108 TPI):
+
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_5720.JPG)
+
+Wool combs (made myself using a 66% scaled down version of [this print](https://www.thingiverse.com/thing:4856336) using 3.1 mm nails since wool combs are ridiculously expensive) and a diz with twist saver (made myself by printing [this file](https://www.thingiverse.com/thing:4858896)):
+
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_6377.JPG)
+
+Louet drumcarder (I visited the textile workshop where I used to work at Utrecht University of the Arts multiple times to make use of their drum carder):
+
+![](https://www.spinspul.nl/wp-content/uploads/2019/09/Kaardmolen-standard.jpg)
+
+Treadle weaving loom (made use of one at the Weefacademie Sytze Roos)
+
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_8180.JPG)
+
 - Domestic knitting machine (a fine gauge machine I already owned; a coarse gauge machine I made use of at Utrecht University of the Arts)
 
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9392.JPG)
+
 **Carding and combing fibers**
+This project is as much about spinning as it is about carding. How you prepare your fiber accounts for a third of how it's going to spin, the other thirds going to the actual fiber you use and the spinning itself.
+
 For the sake of this project, I bought hand carders (72 TPI which means teeth per inch; this is a nice jack of all trades for carding various fiber types) and a blending board (108 TPI). I did not buy a drum carder, because they are pretty expensive and bulky. However, when I bought the blending board, I thought that I could use them for mixing in conductive fibers evenly, but that really didn't work and it's not what they are for. I also hoped that I could use them to card raw wool. However, blending boards are for blending clean, combed or carded fibers and designing fiber arrangements with, not for actually blending and mixing fibers. I learned that that is not really what I was looking for: I primarily wanted to mix the conductive fibers very well to distribute conductivity throughout the resulting yarn. The rolags and batts I made with the blending board had the different fibers used distinctly visible. I do think that the blending board can come in handy when designing yarn with a combination of carded conductive and non-conductive blends, but I didn't use it a lot during the research.
 
-PHOTOS blending board - carded - combed - 
+<video width="480" height="300" autoplay loop muted>
+  <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/blending-board.mp4" type="video/mp4">
+</video>
 
-Hand carding is a lovely process of lightly brushing two carding brushes loaded with fiber over each other, to straighten and fluff up the fibers. The resulting batt is not very large and doesn't produce a lot of yarn, but it's just enough for a swatch. I used the hand carders quite often in this project. You can roll up the fiber into a neat roll called a rolag, which is used in long draw spinning. With hand carding it's important to not overload the carder, otherwise carding is harder and drafting from the resulting rolag is harder. 
+Hand carding is a lovely process of lightly brushing two carding brushes loaded with fiber over each other, to straighten and fluff up the fibers. The resulting batt is not very large and doesn't produce a lot of yarn, but it's just enough for a swatch. I used the hand carders quite often in this project. You can roll up the fiber into a neat roll called a rolag, which is used in long draw spinning. With hand carding it's important to not overload the carder, otherwise carding is harder and drafting from the resulting rolag is harder. Below you can see rolags made from alpaca wool and conductive fibers in various ratios.
 
-Drum carding - carding fibers with a hand-cranked machine with two rollers with carding cloth - is my favorite process and I ended up doing most of my fiber preparation like this, simply because it works the best and fastest. With an 80 gram batt from a full averagely sized drum carder like the [Louet Drumcarder Standard](https://www.spinspul.nl/en/product/louet-drumcarder-standard-72-tpi/) that I used mainly, you can spin multiple hanks of yarn of different types to compare and make multiple sensor swatches with the same batt, or spin a lot of yarn of the same type for a larger sensor swatch. I do not own a drum carder as they're pretty expensive, but I was able to make use of one close to my studio in Utrecht.
+<div markdown="1" class="row-3">
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_5442.JPG)
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_5443.JPG)
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_5451.JPG) 
+</div>
 
-I also made wool combs, since I tried this fiber preparation process during a workshop I followed by Gregor Falkenhagen from Men at Wool and found that the resulting combed top is very evenly mixed, which is what I wanted. The problem is that it takes very long, and it produces a lot of waste. In the end I prefered carding the same batt multiple times for better consistency over combing small amounts of wool, because I found that the distribution of conductive fibers in batts (carded well) was already good enough to detect useful resistance and capacitance ranges in the resulting yarn. Combing worked a little too well, and the resulting yarn was smooth but a little one dimensional in my opinion. With carding, you have more design freedom.
+Drum carding - carding fibers with a hand-cranked machine with two rollers with carding cloth - is my favorite process and I ended up doing most of my fiber preparation like this, simply because it works the best and fastest. With an 80 gram batt from a full averagely sized drum carder like the [Louet Drumcarder Standard](https://www.spinspul.nl/en/product/louet-drumcarder-standard-72-tpi/) that I used mainly, you can spin multiple hanks of yarn of different types to compare and make multiple sensor swatches with the same batt, or spin a lot of yarn of the same type for a larger sensor swatch. I do not own a drum carder as they're pretty expensive, but I was able to make use of the one at HKU, close to my studio in Utrecht. 
+
+<div markdown="1" class="row-3">
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_6395.JPG) 
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_6401.JPG)
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_6403.JPG) 
+</div>
+
+I also made wool combs, since I tried this fiber preparation process during a workshop I followed by Gregor Falkenhagen from Men at Wool and found that the resulting combed top is very evenly mixed, which is what I wanted. The problem is that it takes very long, and it produces a lot of waste. In the end I preferred carding the same batt multiple times for better consistency over combing small amounts of wool, because I found that the distribution of conductive fibers in batts (carded well) was already good enough to detect useful resistance and capacitance ranges in the resulting yarn. Combing worked a little too well, and the resulting yarn was smooth but a little one dimensional in my opinion. With carding, you have more design freedom.
+
+<div markdown="1" class="row-3">
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_5990.JPG) 
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_5992.JPG)
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_5998.JPG) 
+</div>
+
+The problem with carding a batt multiple times though is that again, it takes a long time, and if I didn't carefully distribute the conductive fiber they can still stick together too much. To learn how to better card, I followed a workshop on art yarn spinning and carding by Bregje Konings, where I learned how to improve this process. By sandwiching the conductive fibers in between regular wool, you have more control about the placement and separation of the conductive fibers. I tried this on Bregje's drum carders, first making an art batt with a huge amount of different colors and fibers (90 gram of silk, merino, mohair, wensleydale...) and a small amount of crimped stainless steel fibers (2 gram). The in-between white layers are combed mohair to make the yarn really cloudy. The next batt is again with a variety of fibers (72 grams of gotland curls, shetland, merino, bluefaced leicester, black and grey bamboo, pink sari silk, white firestar and copper christmas decoration to name a few) and 5 grams of 12 micron aligned stainless steel; here I compared carding once versus twice:
+
+<div class="row-2--video">
+        <video width="480" height="300" autoplay loop muted>
+  <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/drumcarder2.mp4" type="video/mp4">
+        </video>
+        <video width="480" height="300" autoplay loop muted>
+  <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/drumcarder1.mp4" type="video/mp4">
+        </video>
+</div>
+
+
+By pulling the conductive fibers apart to make a bit of a spider web and then sandwich that, you get a pretty even distribution. With this technique, carding just once is enough which is way faster; this way the fibers are less blended but this can be pretty nice visually. 
+
+These were the first batts after the session with Bregje:
+
+<div markdown="1" class="row-3">
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_8145.JPG) 
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_8147.JPG)
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_8150.JPG) 
+</div>
+
+Still, carding the following 8 batts took about 5 hours, so it's by no means a quick process.
+
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9118.JPG) 
+
+<div markdown="1" class="row-2">
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9121.JPG) 
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9122.JPG)
+</div>
+
+The fastest method of fiber preparation is when I'm spinning straight from non-conductive fiber and plying it with copper wire. In that case, it's more about the spinning technique to make the yarn interesting. When spinning yarn with copper wire, the yarn is a bit more stiff and you can notice the thin copper wire. This can be used as a design feature though.
+
+
+
+![diz on spinning wheel]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9315.JPG)
 
 ### Suitable materials 
 **Conductive fibers review**
 While working with the 8 micron conductive fibers (the mixed direction ones) I noticed that they love to tangle together and form clumps during the (hand) carding process already. Carding them separately beforehand can help a little bit but not significantly. Blending them with other fibers directly on the blending board is not too easy but okay if it’s not too much at once, but it still clumps and tangles while spinning; it feels like they're felted together. I ended up not using this material after the first few samples since it was too frustrating to spin and I couldn't get it to be blended evenly. Even when I was spinning just the conductive fiber, it resulted in very uneven yarn.
 
-I then continued with the 12 micron aligned conductive fibers that looked more like combed top and where way more manageable to process.
+I then continued with the 12 micron aligned conductive fibers that looked more like combed top and where way more manageable to process. The crimped fibers from Shieldex are also very nice, as they are way thinner and very springy and glittery, which makes the yarn glitter a little. They are very conductive but easy to blend since they're so thin.
 
-<!-- In the beginning of the project I worked a lot with raw alpaca wool, but that was time consuming and messy, although during the carding most of the debris and dust falls out.  -->
+Steel wool for sanding purposes is not stainless, which in hindsight makes sense. This resulted in rusting yarn. I put this yarn in the same bath as some other yarn with stainless steel, and they ended up having a few rust spots as well. I noticed the rust was getting worse when the yarn was drying up, so I'm curious to see if it will stabilize. 
+
+On the first image, steel wool at the top, then 8 micron mixed direction stainless steel, then the 12 micron aligned fibers. On the right, the (way thinner) crimped fibers.
+
+<div markdown="1" class="row-2">
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_7882.JPG)
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_7883.JPG)
+</div>
+
+**Insulating fibers review**
+When I started the project, I already knew I didn't want to work with raw sheep wool, since I know how long the washing can take and how nasty the lanolin and dirt is. The focus of the project is on spinning, not on the entire wool preparation process. I did however get raw alpaca wool, since I used it before and knew that the cleaning process was less messy, since alpacas don't have lanolin in their coat. They do take dust baths however, and I think the alpacas that I got the coats from loved those, because the wool was very dusty. I also noticed that there was big differences in quality between alpacas - some had coats with a lot of kemp and others had very short fibers only, so it was pretty frustrating to work with. I ended up spending hours on cleaning, carding and trying to make it work for me, but you can really see the struggle in the yarn. After I went to the weversmarkt in Hoorn I only got washed and precarded fiber which was way better.
+
+In my spinning process, I decided to focus on wool as the main insulating fiber. This is because they are the most commonly found in the Netherlands, available in a large variety, and are largely from local animals. On top of that, they are also very nice to spin. For the plant-based fibers, different preparation processes are sometimes needed (like heckling for flax), and since my fiber blending research is focused on carding and combing, this would not make sense. Furthermore, finer fibers like cotton need carders with way more teeth per inch (TPI) than I had. I also think it makes sense to limit the amount of non-conductive fiber types to make it easier to compare things like fiber ratios and spinning techniques. I did however use other fibers like silk, banana and acrylic fibers in small quantities as effect fibers for visual and tactile purposes.
+
+### Spinning techniques
+I've explored many different techniques during this projects. They can be categorized roughly as:
+
+- singles
+- 2 ply yarn & variations
+- 3 ply chain plied yarn
+- core & coreless core yarn
+- beaded yarn
+- technical yarn
+- art yarn
+
+Singles are the easiest and fastest to spin, since they only require one spinning step. If they're going to be used as singles, they should not be overly twisted.
+
+Beaded yarn takes a long time to spin, and while the result is nice, it doesn't really work for variable resistance since the conductive path needs to be created by having the beads touch. For a touch sensor it can work though, if you want to use each single bead as a touch input, you could. As a bigger electrode it doesn't really work, but that could be done by stringing the beads on or plying with conductive yarn.
+<div class="row-2--video">
+        <video width="480" height="300" autoplay loop muted>
+  <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/greybeadyarn.mp4" type="video/mp4">
+        </video>
+        <video width="480" height="300" autoplay loop muted>
+  <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/greenbeadyarn.mp4" type="video/mp4">
+        </video>
+</div>
+
+## Swatch tester
+I made a variable resistance and capacitance visualizer with a small piece of an addressable LED strip that changes color based on the change in resistance or capacitance (depending on which side it's clipped to). There is also a knob to change the sensitivity of the variable resistance side (the voltage division), since some sensors have a larger or smaller resistance range than others (i.e. some range from 100k-500k, other from 20k-50k etc.). This doesn't show the actual resistance or capacitance, but for this you can simply use a multimeter. You can clip it wherever you want, and the resistance range will be different: if you pick two points closer to each other, the resistance range will be lower and smaller. Usually, I clip them a bit below the top left and a bit above the bottom right. You can interact with the swatch by
+
+- pressing
+- stretching
+- squeezing
+
+Some yarn are spun with conductive 
+
+Comparing the variable resistance and capacitance from the various sensors, I learned that:
+
+- There are not really big differences between a yarn like a 2 ply and a 2 ply variation in resistance
+- 
 
 
-
-#### Knitting 
-- Fine gauge knitting machine is really not suitable for thicker yarns - this is something that I should've thought about beforehand since it's pretty logical. I only have a fine gauge knitting machine, and although I looked into getting a coarse knitter on Marktplaats, they tend to be way more expensive than fine gauge machines. Luckily I could make use of a coarse knitting machine at my previous workplace (thank you Manon!). 
-- I used mainly stitch size 7-10 on the coarse knitter using all needles. When knitting with handspun yarn, making swatches is essential to figure out the correct stitch size to make the yarn shine. I only made one swatch for each yarn and decided on the stitch size based on my intuition (i.e. my experience with knitting). This worked out okay-ish, but resulted in some swatches being too stiff and others beingt too open. When a swatch is too stiff, sometimes the special features of the yarn is completely hidden within the stitches, which is a shame. With more time and more yarn I could have made more tests, but I had neither. 
+<!-- When I was thinking at how best to compare the different sensors -->
 
 
-Questions to ask spinners
-- Wat zijn belangrijke eigenschappen van een goed gesponnen draad?
-- Beschouw je jezelf als ambachtspersoon? als ontwerper? kunstenaar? artisan?
-
-- Gregor Falkehagen
-- Bregje Konings
+</div>
 
 
-## Glossary
-Picking - removing debris from wool by opening up the locks so it falls out
-Heckling - pulling flax through heckling combs to straighten & clean them before spinning
-Carding
+<div markdown="1">
 
-Beard - fibers on the edge of the hand carder
-Flicker (flick carder)
-Combing
-Diz
-Combing milk (spinning oil)
+### 3. Textile design: What makes a crafted sensor artisanal? 
+This question relates to the distinction made earlier between a craftsperson and an artisan - crafted versus artisanal. A crafted sensor becomes artisanal when the sensor is made with a certain expressive intention. In this case, the spinner takes control to shape the yarn while listening to the material.
 
-Twisting
-Plying
-Spinning off the fold - 
-Singles - the building blocks of yarn
-- If a single stays a single, it should be stable with its twist; if it's going to be plied, it needs extra twist
+What am I expressing though? If the expression is the only 
 
-Leader - yarn that is tied to the bobbin
-Woolen yarn - airy, fuzzy, warm yarn, long backward draw, spun from rolags
-Worsted yarn - compact, sleek, strong yarn, more suited for weaving than woolen, short forward draw, spun from combed top
-Skein - oblong shaped ball of yarn ready for knitting/weaving/processing
-Hank - long, twisted loop of yarn
-I should wash the yarn before processing maybe
-Niddy noddy
+- Expression
+- Intent
 
-**Spinning wheel**
-Whorl - the pulley; the smaller the whorl, the more revolutions the flyer makes each time the wheel goes around; the smaller the whorl the smaller the diameter yarn
+What I have been doing has mostly been research and exploration. Exploration is also part of a creative process, especially in material-driven research. 
+
+The two larger works that I have made - one woven, one knitted - are made in the shape of a 'pronkrol', just like the sensor swatch archive. I wanted to present them as these showpieces that demonstrate skill and a lot of work. As described on the [Amsterdam Museum website](https://hart.amsterdam/nl/collectie/object/amcollect/89531):
+
+>Unrolled, it was visible to everyone what kind of handicraft skills the girl had. A show scroll served as proof of her proficiency.
+
+linking to artisanal skill and domesticity of textile crafts, but presenting them as artistic research; taking textile crafts seriously and showing off (pronken) with what I've made and how I've improved.
+
+#### What requirements must an artisanal sensor meet to be considered applied textile design? /> applied e-textile art? What requirements must an artisanal e-textile yarn meet to be considered applied textile art?
+The artisanal sensor has to serve a function (applied)
 
 
-Gender in spinning history - carding for boys, spinning for girls and mothers
-Fiber preparation in summer, spinning in winter
+The physical results of this project that are exploring the applied textile design requirements, are 
+- the Sensor Spinster swatch archive with resistance and capacitance tester
+- the woven work consisting of multiple handspun sensors
+- and the knitted work
+All three take the shape of a 'pronkrol' (roughly translated as roll to show off): a scroll on a big spool that historically was used by young women to demonstrate their mastery of various textile crafts.
 
-## Results
-The physical results of this project are the Sensor Spinster swatch archive with resistance and capacitance tester, the woven work and the knitted work. All three take the shape of a 'pronkrol' (roughly translated as roll to show off): a scroll on a big spool that historically was used by young women to demonstrate their mastery of various textile crafts.
-
- 'pronkrol;  Souvenir de ma 
 ## Archive with swatch 
 For the physical sensor archive version like a pronkrol / souvenir de ma jeunesse on a scroll on a big spool.
 <https://www.momu.be/en/collection-stories/samplers-and-sewing-education> digital version with horizontal scroll
 
-Connections: since I want it to be modular (being able to take off samples easily), I can't just sew them to the base scroll. I spent a bit too long looking into book screws, but they're pretty big in both visible diameter (10mm) and inner diameter (since it needs to accomodate a screwing mechanism) so they're not very subtle. Other options are:
-- tie tacks with butterfly clutch
-- 
+Connections: since I want it to be modular (being able to take off samples easily), I can't just sew them to the base scroll. I spent a bit too long looking into book screws, but they're pretty big in both visible diameter (10mm) and inner diameter (since it needs to accomodate a screwing mechanism) so they're not very subtle. I then ran into tie tacks with butterfly clutch which was the perfect modular connector. 
 
 ## Swatch tester
-Requirements
-- Variable resistance measurement and mapping to light or sound
-- Touch detection and triggering light or sound (possibly also variable capacitance mapping)
-
-Possibly making a variable voltage divider so that I can tune the swatches, since they do not all have the same resitance range
-
-Example:
-<https://www.stitchingworlds.net/experimentation/etextile-tester-for-the-swatch-exchange-2015/>
+- Variable resistance measurement with variable voltage divider to tune the swatches, and mapping to light
+- Touch detection and variable capacitance mapping to light
 
 
-## Notes
-<https://www.ceres.be/nl/nieuws/article/50161/mag-iedereen-de-termen-artisanaal-en-ambachtelijk-gebruiken>: interestingly, in Belgium you cannot call yourself a craftsperson unless you meet certain criteria, but you **can** call your products artisanal or 'ambachtelijk'. 
+I think it's better to call it applied arts than applied design, since design is basically already applied.
+ Requirement list for the sensors
+
+**Technical requirements**
+- Should be able to handle repeated touch, i.e. handle frictions and stress. Generally, worsted spun yarns are stronger and can handle more repeated use whereas woolen spun yarns tend to pill a little after repeated stress. 
+- Conductive fibers/materials should be distributed as evenly as possible throughout the batt
+
+**Technological requirements**
+Variable resistance sensors:
+- Should not be too dense - when the yarn is very dense, it's harder to get a good contrast in conductivity, which makes it less useful for a variable resistance based sensor
+
+Capacitance based sensors:
+- Should be conductive enough throughout the yarn and resulting knitted or woven sensor, so it's touch can be detected as far away from the measure point as possible (or as wanted)
+
+**Machine processing constraints**
+Knitting on a domestic knitting machine:
+- If the yarn is to be processed on a domestic knitting machine, it should not be too thick. If it's thicker than about 5mm, it's very hard to knit it even on a coarse knitting machine, especially when it's dense. When using beaded yarn, the beads have to be less than 4mm thick, otherwise they do not fit through the orifice of the knitting machine carriage. I used 5mm thick beads, and they did not fit.
+- Fine gauge knitting machine is really not suitable for thicker yarns - this is something that I should've thought about beforehand since it's pretty logical. I only have a fine gauge knitting machine, and although I looked into getting a coarse knitter on Marktplaats, they tend to be way more expensive than fine gauge machines. Luckily I could make use of a coarse knitting machine at my previous workplace. 
+- I used mainly stitch size 7-10 on the coarse knitter using all needles. When knitting with handspun yarn, making swatches is essential to figure out the correct stitch size to make the yarn shine. I only made one swatch for each yarn and decided on the stitch size based on my intuition (i.e. my experience with knitting). This worked out okay-ish, but resulted in some swatches being too stiff and others beingt too open. When a swatch is too stiff, sometimes the special features of the yarn is completely hidden within the stitches, which is a shame. With more time and more yarn I could have made more tests, but I had neither. 
+
+**Machine processing constraints**
+Weaving on a floor loom:
+- When weaving with conductive yarns in the weft, you can basically use any thickness. However, if the warp is too dense, you may end up covering up a lot of the yarn, so the warp should leave enough room for the yarn to shine. You can see that the warp in this weave is allowing the thick contrasting yarn to pop through, although the warp could have been less dominant:
+
+  <div markdown="1" class="row-2">
+  ![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_8174.JPG) 
+  ![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_8178.JPG)
+  </div>
+
+**Design requirements**
+- Interesting to the touch and to the eye
+- 
+
+
+</div>
+
+<div markdown="1">
+
+### 4. Tactility: What is the added value of handspun compared to industrially manufactured yarn for a rich visual and haptic experience of a tactile sensor?
+Comparing to both industrially processed conductive yarn, and comparing to industrially processed conductive fabric
+
+Before Sensor Spinster, I've knitted and woven plenty of tactile interfaces using the same machines as I am using in this project.
+
+This question is to answer: why bother with all of this? Is it better?
+
+I don't think it's necessarily better, but it's a different approach to technological textiles.
+
+I think you can create beautiful things with industrially manufactured yarn, and the results may be more consistent and reliable than with handspun yarn. Industrially made yarn can be made at a larger scale, faster and cheaper, and can be processed with equally industrial machines. 
+
+The problem that arises when the goal is a rich visual and haptic experience of a textile sensor I see with 
+
+Industrially manufactured conductive yarn is mainly made for this industrial processing, which means it has to be quite thin and consistent in thickness, which are great achievements, but these qualities are not what I am looking for in yarn for more hands-on processing. 
+
+ - thin in comparison to the yarn I like to 
+
+When the yarn is this thin and consistent, it tends to blend into the fabric - you don't see the yarn itself so much as more the fabric as a whole. 
+
+ too consistent 
+
+Industrially produced yarns are less exciting in themselves so you rely more on their processing, whereas now the thread is sufficient and decisive for the final fabric.
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_8487.JPG) 
+
+<div markdown="1" class="row-2">
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_8491.JPG) 
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_8492.JPG)
+</div>
+
+</div>
+
+<div markdown="1">
+
+### Methodology
+
+1. Research
+  1. Investigate historical and contemporary context
+    1. Conversations with craftspeople/artisans
+    2. Visit to Dutch spinning mills
+    3. Defining what an artisanal sensor should include
+  2. Material research
+    4. Researching conductive materials to make your own conductive yarns with conductors such as graphite, silver, aluminium, steel wool, steel fibers
+    5. Investigating non-conductive (insulating) materials for spinning together with the conductive materials such as wool and cotton
+  3. Documentation: summarize conclusion in an article (blog)
+2. Spinning (from fiber to yarn)
+  1. Taking courses at Men At Wool
+  2. Develop your own yarn with conductive and resistive fibers
+    1. Carding
+    2. Twisting
+    3. Plying
+3. Processing (from yarn to fabric)
+  1. Weaving
+  2. Knitting
+4. Contextualization (from fabric to sensor)
+  1. Set up a system in which the experimental sensors are tested
+  2. Two larger works with the best results from the experiments
+
+
+## References:
+
+[^1]: On <https://www.brabantserfgoed.nl/page/7909/handspinnen>
+[^2]: J.A.P.G. Boot, ‘Handspinnen van katoen en handkatoenspinnerijen (deel 2)’, in: Textielhistorische Bijdragen
+26 (1986), 42-43
+[^3]: On <https://www.dbnl.org/tekst/lint011gesc03_01/lint011gesc03_01_0002.php>
+[^4]: On <https://daily.jstor.org/original-spin-history-spinster/>
+
+### Notes
+- <https://www.ceres.be/nl/nieuws/article/50161/mag-iedereen-de-termen-artisanaal-en-ambachtelijk-gebruiken>: interestingly, in Belgium you cannot call yourself a craftsperson unless you meet certain criteria, but you **can** call your products artisanal or 'ambachtelijk'. 
+</div>

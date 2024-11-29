@@ -6,7 +6,7 @@ body {
 	background: $color-white;
 	color: $color-black;
 	font-family: $font-default;
-	font-size: 1.6em;
+	font-size: 1.8em;
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
 }
@@ -41,25 +41,25 @@ h3,
 	color: $color-purple;
 	font-family: $font-headings;
 	font-size: 1.6rem;
-	margin: 0 0 0.7rem;
+	margin: 0 0 1.7rem;
 }
 
 h4,
 .h4 {
-	margin: 0 0.5rem;
+	margin: 0 1.5rem;
 }
 
 p {
-	margin: 0 0 1rem 0;
+	margin: 0 0 2rem 0;
 	text-align: justify;
 }
 
 p:last-of-type {
-	margin-bottom: 0;
+	// margin-bottom: 0;
 }
 
 p + h2 {
-	margin-top: 2rem;
+	margin-top: 3rem;
 }
 
 a {
