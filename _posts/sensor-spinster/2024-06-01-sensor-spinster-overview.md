@@ -47,9 +47,13 @@ This question is divided into the following categories:
 - **Textile design**
 - **Tactility**
 
-The research, reflections and conclusions come from conversations with spinners and craftspeople, from my own physical experiences and observations while working with the different materials and techniques. I improved my spinning and carding techniques with the help from Gregor Falkenhagen and Bregje Konings in particular, but I also learned a lot from women I met at spinning circles throughout the country. Lastly, while spinning you have a lot of time to think while your body is doing the work (especially a lot of time for thinking about semantics). 
+The research, reflections and conclusions come from conversations with spinners and craftspeople, from my own physical experiences and observations while working with the different materials and techniques. I improved my spinning and carding techniques with the help from Gregor Falkenhagen and Bregje Konings in particular, but I also learned a lot from women I met at spinning circles throughout the country. Lastly, while spinning you have a lot of time to think while your body is doing the work.
+
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/woven-knit.jpg)
 
 You can click on the four categories below to read more about my research.
+
+
 </div>
 
 
@@ -365,9 +369,7 @@ I've explored many different techniques during this projects. They can be catego
 ![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9379.JPG)
 </div>
 
-Singles are the easiest and fastest to spin, since they only require one spinning step. If they're going to be used as singles, they should not be overly twisted. The resulting yarn is pretty fuzzy and soft, and less strong than when a plying step is added. Sensor knitted or woven with single ply yarn tend to wear faster (pilling, fuzz) so I think they are less suitable for repeated interaction.
-
-............................
+Singles are the easiest and fastest to spin, since they only require one spinning step. If they're going to be used as singles, they should not be overly twisted. The resulting yarn is pretty fuzzy and soft, and less strong than when a plying step is added. Sensors knitted or woven with single ply yarn tend to wear faster (pilling, fuzz) so I think they are less suitable for repeated interaction.
 
 I've spun a lot of classic 2 ply yarn from the same yarn as a sort of baseline. This image demonstrates the difference in yarn dimension in singles versus 2 ply versus 3 ply yarn. Singles are pretty smooth, 3 ply yarn gives a more rounded, soft look whereas 2 ply has a bit of difference in dimension.
 
@@ -398,6 +400,8 @@ Beaded yarn takes a long time to spin, and while the result is nice, it doesn't 
 </div>
 
 ### Archive: knitted and woven swatches
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9554.JPG)
+
 To convert the spun yarn into touch sensors, I knitted and wove most spun yarn into swatches. Most of the sensors are knitted instead of woven, since knit gives more opportunity for interaction because it's stretchy by nature. This means that the knitted swatches can be used for touch, stretch, pressure, squeeze or other interactions, whereas woven sensors are more suited for just touch and pressure. 
 
 <div markdown="1" class="row-2">
@@ -407,16 +411,16 @@ To convert the spun yarn into touch sensors, I knitted and wove most spun yarn i
 
 To document and compare all of these different sensors, I made an archive documenting their composition, spinning technique and processing technique, as well as technological properties that are relevant for me as an interactive textile designer: resistance and capacitance.
 
-<div markdown="1" class="row-2">
-![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_7541.JPG)
-![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_7614.JPG)
-</div>
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/archive.jpg)
 
 I wanted to be able to take off the swatches easily, since I like to repurpose e-textile swatches from time to time. I have a general electronic textiles repository that keeps changing shape as I take out swatches to use in new interactive projects. To me, an archive is most valuable when it's in active use and ever evolving, although I also like archives for their visual appeal and educational purposes. The idea with this archive is that I can keep adding more yarn and swatches to it by making the scroll longer (even after the deadline for this project), so it's never done, always a snapshot.
 
 This is the current collection of sensors in the archive:
 
-..............................
+<video width="480" height="300" autoplay playsinline loop muted>
+  <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/archive.mp4" type="video/mp4">
+</video>
+
 
 #### Swatch tester
 I made a swatch tester to accompany the sensor archive: a variable resistance and capacitance visualizer with a small piece of an addressable LED strip that changes color based on the change in resistance or capacitance (depending on which side it's clipped to). There is also a knob to change the sensitivity of the variable resistance side (the voltage division), since some sensors have a larger or smaller resistance range than others (i.e. some range from 100k-500k, other from 20k-50k etc.). This doesn't show the actual resistance or capacitance, but for this you can simply use a multimeter. You can clip it wherever you want, and the resistance range will be different: if you pick two points closer to each other, the resistance range will be lower and smaller. Usually, I clip them a bit below the top left and a bit above the bottom right. For the capacitance visualization, you just need to clip the single alligator clip somewhere to the swatch. You can interact with the swatch by:
@@ -429,6 +433,14 @@ Here is the first iteration tested on a woven sensor:
 
 ![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9178.JPG)
 
+And here the finished tester:
+
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9606.JPG)
+
+
+<video width="480" height="300" controls playsinline muted>
+  <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9609.mp4" type="video/mp4">
+</video>
 
 Comparing the variable resistance and capacitance from the various sensors, I learned that:
 
@@ -438,17 +450,6 @@ Comparing the variable resistance and capacitance from the various sensors, I le
 - The more conductive fibers there are, the less clear the the capacitance range. If the sensor is very conductive, it's better to just use it as a touch detection sensor instead  
 
 I can't really say much about the ideal ratio of conductive fibers to insulating fibers, because I changed too many parameters between yarns: I tested various types of fibers, types of spinning techniques and fiber preparation methods. Another variable is me: as the project progressed, I got better at fiber preparation and spinning itself.
-
-## Applied contexts
-An interesting outcome of this experiment is that a well carded batt already works beautifully as a soft and fluffy pressure sensor. I experimented with this in a project called bromwol - a collaboration between Dianne Verdonk, Roald van Dillewijn and me, where we explore textiles as musical interfaces. We presented bromwol as an interactive exhibition and performance with the soft digital instruments during U? festival on November 9 2024. In this process video, you can see carded wool from Sensor Spinster being used as musical instruments. 
-
-<div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1022429280?h=5b2f9e3dfc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay playsinline; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Bromwol proces – Sounds Like Touch / Le Guess Who 2024"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
-Some of the carded batts and rolags that are used as sensors by themselves here have been spun into yarn and then knitted into a stretch sensor after the performance and exhibition. I like that parts of the Sensor Spinster process were able to take on different shapes along the way, providing different ways of interacting with the different stages of conductive wool processing. This recontextualization shows the potential of not just spinning but carding as well in an interactive and performative context. This wouldn't have been possible without the following of the different steps from fiber to sensor.
-
-While trying out different soft sensor shapes during bromwol, I also found out that the spun yarn by itself can already function as a touch, squeeze or pressure sensor in the shape of a hank, so before processing into a woven or knitted sensor. You can see and hear this in the video above too (at 1:09).
-
-What this demonstrates is that the embodied experience of the all of the steps in the spinning craft process can inform and influence a design process beautifully. To me, bromwol is a proof of my hypothesis that as textile designer and artisan simultaneously, the craft and design practice enrich each other.
 
 </div>
 
@@ -503,20 +504,34 @@ All three take the shape of a 'pronkrol' (roughly translated as roll to show off
 
 >Unrolled, it was visible to everyone what kind of handicraft skills the girl had. A show scroll served as proof of her proficiency.
 
-With the gesture of unrolling the scroll to reveal I'm revealing my artisanal and technical research. I'm linking to artisanal skill and (historical, but still perceived) domesticity of textile crafts; taking textile crafts seriously and showing off (pronken) with what I've made, and in the case of the archive, how I've improved. 
+With the gesture of unrolling the scroll to reveal I'm revealing my artisanal and technical research. I'm linking to artisanal skill and (historical, but still perceived) domesticity of textile crafts; taking textile crafts seriously and showing off (pronken) with what I've made, and in the case of the archive, how I've improved. The scrolls double as musical interfaces - when you explore them, they make sound. 
 
-
-....................woven
-
-![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_8487.JPG) 
+![]({{ site.baseurl }}/assets/images/projects/sensor-spinster/woven-knit.jpg) 
 
 <div markdown="1" class="row-2">
-![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_8491.JPG) 
-![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_8492.JPG)
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9587.JPG) 
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9589.JPG)
 </div>
 
+<div class="row-2--video">
+        <video width="480" height="300" playsinline controls>
+  <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9602.mp4" type="video/mp4">
+        </video>
+        <video width="480" height="300" playsinline controls>
+  <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9603.mp4" type="video/mp4">
+        </video>
+</div>
 
-.......................knitted
+The knitted interface can be stretched; as you stretch harder, other sensors are activated too.
+
+<div class="row-2--video">
+        <video width="480" height="300" playsinline controls>
+  <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9597.mp4" type="video/mp4">
+        </video>
+        <video width="480" height="300" playsinline controls>
+  <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/knit.mp4" type="video/mp4">
+        </video>
+</div>
 
 ### What requirements must an artisanal sensor meet to be considered applied textile design? 
 In my view, an artisanal sensor has to serve a function (hence, applied): it shouldn't be purely decorative or nice to look at, it should be made with tactile interaction in mind. This means that the tactile experience and interaction should be designed. The archive of sensor swatches is just as much an exploration of the technological properties as it is of the tactile properties of handspun yarn and various spinning techniques: a long draw backward spun alpaca sensor has a very different feel than a very controlled, short draw forward spun crêpe yarn. It's material-driven design exploration, which resulted in two tactile musical interfaces.
@@ -590,6 +605,18 @@ Industrially manufactured conductive yarn is mainly made for this industrial pro
 <video width="480" height="300" autoplay playsinline loop muted>
   <source src="{{ site.baseurl }}/assets/images/projects/collaborations/drumdraad3.mp4" type="video/mp4">
 </video>
+
+
+## Applied contexts
+An interesting outcome of this experiment is that a well carded batt already works beautifully as a soft and fluffy pressure sensor. I experimented with this in a project called bromwol - a collaboration between Dianne Verdonk, Roald van Dillewijn and me, where we explore textiles as musical interfaces. We presented bromwol as an interactive exhibition and performance with the soft digital instruments during U? festival on November 9 2024. In this process video, you can see carded wool from Sensor Spinster being used as musical instruments. 
+
+<div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1022429280?h=5b2f9e3dfc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay playsinline; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Bromwol proces – Sounds Like Touch / Le Guess Who 2024"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+Some of the carded batts and rolags that are used as sensors by themselves here have been spun into yarn and then knitted into a stretch sensor after the performance and exhibition. I like that parts of the Sensor Spinster process were able to take on different shapes along the way, providing different ways of interacting with the different stages of conductive wool processing. This recontextualization shows the potential of not just spinning but carding as well in an interactive and performative context. This wouldn't have been possible without the following of the different steps from fiber to sensor.
+
+While trying out different soft sensor shapes during bromwol, I also found out that the spun yarn by itself can already function as a touch, squeeze or pressure sensor in the shape of a hank, so before processing into a woven or knitted sensor. You can see and hear this in the video above too (at 1:09).
+
+What this demonstrates is that the embodied experience of the all of the steps in the spinning craft process can inform and influence a design process beautifully. To me, bromwol is a proof of my hypothesis that as textile designer and artisan simultaneously, the craft and design practice enrich each other.
 
 ## Reflection
 I like to call myself a sensor spinster now. I don't have the hours yet to call myself a master, but I definitely have the obsession to constantly work on my skills to be both in control and in symbiosis with my materials and my spinning wheel. I am approaching the fiber, yarn and processing from an expressive, technical and technological point of view, aspiring to be an electronic textile artisan. 
