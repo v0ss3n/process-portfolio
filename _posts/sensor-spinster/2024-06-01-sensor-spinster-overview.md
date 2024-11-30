@@ -20,10 +20,10 @@ Sensor Spinster is an experimental research project where I research artisanal a
 This project is made possible with the generous support of the Creative Industries Fund NL through the experiment grant scheme.
 
 <div class="row-2--video">
-        <video width="480" height="300" autoplay loop muted>
+        <video width="480" height="300" autoplay playsinline loop muted>
   <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/spun-1.mp4" type="video/mp4">
         </video>
-        <video width="480" height="300" autoplay loop muted>
+        <video width="480" height="300" autoplay playsinline loop muted>
   <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/spun-2.mp4" type="video/mp4">
         </video>
 </div>
@@ -59,7 +59,7 @@ Hand spinning yarn has been a necessity to make cloth for thousands of years - f
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Isaac_Claesz._van_Swanenburg_-_Het_spinnen%2C_het_scheren_van_de_ketting%2C_en_het_weven.JPG/1599px-Isaac_Claesz._van_Swanenburg_-_Het_spinnen%2C_het_scheren_van_de_ketting%2C_en_het_weven.JPG?20230709105605)
 
-Then the industrial revolution came with the invention of spinning machines like the spinning jenny, which signaled the end of hand spinning as a viable profession, also in the Netherlands. This is demonstrated by what J.A.P.G. Boot writes in *Textielhistorische Bijdragen 26* about hand spinning in the eastern Netherlands at the beginning of the 19th century: ‘As more spinning mills came into operation, hand spinning on spinning wheels had to decline, until eventually only very old spinsters managed to make a living from it for an extremely meager wage. With them, hand spinning died out.' [^2]
+Then the industrial revolution came with the invention of spinning machines like the spinning jenny, which signaled the end of hand spinning as a viable profession, also in the Netherlands. This is demonstrated by what J.A.P.G. Boot writes in *Textielhistorische Bijdragen 26* about hand spinning in the eastern Netherlands at the beginning of the 19th century: ‘As more spinning mills came into operation, hand spinning on spinning wheels had to decline, until eventually only very old spinsters managed to make a living from it for an extremely meager wage. With them, hand spinning died out.'[^2]
 
 ![](https://www.brabantserfgoed.nl/image/2019/4/12/handspinnen.tif%28mediaclass-landscape-large.2d0bc720e72f7d03ca65aa44863c5e34306fed2d%29.jpg)
 
@@ -253,10 +253,10 @@ This project is as much about spinning as it is about carding. How you prepare y
 For the sake of this project, I bought hand carders (72 TPI which means teeth per inch; this is a nice jack of all trades for carding various fiber types) and a blending board (108 TPI). I did not buy a drum carder, because they are pretty expensive and bulky. However, when I bought the blending board, I thought that I could use them for mixing in conductive fibers evenly, but that really didn't work and it's not what they are for. I also hoped that I could use them to card raw wool. However, blending boards are for blending clean, combed or carded fibers and designing fiber arrangements with, not for actually blending and mixing fibers. I learned that that is not really what I was looking for: I primarily wanted to mix the conductive fibers very well to distribute conductivity throughout the resulting yarn. The rolags and batts I made with the blending board had the different fibers used distinctly visible. I do think that the blending board can come in handy when designing yarn with a combination of carded conductive and non-conductive blends, but I didn't use it a lot during the research. Looking back at the first sensors I spun using the blending board, I like that the colors are less mixed, and I think I can make yarn with better technical properties with the carding knowledge that I have now.
 
 <div class="row-2--video">
-<video width="480" height="300" autoplay loop muted>
+<video width="480" height="300" autoplay playsinline loop muted>
   <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/blending-board.mp4" type="video/mp4">
 </video>
-<video width="480" height="300" autoplay loop muted>
+<video width="480" height="300" autoplay playsinline loop muted>
   <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/blending-board2.mp4" type="video/mp4">
 </video>
 </div>
@@ -288,13 +288,13 @@ I also made wool combs, since I tried this fiber preparation process during a wo
 The problem with carding a batt multiple times though is that again, it takes a long time, and if I didn't carefully distribute the conductive fiber they can still stick together too much. To learn how to better card, I followed a workshop on art yarn spinning and carding by Bregje Konings, where I learned how to improve this process. By sandwiching the conductive fibers in between regular wool, you have more control about the placement and separation of the conductive fibers. I tried this on Bregje's drum carders, first making an art batt with a huge amount of different colors and fibers (90 gram of silk, merino, mohair, wensleydale...) and a small amount of crimped stainless steel fibers (2 gram). The in-between white layers are combed mohair to make the yarn really cloudy. The next batt is again with a variety of fibers (72 grams of gotland curls, shetland, merino, bluefaced leicester, black and grey bamboo, pink sari silk, white firestar and copper christmas decoration to name a few) and 5 grams of 12 micron aligned stainless steel; here I compared carding once versus twice:
 
 <div class="row-3--video">
-        <video width="480" height="300" autoplay loop muted>
+        <video width="480" height="300" autoplay playsinline loop muted>
   <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/drumcarder2.mp4" type="video/mp4">
         </video>
-        <video width="480" height="300" autoplay loop muted>
+        <video width="480" height="300" autoplay playsinline loop muted>
   <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/drumcarder1.mp4" type="video/mp4">
         </video>
-        <video width="480" height="300" autoplay loop muted>
+        <video width="480" height="300" autoplay playsinline loop muted>
   <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/silky.mp4" type="video/mp4">
         </video>
 </div>
@@ -374,10 +374,10 @@ Here I used the same batt to compare 3 ply chain plied yarn with 2 ply bullion y
 The bullion yarn forms beautiful details on the knitted sensor - however, it's on the back of the knit. 
 
 <div class="row-2--video">
-        <video width="480" height="300" autoplay loop muted>
+        <video width="480" height="300" autoplay playsinline loop muted>
   <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/bullion.mp4" type="video/mp4">
         </video>
-        <video width="480" height="300" autoplay loop muted>
+        <video width="480" height="300" autoplay playsinline loop muted>
   <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/chainply.mp4" type="video/mp4">
         </video>
 </div>
@@ -385,10 +385,10 @@ The bullion yarn forms beautiful details on the knitted sensor - however, it's o
 Beaded yarn takes a long time to spin, and while the result is nice, it doesn't really work for variable resistance since the conductive path needs to be created by having the beads touch. For a touch sensor it can work though, if you want to use each single bead as a touch input, you could. As a bigger electrode it doesn't really work, but that could be done by stringing the beads on or plying with conductive yarn.
 
 <div class="row-2--video">
-        <video width="480" height="300" autoplay loop muted>
+        <video width="480" height="300" autoplay playsinline loop muted>
   <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/greybeadyarn.mp4" type="video/mp4">
         </video>
-        <video width="480" height="300" autoplay loop muted>
+        <video width="480" height="300" autoplay playsinline loop muted>
   <source src="{{ site.baseurl }}/assets/images/projects/sensor-spinster/greenbeadyarn.mp4" type="video/mp4">
         </video>
 </div>
@@ -439,7 +439,7 @@ I can't really say much about the ideal ratio of conductive fibers to insulating
 ## Applied contexts
 An interesting outcome of this experiment is that a well carded batt already works beautifully as a soft and fluffy pressure sensor. I experimented with this in a project called bromwol - a collaboration between Dianne Verdonk, Roald van Dillewijn and me, where we explore textiles as musical interfaces. We presented bromwol as an interactive exhibition and performance with the soft digital instruments during U? festival on November 9 2024. In this process video, you can see carded wool from Sensor Spinster being used as musical instruments. 
 
-<div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1022429280?h=5b2f9e3dfc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Bromwol proces – Sounds Like Touch / Le Guess Who 2024"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1022429280?h=5b2f9e3dfc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay playsinline; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Bromwol proces – Sounds Like Touch / Le Guess Who 2024"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 Some of the carded batts and rolags that are used as sensors by themselves here have been spun into yarn and then knitted into a stretch sensor after the performance and exhibition. I like that parts of the Sensor Spinster process were able to take on different shapes along the way, providing different ways of interacting with the different stages of conductive wool processing. This recontextualization shows the potential of not just spinning but carding as well in an interactive and performative context. This wouldn't have been possible without the following of the different steps from fiber to sensor.
 
@@ -540,7 +540,7 @@ With commercial industrial conductive yarn, it's also a matter of picking the ri
 
 Industrially manufactured conductive yarn is mainly made for this industrial processing, which means it has to be quite thin and consistent in thickness, which are great achievements, but these qualities are not what I am looking for in yarn for more hands-on processing. When the yarn is this thin and consistent, it tends to blend into the fabric - you don't see the yarn itself so much as more the fabric as a whole. When you're only working with industrial conductive yarn itself (without a more funky carrier yarn), then you need more specialized industrial machines (or very small knitting needles), or accept that the fabric will be more of an open knit. You can still weave them, but the resulting fabric will be pretty one-dimensional. Unless of course you take the focus away from the individual yarn and focus on special weaving or knitting techniques to create texture and depth. Below you can see an example of a plain knitted sensor with a rare commercial yarn that is thicker and less 'industrial' (my favorite yarn from Bart & Francis).
 
-<video width="480" height="300" autoplay loop muted>
+<video width="480" height="300" autoplay playsinline loop muted>
   <source src="{{ site.baseurl }}/assets/images/projects/collaborations/drumdraad3.mp4" type="video/mp4">
 </video>
 
@@ -554,13 +554,11 @@ The next steps are to actually apply my woven and knitted musical instruments in
 
 <div markdown="1">
 
-## References:
+## References
 
 [^1]: On <https://www.brabantserfgoed.nl/page/7909/handspinnen>
-[^2]: J.A.P.G. Boot, ‘Handspinnen van katoen en handkatoenspinnerijen (deel 2)’, in: Textielhistorische Bijdragen
-26 (1986), 42-43
+[^2]: J.A.P.G. Boot, ‘Handspinnen van katoen en handkatoenspinnerijen (deel 2)’, in: Textielhistorische Bijdragen 26 (1986), 42-43
 [^3]: On <https://www.dbnl.org/tekst/lint011gesc03_01/lint011gesc03_01_0002.php>
 [^4]: On <https://daily.jstor.org/original-spin-history-spinster/>
-- <https://woollenwytch.co.uk/blogs/news/brief-history-of-spinning-wool>
 
 </div>
