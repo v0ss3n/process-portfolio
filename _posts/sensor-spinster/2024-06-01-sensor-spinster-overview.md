@@ -15,7 +15,7 @@ project:
 ---
 <body class="sensor-spinster">
 <div markdown="1" class="introduction">
-Sensor Spinster is an experimental research project where I research artisanal approaches to electronics by blending conductive and insulating fibers, spinning yarn and weaving and knitting the conductive yarn into soft sensors made to be touched, stretched, squeezed and stroked. 
+Sensor Spinster is an experimental research project exploring artisanal approaches to electronics. It focuses on blending conductive and insulating fibers, spinning them into yarn, and crafting soft sensors through weaving and knitting. These sensors are designed to respond to touch, stretch, squeeze, and stroke.
 
 This project is made possible with the generous support of the Creative Industries Fund NL through the experiment grant scheme.
 
@@ -41,31 +41,45 @@ I think approaching electronic textiles from a craft perspective can offer inter
 
 This question is the search for an artisanal answer to electronic components and to the existing academic, industrial and 'crafty' approaches to e-textiles. Thread is the basis of any piece of woven or knitted textile, so that's why it's so important to make it the focus of this experiment.
 
-This question is divided into the following sub-questions:
-
-1. **Context**: What defines a contemporary artisan? Can you approach e-textiles in the same way to become an e-textile artisan?
-2. **Craft**: What are suitable materials and spinning techniques to make traditional sensors?
-3. **Textile design**: What makes a crafted sensor artisanal? What requirements must an artisanal sensor meet to be considered applied textile design?
-4. **Tactility**: What is the added value of hand spun compared to industrially manufactured threads for a rich visual and haptic experience of a tactile sensor?
+This question is divided into the following categories: 
+- **Context**
+- **Craft**
+- **Textile design**
+- **Tactility**
 
 The research, reflections and conclusions come from conversations with spinners and craftspeople, from my own physical experiences and observations while working with the different materials and techniques. I improved my spinning and carding techniques with the help from Gregor Falkenhagen and Bregje Konings in particular, but I also learned a lot from women I met at spinning circles throughout the country. Lastly, while spinning you have a lot of time to think while your body is doing the work (especially a lot of time for thinking about semantics). 
+
+You can click on the four categories below to read more about my research.
 </div>
 
+
+
+
+<details>
+<summary>
 <div markdown="1">
 
 ## 1. Context
+</div>
+</summary>
+
+<br>
+<div markdown="1">
+
 ### Background
-Hand spinning yarn has been a necessity to make cloth for thousands of years - first by hand, then with simple tools like (drop) spindles, then with a variety of spinning wheels. All three processes have the constant involvement of the hands in the process. In the Netherlands there was a lot of spinning being done on spinning wheels, mainly for the commercial sector, and this work was done almost exclusively by women. Until about 1800, hand spinning was a vital part of urban linen and cloth (mainly woolen blankets) industry in the Netherlands.[^1] The wool industry in Leiden is shown in the painting below by Isaac Claesz. van Swanenburg from between 1594 and 1596. 
+Hand spinning yarn has been a necessity to make cloth for thousands of years - first by hand, then with simple tools like (drop) spindles, then with a variety of spinning wheels. All three processes have the constant involvement of the hands in the process. In the Netherlands there was a lot of spinning being done on spinning wheels, mainly for the commercial sector, and this work was done almost exclusively by women. Until about 1800, hand spinning was a vital part of urban linen and cloth (mainly woolen blankets) industry in the Netherlands.<sup>1</sup> The wool industry in Leiden is shown in the painting below by Isaac Claesz. van Swanenburg from between 1594 and 1596. 
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Isaac_Claesz._van_Swanenburg_-_Het_spinnen%2C_het_scheren_van_de_ketting%2C_en_het_weven.JPG/1599px-Isaac_Claesz._van_Swanenburg_-_Het_spinnen%2C_het_scheren_van_de_ketting%2C_en_het_weven.JPG?20230709105605)
 
-Then the industrial revolution came with the invention of spinning machines like the spinning jenny, which signaled the end of hand spinning as a viable profession, also in the Netherlands. This is demonstrated by what J.A.P.G. Boot writes in *Textielhistorische Bijdragen 26* about hand spinning in the eastern Netherlands at the beginning of the 19th century: ‘As more spinning mills came into operation, hand spinning on spinning wheels had to decline, until eventually only very old spinsters managed to make a living from it for an extremely meager wage. With them, hand spinning died out.'[^2]
+Then the industrial revolution came with the invention of spinning machines like the spinning jenny, which signaled the end of hand spinning as a viable profession, also in the Netherlands. This is demonstrated by what J.A.P.G. Boot writes in *Textielhistorische Bijdragen 26* about hand spinning in the eastern Netherlands at the beginning of the 19th century: ‘As more spinning mills came into operation, hand spinning on spinning wheels had to decline, until eventually only very old spinsters managed to make a living from it for an extremely meager wage. With them, hand spinning died out.'<sup>2</sup>
+
 
 ![](https://www.brabantserfgoed.nl/image/2019/4/12/handspinnen.tif%28mediaclass-landscape-large.2d0bc720e72f7d03ca65aa44863c5e34306fed2d%29.jpg)
 
-Interestingly, with the arrival of the spinning machines, spinning metamorphosed from a woman's job done at home (or on a ship, which is where the spinning wheel 'het schippertje' gets it's name from) into a man's job done in a factory hall.[^3] I can't help but think about the first computer programmers who were also women, until men found out that programming was important precision work. I found Jackie M. Blount's perspective on the shift in the public's perception of spinsters interesting:
+Interestingly, with the arrival of the spinning machines, spinning metamorphosed from a woman's job done at home (or on a ship, which is where the spinning wheel 'het schippertje' gets it's name from) into a man's job done in a factory hall.<sup>3</sup>
+ I can't help but think about the first computer programmers who were also women, until men found out that programming was important precision work. I found Jackie M. Blount's perspective on the shift in the public's perception of spinsters interesting:
 
->Jackie M. Blount calls spinsters “gender transgressors,” women who managed to find lives of independence and autonomy in their work as educators. Hired because of their singleness, not despite it, spinsters were at first considered “high-minded, upstanding pillars of the community” and eventually became cultural icons. But when social hygiene and the study of sexuality came into vogue at the turn of the twentieth century, spinsters came under fire. Suspected of lesbianism and accused of suppressing frustrated sexuality, Blount writes, spinsters were increasingly viewed as “standing outside their conventional gender roles as procreating women.” Admiration turned into villainization as women were forced to defend their single status in a workplace that once welcomed them.[^4]
+>Jackie M. Blount calls spinsters “gender transgressors,” women who managed to find lives of independence and autonomy in their work as educators. Hired because of their singleness, not despite it, spinsters were at first considered “high-minded, upstanding pillars of the community” and eventually became cultural icons. But when social hygiene and the study of sexuality came into vogue at the turn of the twentieth century, spinsters came under fire. Suspected of lesbianism and accused of suppressing frustrated sexuality, Blount writes, spinsters were increasingly viewed as “standing outside their conventional gender roles as procreating women.” Admiration turned into villainization as women were forced to defend their single status in a workplace that once welcomed them.<sup>4</sup>
 
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FCJuVffWi8yg%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=52819173cb22ab4fb03d847c24f28ca4bb63f5775ae96f685d23eaa534c58cff&ipo=images)
 
@@ -75,52 +89,39 @@ Since then, hand spinning has seen some revivals throughout the years. I've been
 
 ![Spinning outside with a view on frysian sheep]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_5608.JPG)
 
-### What defines a contemporary artisan?
-This experiment is about where design and craft meet - I want to explicitly develop myself as not only a textile designer but also as a craftsperson - or as an 'artisan' - in the context of this experiment. This is something that is underexposed in the Dutch context: the projects in the field of craft in the Dutch design sector are usually about the collaboration between designers and craftspeople, and less often about the artistic and craft development of someone who is both. There is nothing wrong with a cross-disciplinary approach, but it is precisely when someone has the technical & embodied knowledge of how a material works that this knowledge can be used in an enriched and informed design practice.
+<details>
+<summary>
+<div markdown="1">
 
-The focus of this experiment is to investigate whether hand spinning can become relevant again in a design context: hand spinning currently does not play a major role in textile design. It's seen a little in the work of textile artists like Sheila Hicks, but I did not encounter designers or artists who have spinning yarn as a major part of their practice. Is it possible to have hand spinning yarn be a part of a contemporary artistic or design practice, executed by a contemporary artisan? Can the crossover between craft and technology add value? From these questions I started exploring the words we use surrounding craft and art, what they mean, how they relate to each other and how they blend into each other.
-
-The definition of an artisan is something I've been thinking about a lot over the past months. From a language point of view, it's interesting to note that the word artisan does not have a dutch translation: we have the word 'artisanaal' to describe artisanal products, but other than that it's translated to 'ambachtsman' or 'kunstenaar'. From a legal point of view, the word artisan (or artisanal) doesn't mean anything in the Netherlands, since it's not a protected term. I looked in [this database](https://ec.europa.eu/growth/tools-databases/regprof/professions/bycountry) and there is not one creative/craft occupation that is regulated, protected or requires a diploma of any kind. So if you want to call yourself a craftsperson or an artisan, you can; no one can legally stop you.
-
-
-##### **Professionalism versus amateurism**
-During this project, I've spoken to many spinners. I've met them at spinning circles, workshops and markets. Most of them are not spinning professionally but as a hobby. I have not met anyone who spins fulltime as a career, but I did meet some people that spin professionally and combine spinning with something related. Other methods of earning a living as a professional hand spinner is through education, so giving spinning workshops or hosting spinning circles. There are also spinners that have businesses that relate to wool, and do hand spinning as part of that. There is also hand spinners that have other sources of income (like a day job or career), or don't have to work at all (so no financial pressure). My general observations are that many craftspeople and artisans in textiles (not just in spinning) are hybrid, i.e. they do not just practice a craft but also educate, run a business around crafts and facilitate, or do research in academic environments.
-
-When does skill and practice turn into practicing a craft? Do you have to go outside and take yourself seriously before you are really a craftsperson versus practicing a craft as a hobby? I've spoken with Gregor Falkenhagen about his view on contemporary spinning in the Netherlands and tried to define the blurry boundaries between the artist, hobbyist, craftsperson and artisan.
-
-According to Gregor, a craftsperson is a professional. You don't have to commit to a craft fulltime but you should take yourself seriously in your craft. When you craft just as a hobby, the ability ('het kunnen') is less important as there is no one that you have to do it for but yourself, it's more about the enjoyment of the act of the craft. When you use your craft daily and you use it to make (part of) a living, you approach your craft from a different perspective than when there is nothing really at stake. This urgency of the craft is essential.
-
-However, I don't think this means that the quality of the craft is any less by default than when the craft is executed by a professional: there are many people (especially many women) who have done (textile) crafts their entire lives and who are extremely skillful at it and who also make their own designs. I think the word amateur is really interesting in this context. The word, coming from the french meaning lover/appreciator, means someone who practices a skill, hobby or craft on a non-professional basis and without pay. This definition sounds lovely and very fitting for someone who crafts at any level. The love of the craft is very much part of why I try to incorporate it into my artistic practice in the first place. I'm an amateur, a lover! The problem is in the negative connotations of amateurism: it can also be used for someone who acts without knowledge or expertise, who makes low(er) quality work than 'real' professional craftspeople. These connotations with domesticity and women are also part of the reason why textile arts have not been taken seriously in the art world in general. 
-
-##### **Artisan versus craftsperson**
-What is then the difference between an artisan and a craftsperson? I would describe it as two people taking themselves seriously in their craft and developing themselves to enhance their craft, but whereas the artisan uses their craft as a creative expression - to design - a craftsperson does not necessarily do so. In my conversation with Gregor, he expressed the difference as craftspeople take traditional knowledge and bring it to life, not so much moving boundaries but making the most beautiful things based on tradition, whereas an artisan creates their own processes (and may take more freedom in the craft), but still base their work on traditional craft knowledge. 
-
-##### **Artist versus artisan**
-This definition on Wikipedia annoys me and I think it's outdated:
->Artisans practice a craft and may through experience and aptitude reach the expressive levels of an artist.
-
-I prefer to place the artisan and the artist next to each other as two types of expression: one more in the decorative arts and the other more in fine arts; an applied artist (designer? functional artist?) and a fine artist? An artist does not necessarily have to be able **themselves** to make something skillfully in order to transmit their message: for example, artworks can be executed by craftspeople according to their vision, or the artist makes something themselves with a craft, but not execute it very well technically. To be clear - I don't have a problem with that (only when there is no credit given to the craftspeople who made it), but I am trying to make a distinction between artists who take their medium seriously and develop together with the medium (that I would call both an artist and an artisan), and artists where the medium is secondary to the message.
-
-If an artisan works more within the decorative arts, is a designer then an applied artist? Gregor said that being a designer is a job, which I guess is true; someone who may be technically skilled and tell stories with their work just like an artist or artisan, but with selling products as the final goal. Although I feel like a lot of designers care more about the expressive side of their work than the commercial side of it, so it's a bit more nuanced than that. And at the same time - a craftsperson, artisan or artist, they're professions as well. And who decides in the end who is an artist - are you only an artist if your work is seen by others? Who decided on what is good art? 
-
-I think I'm reaching the point where I'm just going to keep spiraling into semantics, so it's time to summarize some definitions and distinctions:
-
-- Craftsperson - someone who skillfully practices a craft 
-- Artisan - a craftsperson who uses their medium to create art and design, inspired by the (traditional) craft itself in a contemporary way
-- Artist - someone with a drive to convey a message or tell stories with what they make
-- Designer - someone who shapes functional objects o, usually with a commercial intent
-- Hobbyist/amateur - someone who practices a craft for fun at any level of skill 
-
-### Can you approach e-textiles in the same way to become an e-textile artisan? 
-A contemporary artisan then is someone who is technically skilled at a craft, takes themselves seriously in its practice by trying to improve continuously, and explores the medium creatively. A contemporary artisan uses their craft expressively but also professionally: there needs to be a certain urgency, it's both part of their life and their livelihood. An artisan is in a constant dance with the material, trying to balance what they want and what the material wants; being in control but also understanding constraints.
-
-With this definition of what it means to be an artisan, I would say you can approach e-textiles in the same way to become an e-textile artisan - you can apply these same parameters to someone who makes electronic textiles. When the electronic textiles are skillfully crafted by someone with technical, expressive and technological skills, I think you can move from a textile artisan to an e-textile artisan. In that case, I'm an aspiring e-textile artisan - working on developing my craft to use it in creative expressions. 
-
+### Referenecs
 </div>
+</summary>
 
+<br>
+<div markdown="1">
+{:footnotes}
+
+1. On <https://www.brabantserfgoed.nl/page/7909/handspinnen>
+2. J.A.P.G. Boot, ‘Handspinnen van katoen en handkatoenspinnerijen (deel 2)’, in: Textielhistorische Bijdragen 26 (1986), 42-43
+3. On <https://www.dbnl.org/tekst/lint011gesc03_01/lint011gesc03_01_0002.php>
+4. On <https://daily.jstor.org/original-spin-history-spinster/>
+</div>
+</details>
+</div>
+</details>
+
+
+<details>
+<summary>
 <div markdown="1">
 
 ## 2. Craft
+</div>
+</summary>
+
+<br>
+<div markdown="1">
+
 ### What are suitable materials and spinning techniques to make crafted sensors?
 Looking back on my spinning process over the past months, I've learned a lot about a variety of non-conductive and conductive fibers, how to prepare them for spinning consistently and how to best process them into woven and knitted sensors that work reliably for interactive textile interfaces. In this part, I'm elaborating on my material research, fiber preparation and spinning techniques suitable for spinning sensors. 
 
@@ -396,7 +397,6 @@ Beaded yarn takes a long time to spin, and while the result is nice, it doesn't 
         </video>
 </div>
 
-
 ### Archive: knitted and woven swatches
 To convert the spun yarn into touch sensors, I knitted and wove most spun yarn into swatches. Most of the sensors are knitted instead of woven, since knit gives more opportunity for interaction because it's stretchy by nature. This means that the knitted swatches can be used for touch, stretch, pressure, squeeze or other interactions, whereas woven sensors are more suited for just touch and pressure. 
 
@@ -452,10 +452,59 @@ What this demonstrates is that the embodied experience of the all of the steps i
 
 </div>
 
+</details>
 
+<details>
+<summary>
 <div markdown="1">
 
 ## 3. Textile design
+</div>
+</summary>
+
+<br>
+<div markdown="1">
+
+### What defines a contemporary artisan?
+This experiment is about where design and craft meet - I want to explicitly develop myself as not only a textile designer but also as a craftsperson - or as an 'artisan' - in the context of this experiment. This is something that is underexposed in the Dutch context: the projects in the field of craft in the Dutch design sector are usually about the collaboration between designers and craftspeople, and less often about the artistic and craft development of someone who is both. There is nothing wrong with a cross-disciplinary approach, but it is precisely when someone has the technical & embodied knowledge of how a material works that this knowledge can be used in an enriched and informed design practice.
+
+The focus of this experiment is to investigate whether hand spinning can become relevant again in a design context: hand spinning currently does not play a major role in textile design. It's seen a little in the work of textile artists like Sheila Hicks, but I did not encounter designers or artists who have spinning yarn as a major part of their practice. Is it possible to have hand spinning yarn be a part of a contemporary artistic or design practice, executed by a contemporary artisan? Can the crossover between craft and technology add value? From these questions I started exploring the words we use surrounding craft and art, what they mean, how they relate to each other and how they blend into each other.
+
+The definition of an artisan is something I've been thinking about a lot over the past months. From a language point of view, it's interesting to note that the word artisan does not have a dutch translation: we have the word 'artisanaal' to describe artisanal products, but other than that it's translated to 'ambachtsman' or 'kunstenaar'. From a legal point of view, the word artisan (or artisanal) doesn't mean anything in the Netherlands, since it's not a protected term. I looked in [this database](https://ec.europa.eu/growth/tools-databases/regprof/professions/bycountry) and there is not one creative/craft occupation that is regulated, protected or requires a diploma of any kind. So if you want to call yourself a craftsperson or an artisan, you can; no one can legally stop you.
+
+##### **Professionalism versus amateurism**
+During this project, I've spoken to many spinners. I've met them at spinning circles, workshops and markets. Most of them are not spinning professionally but as a hobby. I have not met anyone who spins fulltime as a career, but I did meet some people that spin professionally and combine spinning with something related. Other methods of earning a living as a professional hand spinner is through education, so giving spinning workshops or hosting spinning circles. There are also spinners that have businesses that relate to wool, and do hand spinning as part of that. There is also hand spinners that have other sources of income (like a day job or career), or don't have to work at all (so no financial pressure). My general observations are that many craftspeople and artisans in textiles (not just in spinning) are hybrid, i.e. they do not just practice a craft but also educate, run a business around crafts and facilitate, or do research in academic environments.
+
+When does skill and practice turn into practicing a craft? Do you have to go outside and take yourself seriously before you are really a craftsperson versus practicing a craft as a hobby? I've spoken with Gregor Falkenhagen about his view on contemporary spinning in the Netherlands and tried to define the blurry boundaries between the artist, hobbyist, craftsperson and artisan.
+
+According to Gregor, a craftsperson is a professional. You don't have to commit to a craft fulltime but you should take yourself seriously in your craft. When you craft just as a hobby, the ability ('het kunnen') is less important as there is no one that you have to do it for but yourself, it's more about the enjoyment of the act of the craft. When you use your craft daily and you use it to make (part of) a living, you approach your craft from a different perspective than when there is nothing really at stake. This urgency of the craft is essential.
+
+However, I don't think this means that the quality of the craft is any less by default than when the craft is executed by a professional: there are many people (especially many women) who have done (textile) crafts their entire lives and who are extremely skillful at it and who also make their own designs. I think the word amateur is really interesting in this context. The word, coming from the french meaning lover/appreciator, means someone who practices a skill, hobby or craft on a non-professional basis and without pay. This definition sounds lovely and very fitting for someone who crafts at any level. The love of the craft is very much part of why I try to incorporate it into my artistic practice in the first place. I'm an amateur, a lover! The problem is in the negative connotations of amateurism: it can also be used for someone who acts without knowledge or expertise, who makes low(er) quality work than 'real' professional craftspeople. These connotations with domesticity and women are also part of the reason why textile arts have not been taken seriously in the art world in general. 
+
+##### **Artisan versus craftsperson**
+What is then the difference between an artisan and a craftsperson? I would describe it as two people taking themselves seriously in their craft and developing themselves to enhance their craft, but whereas the artisan uses their craft as a creative expression - to design - a craftsperson does not necessarily do so. In my conversation with Gregor, he expressed the difference as craftspeople take traditional knowledge and bring it to life, not so much moving boundaries but making the most beautiful things based on tradition, whereas an artisan creates their own processes (and may take more freedom in the craft), but still base their work on traditional craft knowledge. 
+
+##### **Artist versus artisan**
+This definition on Wikipedia annoys me and I think it's outdated:
+>Artisans practice a craft and may through experience and aptitude reach the expressive levels of an artist.
+
+I prefer to place the artisan and the artist next to each other as two types of expression: one more in the decorative arts and the other more in fine arts; an applied artist (designer? functional artist?) and a fine artist? An artist does not necessarily have to be able **themselves** to make something skillfully in order to transmit their message: for example, artworks can be executed by craftspeople according to their vision, or the artist makes something themselves with a craft, but not execute it very well technically. To be clear - I don't have a problem with that (only when there is no credit given to the craftspeople who made it), but I am trying to make a distinction between artists who take their medium seriously and develop together with the medium (that I would call both an artist and an artisan), and artists where the medium is secondary to the message.
+
+If an artisan works more within the decorative arts, is a designer then an applied artist? Gregor said that being a designer is a job, which I guess is true; someone who may be technically skilled and tell stories with their work just like an artist or artisan, but with selling products as the final goal. Although I feel like a lot of designers care more about the expressive side of their work than the commercial side of it, so it's a bit more nuanced than that. And at the same time - a craftsperson, artisan or artist, they're professions as well. And who decides in the end who is an artist - are you only an artist if your work is seen by others? Who decided on what is good art? 
+
+I think I'm reaching the point where I'm just going to keep spiraling into semantics, so it's time to summarize some definitions and distinctions:
+
+- Craftsperson - someone who skillfully practices a craft 
+- Artisan - a craftsperson who uses their medium to create art and design, inspired by the (traditional) craft itself in a contemporary way
+- Artist - someone with a drive to convey a message or tell stories with what they make
+- Designer - someone who shapes functional objects o, usually with a commercial intent
+- Hobbyist/amateur - someone who practices a craft for fun at any level of skill 
+
+### Can you approach e-textiles in the same way to become an e-textile artisan? 
+A contemporary artisan then is someone who is technically skilled at a craft, takes themselves seriously in its practice by trying to improve continuously, and explores the medium creatively. A contemporary artisan uses their craft expressively but also professionally: there needs to be a certain urgency, it's both part of their life and their livelihood. An artisan is in a constant dance with the material, trying to balance what they want and what the material wants; being in control but also understanding constraints.
+
+With this definition of what it means to be an artisan, I would say you can approach e-textiles in the same way to become an e-textile artisan - you can apply these same parameters to someone who makes electronic textiles. When the electronic textiles are skillfully crafted by someone with technical, expressive and technological skills, I think you can move from a textile artisan to an e-textile artisan. In that case, I'm an aspiring e-textile artisan - working on developing my craft to use it in creative expressions. 
+
 ### What makes a crafted sensor artisanal? 
 This question relates to the distinction made earlier between a craftsperson and an artisan - crafted versus artisanal. A crafted sensor becomes artisanal when the sensor is made with a certain expressive intention. In this case, the spinner takes control to shape the yarn while listening to the material.
 
@@ -482,8 +531,6 @@ With the gesture of unrolling the scroll to reveal I'm revealing my artisanal an
 
 
 .......................knitted
-
-
 
 ### What requirements must an artisanal sensor meet to be considered applied textile design? 
 In my view, an artisanal sensor has to serve a function (hence, applied): it shouldn't be purely decorative or nice to look at, it should be made with tactile interaction in mind. This means that the tactile experience and interaction should be designed. The archive of sensor swatches is just as much an exploration of the technological properties as it is of the tactile properties of handspun yarn and various spinning techniques: a long draw backward spun alpaca sensor has a very different feel than a very controlled, short draw forward spun crêpe yarn. It's material-driven design exploration, which resulted in two tactile musical interfaces.
@@ -525,9 +572,20 @@ Weaving on a floor loom:
 
 </div>
 
+</details>
+
+
+<details>
+<summary>
 <div markdown="1">
 
 ## 4. Tactility
+</div>
+</summary>
+
+<br>
+<div markdown="1">
+
 ### What is the added value of handspun compared to industrially manufactured yarn for a rich visual and haptic experience of a tactile sensor?
 This question is to answer: why bother with all of this? Is it better? 
 
@@ -552,16 +610,5 @@ I like to call myself a sensor spinster now. I don't have the hours yet to call 
 
 The next steps are to actually apply my woven and knitted musical instruments into their intended context: an exhibition. After this experiment, looking for ways to show and continue my research are my next steps.
 
-
 </div>
-
-<div markdown="1">
-
-## References
-
-[^1]: On <https://www.brabantserfgoed.nl/page/7909/handspinnen>
-[^2]: J.A.P.G. Boot, ‘Handspinnen van katoen en handkatoenspinnerijen (deel 2)’, in: Textielhistorische Bijdragen 26 (1986), 42-43
-[^3]: On <https://www.dbnl.org/tekst/lint011gesc03_01/lint011gesc03_01_0002.php>
-[^4]: On <https://daily.jstor.org/original-spin-history-spinster/>
-
-</div>
+</details>
