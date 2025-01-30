@@ -11,12 +11,30 @@ project:
   logo: "/assets/images/projects/workshops/knittingtechnology1-thumb.jpg"
 ---
 <body class="shoots">
+
+<aside>
+<div markdown="1" class="row-3">
+![]({{ site.baseurl }}/assets/images/projects/workshops/IMG_1016.JPG)
+![]({{ site.baseurl }}/assets/images/projects/workshops/IMG_1030.JPG)
+![]({{ site.baseurl }}/assets/images/projects/workshops/IMG_1015.JPG)
+</div>
+<div markdown="1" class="row-2">
+![]({{ site.baseurl }}/assets/images/projects/workshops/IMG_0967.JPG)
+![]({{ site.baseurl }}/assets/images/projects/workshops/IMG_0994.JPG)
+</div>
+</aside>
+
+<div class ="article" markdown="1">
+### [Upcoming workshop: MIDI MADNESS HACKATHON - Michelle Vossen X Veerle Pennock](https://waag.org/nl/event/waag-open-handwerk-x-elektronica-uitverkocht/)
+......
+</div>
+
 <div markdown="1" class="introduction">
 # [Workshops]({{ site.baseurl | append: "/"}})
 
-I'm obsessed with exploring textiles as tactile interfaces and love to share my passion for crafting soft interactions through various events! You can join one of my workshops to explore the possibilities of e-textiles, incorporating traditional textile crafts like embroidery, weaving, and knitting and translating touch to sounds and visuals. If this sparks your interest, don't hesitate to reach out to me at <a title="{{ site.email }}" href="mailto:{{ site.email }}">{{ site.email }}</a>. I'm also happy to design cross-disciplinary workshops so if you have an idea or want me to come up with a fun cross-over, let me know.
+I'm obsessed with exploring textiles as tactile interfaces and love to share my passion for crafting soft interactions through various events. You can join one of my workshops to explore the possibilities of e-textiles, incorporating traditional textile crafts like embroidery, weaving, and knitting and translating touch to sounds and visuals. If this sparks your interest, don't hesitate to reach out to me at <a title="{{ site.email }}" href="mailto:{{ site.email }}">{{ site.email }}</a>. I'm also happy to design cross-disciplinary workshops so if you have an idea or want me to come up with a fun cross-over, let me know.
 
-Take a glimpse at some past workshop impressions below, and stay updated on upcoming workshops and events by following me on <a title="Instagram" href="{{ site.instagram }}" target="_blank">Instagram</a>! There's a lot of fun stuff coming in 2024 :-)
+Take a glimpse at some past workshop impressions below, and stay updated on upcoming workshops and events by following me on <a title="Instagram" href="{{ site.instagram }}" target="_blank">Instagram</a>!
 </div>
 
 <aside>

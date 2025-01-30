@@ -446,6 +446,614 @@ I've explored many different techniques during this projects. They can be catego
 - technical yarn
 - art yarn
 
+Below you will find all of the yarn I've spun, their techniques, the materials used and other notes.
+
+---
+
+This was the first yarn spun for Sensor Spinster. I lost it then until the end of the project which works out as a reference as to how I started.
+
+- composition: 4 grams merino, 4 grams unwashed alpaca, 3 grams stainless steel fibers (variocut).
+- spinning technique: two ply short draw forward
+- blending technique: carded with coarse hand carders
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_5418.JPG) 
+
+---
+
+- composition: 2 grams stainless steel fibers (variocut), 27 grams alpaca
+- spinning technique: two ply short draw forward
+- blending technique: carded with coarse hand carders
+
+<div markdown="1" class="row-2">
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_5464.JPG) 
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_5727.JPG)
+</div>
+
+---
+
+- composition: 55 grams B quality alpaca, 2 grams stainless steel fibers (variocut)
+- spinning technique: two ply very short draw forward
+- blending technique: carded with coarse hand carders
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_5476.JPG) 
+
+---
+
+- composition: ? grams grey alpaca, 7,5 grams stainless steel fibers (variocut)
+- spinning technique: two ply short draw forward
+- blending technique: carded with fine hand carders
+
+<div markdown="1" class="row-2">
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_5522.JPG) 
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_5725.JPG) 
+</div>
+
+---
+
+- composition: 33 grams grey alpaca, 3 grams stainless steel fibers (variocut)
+- spinning technique: two ply short draw forward
+- blending technique: carded with fine hand carders
+
+<div markdown="1" class="row-2">
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_5514.JPG) 
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_5723.JPG) 
+</div>
+
+---
+
+This yarn was made during a visit to spinning mill Wad'n Wolletje in Oosternijkerk, so I didn't weigh my fibers.
+
+- composition: ? grams frysian milk sheep, ? grams stainless steel (combed)
+- spinning technique: two ply short draw forward
+- blending technique: bought carded fleece; added bits of conductive fibers along the way (in one of the singles only)
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_5622.jpeg) 
+
+---
+
+Using the leftover single from the visit to Wad'n Wolletje and combining it with a new single with a bit more stainless steel; this one plied more tightly than the previous one.
+
+- composition: ? grams frysian milk sheep, ? grams stainless steel (combed)
+- spinning technique: two ply short draw forward
+- blending technique: bought carded fleece; added bits of conductive fibers along the way
+
+<div markdown="1" class="row-2">
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_5731.JPG) 
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_5736.JPG) 
+</div>
+
+---
+
+After this I visited the weavers market in Hoorn, where I bought a lot of carded and combed fibers. This meant that I had less work in preparing the fibers and more time for blending. This one was blended on a blending board. I put too much and I forgot to pull the fibers with the sticks, which made the fleece very dense. I spun from the fleece, I didn't make rolags to spin from; this made it harder to spin from. It was hard to evenly distribute the conductive fibers on the blending board, which you can see in the yarn: there are conductive chunks. I did not blend it multiple times, which would have helped. I later learned that blending boards aren't really for actually blending the fibers, they are more for combining fibers, and the fibers stay more distinctly together.
+
+- composition: zwartbles carding fleece, yellow merino combed top and magenta merino combed top, stainless steel (combed)
+- spinning technique: two ply short draw forward (very uneven)
+- blending technique: mixed on blending board
+
+<div markdown="1" class="row-2">
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_5744.JPG) 
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_5907.JPG) 
+</div>
+
+---
+
+After this yarn, I followed two workshops by Gregor Falkenhagen, learning more about different spinning techniques and fibers. I spun with a lot of different materials, learned more about carding and combing techniques, tried long draw backward spinning for the first time and plied from an Andean bracelet for the first time.
+
+- composition: zwartbles carding fleece, sari silk, stainless steel (combed)
+- spinning technique: corkscrew around a zwartbles single 
+- blending technique: mixed on blending board
+
+<div markdown="1" class="row-2">
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_5887.JPG) 
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_5900.JPG) 
+</div>
+
+---
+
+- composition: zwartbles carding fleece, yellow merino combed top and magenta merino combed top, stainless steel (combed)
+- spinning technique: corkscrew around a zwartbles single 
+- blending technique: mixed on blending board
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_5910.JPG) 
+
+---
+
+- composition: zwartbles carding fleece, white alpaca, aqua merino combed top, stainless steel (combed)
+- spinning technique: very uneven two ply
+- blending technique: mixed on blending board
+  
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_5916.JPG) 
+
+---
+
+- composition: light pink 'milkshake' merino combed top, stainless steel (combed)
+- spinning technique: two ply short draw forward, spinning both singles separately and plying together
+- blending technique: none
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_5954.JPEG) 
+
+---
+
+- composition: dark red merino combed top, dark pink merino combed top, stainless steel (combed)
+- spinning technique: two ply short draw backward (true worsted)
+- blending technique: combing (at least 5 times) with DIY wool combs
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_6391.JPG) 
+
+---
+
+- composition: herdwick single, metal beads (2mm with 1mm diameter hole), sewing machine thread
+- spinning technique: beaded thread plied with herdwick single
+- blending technique: metal beads stringed on sewing machine thread 
+
+ 
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_6524.JPG) 
+
+---
+
+- composition: 30 grams white alpaca, 9 grams yellow merino combed top, 5 grams stainless steel (combed)
+- spinning technique: two ply long draw backward
+- blending technique: mixed on blending board
+
+<div markdown="1" class="row-2">
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_6543.JPG) 
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_6713.JPEG) 
+</div>
+
+---
+
+- composition: 30 grams white alpaca, 9 grams yellow merino combed top, 5 grams stainless steel (combed)
+- spinning technique: pigtail, 2 ply long draw backward
+- blending technique: mixed on blending board
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_6692.JPG) 
+
+---
+
+- composition: 12 grams green merino combed top, metal beads (5mm with 3mm diameter hole), herdwick single
+- spinning technique: beaded merino plied with herdwick single
+- blending technique: beaded merino top before spinning (didn't work very well because the beads start moving when twisting the top)
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_6541.JPG)
+
+---
+
+- composition: herdwick single, uncoated 0,1mm copper wire
+- spinning technique: plied the herdwick single with the copper wire
+- blending technique: none
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_6678.JPG) 
+
+---
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_6695.JPEG) 
+
+---
+- composition: blue and green merino combed top, uncoated 0,1mm copper wire
+- spinning technique: plied the merino single with the copper wire
+- blending technique: none
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_6716.JPG) 
+
+---
+
+- composition: purple merino combed top single; 35 grams white alpaca, 12 grams white merino, and 3 grams stainless steel crimped fibers (totaling 12 grams for this yarn), combined with 10 grams blue merino combed top
+- spinning technique: crêpe (s to z)
+- blending technique: none
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_6772.jpeg) 
+
+---
+
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_6763.JPG) 
+
+---
+
+- composition: light pink merino combed top, uncoated 0,1mm copper wire
+- spinning technique: flame yarn, two ply short draw forward, copper as core
+- blending technique: none
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_6775.JPG) 
+
+---
+
+- composition: light pink merino combed top, uncoated 0,1mm copper wire
+- spinning technique: flame yarn, two ply short draw forward, merino as core
+- blending technique: none
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_6786.JPG) 
+
+---
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_6788.JPG) 
+
+---
+
+- composition: 7 grams seaweed merino combed top, combined with 35 grams white alpaca, 12 grams white merino, and 3 grams stainless steel crimped fibers (totaling ? grams for this yarn)
+- spinning technique: two ply long draw backward
+- blending technique: drum carder, merino top bought
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_6789.JPEG) 
+
+--- 
+
+- composition: blue merino combed top, combined with 35 grams white alpaca, 12 grams white merino, and 3 grams stainless steel crimped fibers (totaling ? grams for this yarn)
+- spinning technique: two ply, short draw forward
+- blending technique: drum carder, merino top bought
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_7046.JPEG) 
+
+---
+
+Previous yarn, plied again (S to Z) with frysian milk sheep yarn.
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_7051.JPEG)
+
+---
+
+
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_7049.JPEG) 
+
+---
+
+- composition: frysian milk sheep core, stainless steel crimped fibers 
+- spinning technique: core yarn (wrapped steel fibers loosely around milk sheep core); single yarn
+- blending technique: wrapping (bought carded)
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_7054.JPEG)
+
+---
+
+- composition: 39 grams brown alpaca, 1 gram stainless crimped steel fibers
+- spinning technique: two ply short draw forward
+- blending technique: carded 3 times in drum carder
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_7059.JPG) 
+
+---
+
+- composition: brown alpaca, orange merino, stainless steel variocut (43:17:6); wine red merino combed top
+- spinning technique: cable yarn (not enough twist)
+- blending technique: carded 3 times in drum carder, merino top bought combed
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_7066.JPEG) 
+
+---
+
+- composition: brown alpaca, orange merino, stainless steel variocut (43:17:6); sewing machine yarn; thin frysian milk sheep
+- spinning technique: bouclé, orange/brown (Z spun) around sewing machine yarn (S), then with fysian milk sheep (Z spun) as binder back to S plied
+- blending technique: carded 3 times in drum carder, fysian milk sheep bought carded
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_7069.JPEG) 
+
+---
+
+- composition: 50 grams white/'blonde' alpaca, 1 gram stainless steel crimped fibers
+- spinning technique: thin two ply, short draw forward (plied from andean bracelet)
+- blending technique: drum carder
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_7675.JPEG) 
+
+---
+
+- composition: 30 grams white alpaca, 6 grams blue and pink merino combed top, 2 gram stainless steel combed fibers
+- spinning technique: single
+- blending technique: carded 4 times in drum carder
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_7751.JPEG) 
+
+---
+
+- composition: 30 grams white alpaca, 6 grams blue and pink merino combed top, 2 gram stainless steel combed fibers
+- spinning technique: two ply, short draw forward, less twist in singles and more twist in plying, so that there is more air in the yarn (more woolen style)
+- blending technique: carded 4 times in drum carder
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_7806.JPEG) 
+
+---
+
+- composition: 30 grams white alpaca, 6 grams blue and pink merino combed top, 2 gram stainless steel combed fibers
+- spinning technique: two ply, short draw forward, less twist in singles, also not a lot of twist in the ply for comparison with the previous yarn
+- blending technique: carded 4 times in drum carder
+
+<!-- ![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_7806.JPEG)  -->
+
+---
+
+This was the first yarn made with an art batt at a workshop by Bregje Konings. I learned a lot about better carding here. By making sandwiches with other fibers (like combed top) it's easier to place fibers where you want them (especially if they're really thin and finnicky). It's also a good idea to pull apart and widen the conductive fibers that you feed the drum carder, and only feed a little bit at a time to get a very even distribution. By preparing the fibers better, I didn't need to card 3-5 times which saved a lot of time, even though preparation took more time.
+
+- composition: 90 grams of silk combed top, mohair, merino, wensleydale (curls) and more; 2 grams of crimped stainless steel fibers 
+- spinning technique: core yarn wrapped around wool yarn
+- blending technique: carded multiple times on a drum carder; by layering in white combed mohair, the batt and resulting yarn becomes very cloudy
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_7893.JPG) 
+
+---
+
+To make a supercoil, you need an art yarn flight which has a larger orifice for the yarn to pass through. 
+
+- composition: 90 grams of silk combed top, mohair, merino, wensleydale (curls) and more; 2 grams of crimped stainless steel fibers; commercial wool yarn
+- spinning technique: supercoil around wool yarn wrapped with core yarn above
+- blending technique: carded multiple times on a drum carder; by layering in white combed mohair, the batt and resulting yarn becomes very cloudy
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/supercoil.jpg) 
+
+---
+
+- composition: 30 grams white alpaca, 6 grams blue and pink merino combed top, 2 gram stainless steel combed fibers; frysian milk sheep
+- spinning technique: frysian milk sheep as core yarn (Z spun), other fibers wrapped around, then plied S with frysian milk sheep
+- blending technique: carded conductive fleece 4 times in drum carder
+
+<div markdown="1" class="row-2">
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_7928.JPEG) 
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_7933.JPEG) 
+</div>
+
+---
+
+- composition: 11 grams black merino combed top, 7 grams banana fibers, 11 grams herdwick, 2 grams combed stainless steel fibers, commercial coarse wool yarn
+- spinning technique: first spun fibers as coreless coreyarn with way too much twist, then made a supercoil around the wool yarn. It was way too twisted so after plying I let out some of the twist manually.
+- blending technique: carded once in drum carder
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_7938.JPEG) 
+
+---
+
+This one was horrible to spin, because the alpaca fibers are short and smooth, and because the variocut steel fibers are sticking together. I do really like how it turned out though.
+
+- composition: 17 grams merino combed top, 43 grams brown alpaca, 6 grams variocut stainless steel fibers
+- spinning technique: two ply very short draw forward
+- blending technique: carded 3 times in drum carder
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_8105.JPEG) 
+
+---
+
+This yarn was spun at the spinning circle in Amsterdam. I used a different spinning wheel with two pedals instead of one, and you can tell by the yarn that it went very smoothly. It felt much more balanced to spin with two pedals instead of one. 
+
+- composition: 30 grams white alpaca (very short fibers), 6 grams blue and pink merino combed top, 2 gram stainless steel combed fibers
+- spinning technique: two ply short draw forward
+- blending technique: carded 4 times in drum carder
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_8352.JPEG) 
+
+---
+
+- composition: 90 grams of silk combed top, mohair, merino, wensleydale (curls) and more; 2 grams of crimped stainless steel fibers; commercial wool yarn
+- spinning technique: two ply short draw forward
+- blending technique: carded multiple times on a drum carder
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_8353.JPEG) 
+
+---
+
+This yarn is so, so soft! The sari silk pieces are a bit hard to keep fixed to the yarn but with a bit of help you can secure them into the singles.
+
+- composition: 18 grams of merino, silk and bamboo combed top, sari silk, 1 gram of crimped stainless steel fibers
+- spinning technique: two ply short draw forward
+- blending technique: carded multiple times on a drum carder
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_8368.JPEG) 
+
+---
+
+- composition: 5 grams combed merino top, 0,5 grams combed stainless steel fibers, 0,5 grams sari silk
+- spinning technique: two ply short draw forward
+- blending technique: carded with fine hand carders
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9145.JPEG) 
+
+---
+
+- composition: 72 grams of gotland curls, cotton balls, shetland, merino, blue faced leicester, black and grey bamboo, pink sari silk, white polyester fire star and copper-colored christmas decoration; 5 grams combed stainless steel fibers
+- spinning technique: two ply short draw forward
+- blending technique: carded once times on a drum carder
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9151.JPEG) 
+
+---
+
+With the same batt I also tried a core yarn. You can see that the characteristics of the batt are more visible, like the cotton balls poking out.
+
+- composition: 72 grams of gotland curls, cotton balls, shetland, merino, blue faced leicester, black and grey bamboo, pink sari silk, white polyester fire star and copper-colored christmas decoration; 5 grams combed stainless steel fibers
+- spinning technique: core yarn with sewing machine thread core
+- blending technique: carded once times on a drum carder
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9155.JPEG) 
+
+---
+
+- composition: 10 grams blue and green combed merino top, 1,5 grams combed stainless steel fibers
+- spinning technique: two ply short draw forward
+- blending technique: carded with fine hand carders
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9186.JPEG) 
+
+---
+
+- composition: 10 grams blue and green combed merino top, 1,5 grams combed stainless steel fibers
+- spinning technique: two ply short draw forward
+- blending technique: carded with fine hand carders
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9187.JPEG) 
+
+---
+
+- composition: 10 grams of red and purple mystery fibers (some kind of wool), glitter fibers, 2 grams combed stainless steel fibers
+- spinning technique: two ply short draw forward
+- blending technique: carded twice on a drum carder, pulled narrow batt through diz
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9192.JPEG) 
+
+---
+
+- composition: 10 grams of red and purple mystery fibers (some kind of wool), glitter fibers, 2 grams combed stainless steel fibers
+- spinning technique: single ply leftover
+- blending technique: carded twice on a drum carder, pulled narrow batt through diz
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9194.JPEG) 
+
+---
+
+- composition: 18 grams of solognote, 5 grams green merino, 3 grams lightblue merino, 4 grams pink perino, 1 gram crimped stainless steel fibers
+- spinning technique: intermittent coil, two ply short draw forward
+- blending technique: carded once times on a drum carder
+
+<div markdown="1" class="row-2">
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9193.JPEG) 
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9197.JPEG) 
+</div>
+
+---
+
+Better spun soft core yarn (still hard to do, especially without an art yarn flight).
+
+- composition: 18 grams of merino, silk and bamboo combed top, sari silk, 1 gram of crimped stainless steel fibers; commercial alpaca yarn
+- spinning technique: soft core yarn, alpaca core
+- blending technique: carded multiple times on a drum carder
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9266.JPEG) 
+
+---
+
+- composition: ? grams of carded herdwick, ? grams sari silk, ? gram crimped stainless steel fibers, commercial alpaca yarn
+- spinning technique: soft core yarn, alpaca core
+- blending technique: carded into rolags
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9267.JPEG) 
+
+---
+
+- composition: 38 grams white ultra fine merino combed top, 10 grams night blue merino, 5 grams combed stainless steel fibers; commercial alpaca yarn
+- spinning technique: soft core yarn, alpaca core
+- blending technique: carded four times on a drum carder
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9268.JPEG) 
+
+---
+
+- composition: ? grams of carded herdwick, ? grams sari silk, ? gram crimped stainless steel fibers, commercial alpaca yarn
+- spinning technique: two ply long draw backward
+- blending technique: carded into rolags
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9270.JPEG) 
+
+---
+
+- composition: 38 grams white ultra fine merino combed top, 10 grams night blue merino, 5 grams combed stainless steel fibers
+- spinning technique: chain ply three ply, short draw forward
+- blending technique: carded four times on a drum carder
+
+<div markdown="1" class="row-2">
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9273.JPEG) 
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9281.JPEG) 
+</div>
+
+---
+
+This batt was with fine steel wool that you can buy at the hardware store. It was very messy to spin and did not feel pleasant to the touch. My lap was covered in tiny steel fibers. Note that this is not stainless steel (more on that later). 
+
+- composition: 50 grams carded gotland, 7 grams green merino, 8 grams steel fibers
+- spinning technique: coreless core yarn, short draw forward
+- blending technique: carded once on a drum carder, into rolags
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9284.JPEG) 
+
+---
+
+- composition: 50 grams carded gotland, 7 grams green merino, 8 grams steel fibers
+- spinning technique: chain ply three ply, short draw forward
+- blending technique: carded once on a drum carder, into rolags
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9288.JPEG) 
+
+---
+
+- composition: mystery mix of wool and glitter fibers; uncoated 0,1mm copper wire
+- spinning technique: wrapped single with copper wire
+- blending technique: none
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9291.JPEG) 
+
+---
+
+This was a very bad attempt at beehive yarn with red merino and combed stainless steel spinning waste on light green merino combed top. Turns out that doesn't really work.
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9292.JPEG) 
+
+---
+
+Making cocoon yarn with the very smooth stainless steel fibers didn't really work, since the cocoons kept sliding and getting stuck on the hooks on the flight, pulling them open again. This would work better with an art yarn flight, which I do not have.
+
+- composition: mystery mix of wool and glitter fibers; combed stainless steel fibers
+- spinning technique: cocoon yarn, forming cocoons with stainless steel fibers
+- blending technique: none
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9293.JPEG) 
+
+---
+
+- composition: 38 grams carded solognote, 4 grams green merino combed top, 5 grams combed stainless steel fibers
+- spinning technique: chain ply three ply
+- blending technique:  carded once on a drum carder
+
+<div markdown="1" class="row-2">
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9294.JPEG) 
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9297.JPEG) 
+</div>
+
+---
+
+- composition: 45 grams ultra fine merino combed top, 1 gram pink merino combed top, 2 grams crimped stainless steel fibers
+- spinning technique: two ply short draw forward
+- blending technique:  carded four times on a drum carder
+
+<div markdown="1" class="row-2">
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9298.JPEG) 
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9301.JPEG) 
+</div>
+
+---
+
+- composition: 45 grams ultra fine merino combed top, 1 gram pink merino combed top, 2 grams crimped stainless steel fibers; colored part is national spinning day combed top (62% white merino, 25% black baby alpaca, 13% orange bamboo)
+- spinning technique: two ply short draw forward
+- blending technique: both batts carded on a drum carder
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9302.JPEG) 
+
+---
+
+- composition: 32 grams national spinning day combed top (62% white merino, 25% black baby alpaca, 13% orange bamboo), 4 grams combed stainless steel fibers
+- spinning technique: single
+- blending technique: carded once on a drum carder
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9312.JPEG) 
+
+---
+
+- composition: 38 grams white ultra fine merino combed top, 10 grams night blue merino, 5 grams combed stainless steel fibers
+- spinning technique: bullion yarn, short draw forward
+- blending technique: carded four times on a drum carder
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9318.JPEG) 
+
+---
+
+- composition: 38 grams white ultra fine merino combed top, 10 grams night blue merino, 5 grams combed stainless steel fibers; frysian milk sheep carded batt
+- spinning technique: regular three ply; two singles with merino mix, one with leftover frysian milk sheep single
+- blending technique: carded on a drum carder
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9323.JPEG) 
+
+---
+
+- composition: 21 grams pale blue merino combed top, 3 grams lilac merino combed top, 1 gram black and red sari silk, 2 grams combed stainless steel fibers
+- spinning technique: single
+- blending technique: carded once on a drum carder
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9324.JPEG)
 
 <div markdown="1" class="row-3">
 ![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9381.JPG) 
@@ -453,6 +1061,17 @@ I've explored many different techniques during this projects. They can be catego
 ![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/IMG_9379.JPG)
 </div>
 
+---
+
+- composition: 21 grams pale blue merino combed top, 3 grams lilac merino combed top, 1 gram black and red sari silk, 2 grams combed stainless steel fibers
+- spinning technique: two ply, short draw backward
+- blending technique: carded once on a drum carder
+
+![yarn]({{ site.baseurl }}/assets/images/projects/sensor-spinster/yarn/IMG_9325.JPEG) 
+
+---
+
+#### Notes
 Singles are the easiest and fastest to spin, since they only require one spinning step. If they're going to be used as singles, they should not be overly twisted. The resulting yarn is pretty fuzzy and soft, and less strong than when a plying step is added. Sensors knitted or woven with single ply yarn tend to wear faster (pilling, fuzz) so I think they are less suitable for repeated interaction.
 
 I've spun a lot of classic 2 ply yarn from the same yarn as a sort of baseline. This image demonstrates the difference in yarn dimension in singles versus 2 ply versus 3 ply yarn. Singles are pretty smooth, 3 ply yarn gives a more rounded, soft look whereas 2 ply has a bit of difference in dimension.

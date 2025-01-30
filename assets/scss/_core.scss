@@ -74,7 +74,8 @@ ul {
 	list-style-type: none;
 }
 
-ul + p {
+ul + p,
+ul + div {
 	margin: 2rem 0;
 }
 
