@@ -12,23 +12,6 @@ project:
 ---
 <body class="shoots">
 
-<aside>
-<div markdown="1" class="row-3">
-![]({{ site.baseurl }}/assets/images/projects/workshops/IMG_1016.JPG)
-![]({{ site.baseurl }}/assets/images/projects/workshops/IMG_1030.JPG)
-![]({{ site.baseurl }}/assets/images/projects/workshops/IMG_1015.JPG)
-</div>
-<div markdown="1" class="row-2">
-![]({{ site.baseurl }}/assets/images/projects/workshops/IMG_0967.JPG)
-![]({{ site.baseurl }}/assets/images/projects/workshops/IMG_0994.JPG)
-</div>
-</aside>
-
-<div class ="article" markdown="1">
-### [Upcoming workshop: MIDI MADNESS HACKATHON - Michelle Vossen X Veerle Pennock](https://waag.org/nl/event/waag-open-handwerk-x-elektronica-uitverkocht/)
-......
-</div>
-
 <div markdown="1" class="introduction">
 # [Workshops]({{ site.baseurl | append: "/"}})
 
