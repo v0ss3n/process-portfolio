@@ -1,13 +1,13 @@
 ---
 layout: project
 permalink: /:title/
-category: overview
+category: collaborations
 
 meta:
   keywords: "e-textiles"
 
 project:
-  title: "Fabacademy"
+  title: "Fab Academy & Fabricademy"
   # type: "Electronics"
   logo: "https://fabacademy.org/2023/labs/waag/students/michelle-vossen/assets/images/weeks/week8/thumb.gif"
 
@@ -21,8 +21,20 @@ videos:
   - video:
     url: "https://fabacademy.org/2023/labs/waag/students/michelle-vossen/assets/images/weeks/week11/keyboardworking.mp4"
     type: "video/mp4"
+  - video:
+    url: "/assets/images/projects/workshops/knitting.mp4"
+    type: "video/mp4"
     
 images:
+  - image:
+    url: "/assets/images/projects/workshops/IMG_7756.JPG"
+    alt: "Teaching 3D printing"
+  - image:
+    url: "/assets/images/projects/workshops/IMG_7757.JPG"
+    alt: "Teaching 3D printing"
+  - image:
+    url: "/assets/images/projects/workshops/IMG_7760.JPG"
+    alt: "Teaching 3D printing"
   - image-online:
     url: "https://fabacademy.org/2023/labs/waag/students/michelle-vossen/assets/images/weeks/week3/hats/collage.jpg"
     alt: "Laser cut hats"
@@ -61,11 +73,21 @@ images:
     alt: "Lasercut hat"
 
 ---
-# [Fabacademy]({{ site.baseurl | append: "/"}})
 
-From January to June 2023, I had the opportunity to participate in the Fabacademy at the Amsterdam Fablab (Waag Futurelab). The Fabacademy is a globally distributed course that allows people from all over the world to engage in hands-on learning within the connected fablab community. 
+From 2021 to 2023 I was assisting with the Fab Academy at Fablab Amsterdam at Waag Futurelab, and in 2024 I was one of the two local instructors. Additionally, from 2022 to 2025, I was a local Fabricademy instructor in digital fabrication and electronics at the TextileLab Amsterdam. I taught e-textiles, wearables, skin electronics as well as various fablab related topics like 3D printing and laser cutting. 
 
-Throughout the program, I documented everything I made, messed up and experimented with on my documentation blog [here](https://fabacademy.org/2023/labs/waag/students/michelle-vossen/). Everything I learned, my design files and code, is open source and readily available there.
+In 2023, I had the opportunity to participate in the Fab Academy myself as a student, furthering my skills in digital fabrication and electronics. Throughout the program, I documented everything I made, messed up and experimented with on my documentation blog [here](https://fabacademy.org/2023/labs/waag/students/michelle-vossen/). Everything I learned, my design files and code, is open source and readily available there.
+
+
+### About the Fabricademy
+"Fabricademy, Textile and Technology academy is a multidisciplinary 6-month intensive program at the intersection of digital fabrication, textiles and biology. The program explores the interrelation of human-technology-environment through the notions of embodiment, materiality, ecodesign, biodesign, performance, smart textiles and digital fabrication. Our mission is to (re)shape and (re)define the implications and applications of technology in the textile and clothing industry, from the fashion sector to the upcoming wearable market. The program offers a broad overview of the state of the art of the current industry and builds on “learning by doing” methodologies, tackling themes like personal fabrication, distributed manufacturing, industry 4.0, wearable technology, biofabrication, assistive technologies and sustainability." (via <https://textile-academy.org/about/>)
+
+### About the Fabacademy
+"Fab Academy is an intensive ﬁve-month program that teaches students to envision, design and prototype projects using digital fabrication tools and machines. It is a multi-disciplinary and hands-on learning experience that empowers students to learn-by-doing and inspires them to make stuff locally to become active participants in sustainable cities and communities.
+
+At the Fab Academy, you will learn how to envision, prototype and document your ideas through many hours of hands-on experience with digital fabrication tools. We take a variety of code formats and turn them into physical objects. The Fab Diploma is the result of the sum of Fab Academy Certificates. Progress towards the diploma is evaluated by a student’s acquired skills rather than time or credits.
+
+The Fab Academy is a fast paced, hands-on learning experience where students plan and execute a new project each week! Each individual documents their progress for each project, resulting in a personal portfolio of technical accomplishments." (via <https://fabacademy.org/>)
 
 ## Links
 - <https://fabacademy.org/2023/labs/waag/students/michelle-vossen/>

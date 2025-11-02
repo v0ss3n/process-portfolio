@@ -12,3 +12,39 @@
 		event.target.src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=";
 	};
 });
+
+$(document).ready(function(){
+
+$('.responsive').slick({
+    centerMode: true,
+//   centerPadding: '60px',
+//   adaptiveHeight: true,
+//   autoplay: true,
+//   speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  swipeToSlide: true,
+  arrows: true,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+				
+});

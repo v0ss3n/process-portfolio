@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /:title/
-category: collaborations
+category: overview
 
 meta:
   keywords: "tactile interfaces"
@@ -9,33 +9,64 @@ meta:
 project:
   title: "Textielorkest"
   type: "e-textiles"
-  logo: "/assets/images/projects/textielorkest/IMG_5301.JPG"
+  logo: "/assets/images/projects/textielorkest/IMG_5437.jpg"
 
 videos:
   - video:
-    url: "/assets/images/projects/textielorkest/textielorkest.mp4"
+    url: "/assets/images/projects/textielorkest/opening.mp4"
     type: "video/mp4"
   - video:
-    url: "/assets/images/projects/textielorkest/opening.mp4"
+    url: "/assets/images/projects/textielorkest/textielorkest.mp4"
     type: "video/mp4"
 
     
 images:
   - image:
-    url: "/assets/images/projects/textielorkest/IMG_5301.JPG"
-    alt: "Textielorkest"
+    url: "/assets/images/projects/textielorkest/IMG_4355.JPG"
+    alt: "textielorkest" 
   - image:
     url: "/assets/images/projects/textielorkest/IMG_5255.JPG"
-    alt: "Textielorkest"  
+    alt: "textielorkest" 
   - image:
-    url: "/assets/images/projects/textielorkest/IMG_5022.JPG"
-    alt: "Textielorkest"  
+    url: "/assets/images/projects/textielorkest/instruments.gif"
+    alt: "textielorkest" 
   - image:
-    url: "/assets/images/projects/textielorkest/IMG_3523.JPG"
-    alt: "Textielorkest"  
+    url: "/assets/images/projects/textielorkest/IMG_5301.JPG"
+    alt: "textielorkest" 
   - image:
-    url: "/assets/images/projects/textielorkest/koffer.jpg"
-    alt: "Textielorkest"
+    url: "/assets/images/projects/textielorkest/IMG_5432.jpg"
+    alt: "textielorkest" 
+  - image:
+    url: "/assets/images/projects/textielorkest/IMG_5433.jpg"
+    alt: "textielorkest" 
+  - image:
+    url: "/assets/images/projects/textielorkest/IMG_5436.jpg"
+    alt: "textielorkest" 
+  - image:
+    url: "/assets/images/projects/textielorkest/IMG_5437.jpg"
+    alt: "textielorkest" 
+  - image:
+    url: "/assets/images/projects/textielorkest/IMG_5438.jpg"
+    alt: "textielorkest" 
+  - image:
+    url: "/assets/images/projects/textielorkest/IMG_5439.jpg"
+    alt: "textielorkest" 
+  - image:
+    url: "/assets/images/projects/textielorkest/IMG_5440.jpg"
+    alt: "textielorkest" 
+  - image:
+    url: "/assets/images/projects/textielorkest/IMG_5441.jpg"
+    alt: "textielorkest" 
+  - image:
+    url: "/assets/images/projects/textielorkest/koffer.JPG"
+    alt: "textielorkest" 
+  - image:
+    url: "/assets/images/projects/textielorkest/Untitled-1-3.jpg"
+    alt: "textielorkest" 
+  - image:
+    url: "/assets/images/projects/textielorkest/wovenworks.jpg"
+    alt: "textielorkest" 
+
 
 
 ---

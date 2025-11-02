@@ -6,8 +6,9 @@ body {
 	background: $color-white;
 	color: $color-black;
 	font-family: $font-default;
-	font-size: 1.8em;
-	line-height: 1.6;
+    font-size: 1.3em;
+    line-height: 1.6;
+    font-weight: 350;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -308,3 +309,12 @@ summary div h2,
 summary div h3{
 	display: inline;
 }
+
+summary div {
+	h2, .h2 {
+  font-family: "Pixelstitch",monospace;
+  font-size: 2rem;
+  letter-spacing: initial;
+  line-height: initial;
+  text-transform: uppercase;
+}}

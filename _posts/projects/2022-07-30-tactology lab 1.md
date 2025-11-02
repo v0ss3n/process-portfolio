@@ -34,8 +34,14 @@ images:
     alt: "DRAAD"
 
 ---
+
 DRAAD was developed during the first Tactology Lab program. DRAAD is a wearable string instrument made by Wouter van Veldhoven, Gert-Jan van der Kooij and me. This garment features conductive yarn strings that can be magnetized. Thanks to Wouter's expertise as a tape recorder artist, various sounds were recorded on these strings. These sounds can be played with the help of a specialized glove.
 
 By varying the speed and direction of movement of the glove, you can play the instrument. If you listen carefully, you can trace the origin of each sound. However, as time progresses, the melodies gradually transform into more abstract expressions, drifting further away from their initial source.
 
-This work was presented for the first time during [Gaudeamus Festival 2021](https://gaudeamus.nl/events/electronica-for-lovers-dag-1/tactology-lab/) at de Nijverheid, Utrecht. A performance with the instrument can be found [here](https://www.youtube.com/watch?v=lxRRImRN17s).
+This work was presented for the first time during [Gaudeamus Festival 2021](https://gaudeamus.nl/events/electronica-for-lovers-dag-1/tactology-lab/){:target="_blank"} at de Nijverheid, Utrecht. A performance with the instrument can be found [here](https://www.youtube.com/watch?v=lxRRImRN17s){:target="_blank"}.
+
+## Documentary
+In this short documentary, Wouter and I talk about the development of DRAAD.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z_5vvlu4nR4?si=8_vSayPvRmsCSnTd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
