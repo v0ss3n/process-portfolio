@@ -672,3 +672,34 @@ body {
 .slick-prev::before, .slick-next::before {
 	color: #bf93c6;
 }
+
+script + p {
+	margin: 2rem 0 0 0;
+}
+
+.videogrid {
+	background-color: black;
+	h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, p, ul li, ol li, ul li a, ol li a {
+	color: white;
+	text-transform: initial;
+	font-family: "Cascadia Code", monospace;
+	font-weight: initial;
+	list-style-type: initial;
+
+	.project video {
+	margin: 0 !important;
+	}
+}
+
+.footer {
+	display: none;
+}
+
+.project-navigation {
+	display: none;
+}
+
+header {
+	visibility: hidden;
+}
+}

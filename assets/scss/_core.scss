@@ -269,6 +269,19 @@ video {
 	}
 }
 
+.row-4--video {
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+
+	video,
+	iframe {
+		width: 24% !important;
+	}
+}
+
 video {
 	width: 100% !important;
 	height: auto !important;
